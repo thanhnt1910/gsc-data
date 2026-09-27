@@ -15,6 +15,9 @@ changes under `data/`.
 - Later runs: re-download the last 10 days, replacing what was stored.
 - Only finalized data is fetched, so the newest 2–3 days show up later.
 - Dates follow Search Console (Pacific Time). Search type: web.
+- Mondays (and manual runs with **inspect** ticked) also run
+  `scripts/inspect_index.py`, which checks every sitemap URL with the
+  URL Inspection API (quota: 2,000 URLs a day).
 
 ## Data
 
@@ -26,6 +29,8 @@ changes under `data/`.
 | `data/countries/YYYY-MM.csv` | day + country |
 | `data/devices/YYYY-MM.csv` | day + device |
 | `data/sitemaps.json` | submitted sitemap |
+| `data/index/status.csv` | sitemap URL: index verdict, coverage state, last crawl, canonicals (latest check) |
+| `data/index/summary.csv` | check date + page type + coverage state: URL count |
 
 Every CSV has `clicks`, `impressions`, `ctr` and `position` columns.
 Search Console hides rare (anonymized) queries, so the query table adds

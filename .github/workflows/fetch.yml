@@ -3,6 +3,7 @@ name: Fetch Search Console data
 on:
   schedule:
     - cron: '17 3 * * *' # daily, 03:17 UTC
+    - cron: '47 3 * * 1' # Mondays: also check index status
   workflow_dispatch:
     inputs:
       backfill:
@@ -12,6 +13,10 @@ on:
       days:
         description: 'Days to re-download on a normal run'
         default: '10'
+      inspect:
+        description: 'Also check index status of every sitemap URL'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -23,7 +28,7 @@ concurrency:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v5
 
@@ -42,6 +47,13 @@ jobs:
           BACKFILL: ${{ inputs.backfill }}
           DAYS: ${{ inputs.days }}
         run: python scripts/fetch_gsc.py
+
+      - name: Check index status
+        if: inputs.inspect || github.event.schedule == '47 3 * * 1'
+        env:
+          GSC_SERVICE_ACCOUNT_JSON: ${{ secrets.GSC_SERVICE_ACCOUNT_JSON }}
+          GSC_SITE: ${{ vars.GSC_SITE }}
+        run: python scripts/inspect_index.py
 
       - name: Commit changes
         run: |

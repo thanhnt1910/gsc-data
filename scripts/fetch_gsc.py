@@ -70,8 +70,17 @@ def make_session():
     return AuthorizedSession(creds)
 
 
+class ApiError(Exception):
+    def __init__(self, status: int, url: str, text: str):
+        super().__init__(f'Search Console API error {status} for {url}:\n{text[:2000]}')
+        self.status = status
+
+
 def call(session, method: str, url: str, body=None) -> dict:
-    """One API call, retrying rate limits and server errors with backoff."""
+    """One API call, retrying rate limits and server errors with backoff.
+
+    Raises ApiError on any other 4xx; main() turns that into a clean exit.
+    """
     for attempt in range(6):
         resp = session.request(method, url, json=body, timeout=120)
         if resp.status_code == 429 or resp.status_code >= 500:
@@ -80,9 +89,9 @@ def call(session, method: str, url: str, body=None) -> dict:
             time.sleep(wait)
             continue
         if resp.status_code >= 400:
-            sys.exit(f'Search Console API error {resp.status_code} for {url}:\n{resp.text[:2000]}')
+            raise ApiError(resp.status_code, url, resp.text)
         return resp.json() if resp.content else {}
-    sys.exit(f'Giving up on {url} after repeated rate-limit/server errors.')
+    raise ApiError(resp.status_code, url, 'giving up after repeated rate-limit/server errors')
 
 
 def pick_site(session) -> str:
@@ -191,4 +200,7 @@ def main() -> None:
 
 
 if __name__ == '__main__':
-    main()
+    try:
+        main()
+    except ApiError as e:
+        sys.exit(str(e))
