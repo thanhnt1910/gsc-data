@@ -11,9 +11,9 @@ project). Writes:
   data/ga4/channels/YYYY-MM.csv     sessions per channel and source per day
   data/ga4/events/YYYY-MM.csv       event counts per event name per day
 
-The property is GA4_PROPERTY (e.g. "properties/123456789") if set;
-otherwise the one the service account can see whose name matches
-SITE_HINT, looked up with the Analytics Admin API. Like fetch_gsc.py, the
+The property is GA4_PROPERTY (e.g. "properties/123456789") if set,
+otherwise DEFAULT_PROPERTY; with neither, it falls back to the one the
+service account can see whose name matches SITE_HINT (Admin API). Like fetch_gsc.py, the
 first run downloads everything since SINCE and later runs refresh the
 last DAYS days (default 10).
 """
@@ -28,7 +28,9 @@ from fetch_gsc import DATA, ApiError, call, make_session, month_chunks
 SCOPES = ['https://www.googleapis.com/auth/analytics.readonly']
 ADMIN = 'https://analyticsadmin.googleapis.com/v1beta'
 DATA_API = 'https://analyticsdata.googleapis.com/v1beta'
-SITE_HINT = 'mathlogic'
+SITE_HINT = 'math'
+# mathlogicgames.com's GA4 property ("math-logic"); GA4_PROPERTY overrides it.
+DEFAULT_PROPERTY = 'properties/554675821'
 SINCE = dt.date(2026, 9, 1)
 OUT = DATA / 'ga4'
 ROW_LIMIT = 100000
@@ -48,7 +50,7 @@ def table_path(table: str, month: str):
 
 
 def pick_property(session) -> str:
-    wanted = os.environ.get('GA4_PROPERTY', '').strip()
+    wanted = os.environ.get('GA4_PROPERTY', '').strip() or DEFAULT_PROPERTY
     if wanted:
         return wanted if wanted.startswith('properties/') else f'properties/{wanted}'
     try:
