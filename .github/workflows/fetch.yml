@@ -48,6 +48,17 @@ jobs:
           DAYS: ${{ inputs.days }}
         run: python scripts/fetch_gsc.py
 
+      - name: Fetch GA4 data
+        # A GA4 problem (API not enabled, access removed) must not block the
+        # Search Console data from being committed.
+        continue-on-error: true
+        env:
+          GSC_SERVICE_ACCOUNT_JSON: ${{ secrets.GSC_SERVICE_ACCOUNT_JSON }}
+          GA4_PROPERTY: ${{ vars.GA4_PROPERTY }}
+          BACKFILL: ${{ inputs.backfill }}
+          DAYS: ${{ inputs.days }}
+        run: python scripts/fetch_ga4.py
+
       - name: Check index status
         if: inputs.inspect || github.event.schedule == '47 3 * * 1'
         env:

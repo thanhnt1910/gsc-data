@@ -54,7 +54,7 @@ def table_path(table: str, month: str) -> Path:
     return DATA / table / f'{month}.csv'
 
 
-def make_session():
+def make_session(scopes=None):
     raw = os.environ.get('GSC_SERVICE_ACCOUNT_JSON', '').strip()
     if not raw:
         sys.exit('GSC_SERVICE_ACCOUNT_JSON is not set (add it as a repository secret).')
@@ -65,14 +65,14 @@ def make_session():
     from google.auth.transport.requests import AuthorizedSession
     from google.oauth2 import service_account
 
-    creds = service_account.Credentials.from_service_account_info(info, scopes=SCOPES)
+    creds = service_account.Credentials.from_service_account_info(info, scopes=scopes or SCOPES)
     print(f'Service account: {info.get("client_email", "?")}')
     return AuthorizedSession(creds)
 
 
 class ApiError(Exception):
     def __init__(self, status: int, url: str, text: str):
-        super().__init__(f'Search Console API error {status} for {url}:\n{text[:2000]}')
+        super().__init__(f'Google API error {status} for {url}:\n{text[:2000]}')
         self.status = status
 
 

@@ -31,6 +31,11 @@ changes under `data/`.
 | `data/sitemaps.json` | submitted sitemap |
 | `data/index/status.csv` | sitemap URL: index verdict, coverage state, last crawl, canonicals (latest check) |
 | `data/index/summary.csv` | check date + page type + coverage state: URL count |
+| `data/ga4/totals.csv` | day: users, sessions, engaged sessions, page views, engagement time |
+| `data/ga4/pages/YYYY-MM.csv` | day + page path |
+| `data/ga4/landing/YYYY-MM.csv` | day + landing page |
+| `data/ga4/channels/YYYY-MM.csv` | day + channel group + source |
+| `data/ga4/events/YYYY-MM.csv` | day + event name |
 
 Every CSV has `clicks`, `impressions`, `ctr` and `position` columns.
 Search Console hides rare (anonymized) queries, so the query table adds
@@ -44,7 +49,11 @@ up to less than the page and totals tables.
    account's email with **Restricted** permission.
 3. This repo → Settings → Secrets and variables → Actions: add the key
    file's contents as the secret `GSC_SERVICE_ACCOUNT_JSON`.
-4. Optional: add the repository variable `GSC_SITE` (for example
+4. GA4 (optional): give the same service account Viewer access in GA4 >
+   Admin > Property access management and enable the Google Analytics
+   Data API (plus the Admin API, or set the repository variable
+   `GA4_PROPERTY` to the numeric property ID).
+5. Optional: add the repository variable `GSC_SITE` (for example
    `sc-domain:mathlogicgames.com`) to pick a property explicitly.
 
 ## Manual run
