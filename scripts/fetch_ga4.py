@@ -42,6 +42,11 @@ TABLES = {
     'landing': (['landingPage'], ['sessions', 'engagedSessions', 'activeUsers']),
     'channels': (['sessionDefaultChannelGroup', 'sessionSource'], ['sessions', 'engagedSessions', 'activeUsers']),
     'events': (['eventName'], ['eventCount']),
+    # Play tracking events sent by the game pages (game_start, game_play_60s, game_play_300s).
+    'game_events': (['eventName', 'pagePath'], ['eventCount']),
+}
+FILTERS = {
+    'game_events': {'filter': {'fieldName': 'eventName', 'stringFilter': {'matchType': 'BEGINS_WITH', 'value': 'game_'}}},
 }
 
 
@@ -74,7 +79,7 @@ def pick_property(session) -> str:
     return matches[0][0]
 
 
-def run_report(session, prop: str, start: dt.date, end: dt.date, dims: list[str], metrics: list[str]) -> list[dict]:
+def run_report(session, prop: str, start: dt.date, end: dt.date, dims: list[str], metrics: list[str], dim_filter=None) -> list[dict]:
     rows, offset = [], 0
     while True:
         body = {
@@ -85,6 +90,8 @@ def run_report(session, prop: str, start: dt.date, end: dt.date, dims: list[str]
             'offset': offset,
             'keepEmptyRows': False,
         }
+        if dim_filter:
+            body['dimensionFilter'] = dim_filter
         data = call(session, 'POST', f'{DATA_API}/{prop}:runReport', body)
         for r in data.get('rows', []):
             d = r['dimensionValues'][0]['value']
@@ -111,7 +118,7 @@ def main() -> None:
     for chunk_start, chunk_end in month_chunks(start, end):
         month = chunk_start.strftime('%Y-%m')
         for table, (dims, metrics) in TABLES.items():
-            rows = run_report(session, prop, chunk_start, chunk_end, dims, metrics)
+            rows = run_report(session, prop, chunk_start, chunk_end, dims, metrics, FILTERS.get(table))
             merge_rows(table_path(table, month), ['date', *dims, *metrics], metrics[0], chunk_start.isoformat(), chunk_end.isoformat(), rows)
             print(f'  {month} {table}: {len(rows)} rows')
     print('Done.')

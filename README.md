@@ -36,6 +36,7 @@ changes under `data/`.
 | `data/ga4/landing/YYYY-MM.csv` | day + landing page |
 | `data/ga4/channels/YYYY-MM.csv` | day + channel group + source |
 | `data/ga4/events/YYYY-MM.csv` | day + event name |
+| `data/ga4/game_events/YYYY-MM.csv` | day + play event (game_start, game_play_60s, game_play_300s) + page |
 
 Every CSV has `clicks`, `impressions`, `ctr` and `position` columns.
 Search Console hides rare (anonymized) queries, so the query table adds
