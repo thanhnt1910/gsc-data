@@ -1,0 +1,12 @@
+date,type,coverageState,count
+2026-09-27,blog,Submitted and indexed,5
+2026-09-27,blog,URL is unknown to Google,9
+2026-09-27,category,Submitted and indexed,16
+2026-09-27,category,URL is unknown to Google,1
+2026-09-27,game,Crawled - currently not indexed,1
+2026-09-27,game,Discovered - currently not indexed,6
+2026-09-27,game,Submitted and indexed,521
+2026-09-27,game,URL is unknown to Google,36
+2026-09-27,home,Submitted and indexed,1
+2026-09-27,other,Submitted and indexed,4
+2026-09-27,other,URL is unknown to Google,2
