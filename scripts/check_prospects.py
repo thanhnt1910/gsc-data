@@ -6,7 +6,9 @@ its title, and follows up to three links whose text or URL looks like a
 submission or contact page ("submit", "suggest", "add url", "contact"...).
 For each of those pages it prints the title and any lines mentioning
 prices, "free", "reciprocal" or "backlink", so a person can judge whether
-the listing is free, paid or needs a link back. Output goes to the log.
+the listing is free, paid or needs a link back. An entry that is a full URL
+(https://...) is fetched as-is and its own matching lines are printed too.
+Output goes to the log.
 """
 
 import html
@@ -58,15 +60,22 @@ def main() -> None:
         sys.exit('Set SITES to a comma-separated list of domains.')
     for site in sites:
         print(f'\n===== {site}')
-        try:
-            url, page = get(f'https://{site}/')
-        except Exception as e:  # noqa: BLE001
+        # A full URL is checked as a page in its own right (e.g. a submit page).
+        first = [site] if site.startswith('http') else [f'https://{site}/', f'http://{site}/']
+        url = page = None
+        for attempt in first:
             try:
-                url, page = get(f'http://{site}/')
-            except Exception:
-                print(f'  DOWN: {e}')
-                continue
+                url, page = get(attempt)
+                break
+            except Exception as e:  # noqa: BLE001
+                error = e
+        if page is None:
+            print(f'  DOWN: {error}')
+            continue
         print(f'  {url} | {title_of(page)}')
+        if site.startswith('http'):
+            for l in [l for l in text_of(page).splitlines() if TERMS.search(l) and len(l) < 220][:15]:
+                print(f'       {l}')
         for link in candidate_links(url, page):
             try:
                 final, sub = get(link)
