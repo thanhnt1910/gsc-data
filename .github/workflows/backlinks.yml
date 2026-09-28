@@ -1,0 +1,42 @@
+name: Competitor backlinks (Common Crawl)
+
+on:
+  workflow_dispatch:
+    inputs:
+      release:
+        description: 'Web graph release, e.g. cc-main-2026-jun-jul-aug (empty = newest found)'
+        required: false
+      targets:
+        description: 'Comma-separated domains (empty = default list in the script)'
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-commit
+  cancel-in-progress: false
+
+jobs:
+  backlinks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Referring domains from the Common Crawl web graph
+        env:
+          RELEASE: ${{ inputs.release }}
+          TARGETS: ${{ inputs.targets }}
+        run: python scripts/cc_backlinks.py
+      - name: Commit results
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898+github-actions[bot]@users.noreply.github.com'
+          git add data/backlinks
+          git diff --cached --quiet && exit 0
+          git commit -m "Competitor backlinks from Common Crawl, run $(date -u +%F)"
+          for i in 1 2 3; do git pull --rebase && git push && exit 0; sleep 10; done
+          exit 1
