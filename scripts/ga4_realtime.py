@@ -25,9 +25,10 @@ def realtime(session, prop, dims, metrics, minutes=29):
 
 
 def today(session, prop, dims, metrics, days_back=0):
-    d = dt.date.today().isoformat()
+    # 'today' / 'NdaysAgo' are resolved in the property's reporting time
+    # zone (the runner's UTC date can be a day ahead of it).
     body = {
-        'dateRanges': [{'startDate': f'{days_back}daysAgo' if days_back else d, 'endDate': d}],
+        'dateRanges': [{'startDate': f'{days_back}daysAgo' if days_back else 'today', 'endDate': 'today'}],
         'dimensions': [{'name': x} for x in dims],
         'metrics': [{'name': m} for m in metrics],
         'limit': 1000,
@@ -61,7 +62,7 @@ def main():
         ('Today: pages', ['pagePath'], ['screenPageViews', 'activeUsers', 'userEngagementDuration']),
         ('Today: play events by page', ['pagePath', 'eventName'], ['eventCount']),
         ('Today: sessions by source', ['sessionSource', 'sessionMedium'], ['sessions', 'engagedSessions', 'averageSessionDuration']),
-        ('Today: sessions by hour (UTC) and city', ['hour', 'city', 'deviceCategory'], ['sessions', 'averageSessionDuration', 'screenPageViews']),
+        ('Today: sessions by hour (property time zone) and city', ['hour', 'city', 'deviceCategory'], ['sessions', 'averageSessionDuration', 'screenPageViews']),
     ]
     t += [
         ('Last 2 days: sessions by date and hour', ['dateHour', 'sessionSource'], ['sessions', 'averageSessionDuration', 'screenPageViews']),
