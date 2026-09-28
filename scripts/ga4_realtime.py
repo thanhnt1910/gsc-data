@@ -48,19 +48,26 @@ def main():
     print(f'GA4 property: {prop}, UTC now {dt.datetime.utcnow():%Y-%m-%d %H:%M}')
     q = [
         ('Realtime: users by page', ['unifiedScreenName'], ['activeUsers', 'screenPageViews']),
-        ('Realtime: events by page', ['unifiedScreenName', 'eventName'], ['eventCount']),
-        ('Realtime: events by minute', ['minutesAgo', 'eventName'], ['eventCount']),
+        ('Realtime: events', ['eventName'], ['eventCount']),
+        ('Realtime: users by minute', ['minutesAgo'], ['activeUsers']),
         ('Realtime: where from', ['country', 'city', 'deviceCategory'], ['activeUsers']),
     ]
     for title, dims, metrics in q:
-        show(title, dims, metrics, realtime(session, prop, dims, metrics))
+        try:
+            show(title, dims, metrics, realtime(session, prop, dims, metrics))
+        except ApiError as e:
+            print(f'\n## {title}: skipped ({str(e).splitlines()[0]})')
     t = [
         ('Today: pages', ['pagePath'], ['screenPageViews', 'activeUsers', 'userEngagementDuration']),
         ('Today: play events by page', ['pagePath', 'eventName'], ['eventCount']),
         ('Today: sessions by source', ['sessionSource', 'sessionMedium'], ['sessions', 'engagedSessions', 'averageSessionDuration']),
+        ('Today: sessions by hour (UTC) and city', ['hour', 'city', 'deviceCategory'], ['sessions', 'averageSessionDuration', 'screenPageViews']),
     ]
     for title, dims, metrics in t:
-        show(title, dims, metrics, today(session, prop, dims, metrics))
+        try:
+            show(title, dims, metrics, today(session, prop, dims, metrics))
+        except ApiError as e:
+            print(f'\n## {title}: skipped ({str(e).splitlines()[0]})')
 
 
 if __name__ == '__main__':
