@@ -24,10 +24,10 @@ def realtime(session, prop, dims, metrics, minutes=29):
     return call(session, 'POST', f'{DATA_API}/{prop}:runRealtimeReport', body).get('rows', [])
 
 
-def today(session, prop, dims, metrics):
+def today(session, prop, dims, metrics, days_back=0):
     d = dt.date.today().isoformat()
     body = {
-        'dateRanges': [{'startDate': d, 'endDate': d}],
+        'dateRanges': [{'startDate': f'{days_back}daysAgo' if days_back else d, 'endDate': d}],
         'dimensions': [{'name': x} for x in dims],
         'metrics': [{'name': m} for m in metrics],
         'limit': 1000,
@@ -45,7 +45,7 @@ def show(title, dims, metrics, rows):
 def main():
     session = make_session(SCOPES)
     prop = pick_property(session)
-    print(f'GA4 property: {prop}, UTC now {dt.datetime.utcnow():%Y-%m-%d %H:%M}')
+    print(f'GA4 property: {prop}, UTC now {dt.datetime.now(dt.timezone.utc):%Y-%m-%d %H:%M}')
     q = [
         ('Realtime: users by page', ['unifiedScreenName'], ['activeUsers', 'screenPageViews']),
         ('Realtime: events', ['eventName'], ['eventCount']),
@@ -63,9 +63,15 @@ def main():
         ('Today: sessions by source', ['sessionSource', 'sessionMedium'], ['sessions', 'engagedSessions', 'averageSessionDuration']),
         ('Today: sessions by hour (UTC) and city', ['hour', 'city', 'deviceCategory'], ['sessions', 'averageSessionDuration', 'screenPageViews']),
     ]
+    t += [
+        ('Last 2 days: sessions by date and hour', ['dateHour', 'sessionSource'], ['sessions', 'averageSessionDuration', 'screenPageViews']),
+        ('Last 2 days: pages', ['date', 'pagePath'], ['screenPageViews', 'userEngagementDuration']),
+        ('Last 2 days: play events', ['date', 'pagePath', 'eventName'], ['eventCount']),
+    ]
     for title, dims, metrics in t:
         try:
-            show(title, dims, metrics, today(session, prop, dims, metrics))
+            back = 2 if title.startswith('Last 2 days') else 0
+            show(title, dims, metrics, today(session, prop, dims, metrics, back))
         except ApiError as e:
             print(f'\n## {title}: skipped ({str(e).splitlines()[0]})')
 
