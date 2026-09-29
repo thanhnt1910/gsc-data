@@ -3,7 +3,9 @@
 
 WGPlayground's site can't be reached from every machine, so this runs in
 GitHub Actions and prints to the log. For each page in URLS (comma-
-separated catalogue pages), it collects /game/<studio>/<slug> links, follows
+separated catalogue pages or XML sitemaps; the catalogue is rendered by
+JavaScript, so the sitemap is the reliable source), it collects
+/game/<studio>/<slug> links, follows child sitemaps and
 "page" links found on the same catalogue up to MAX_PAGES, and prints every
 game whose title or slug matches KEYWORDS (a regex, case-insensitive). For
 each match it then opens the game page and prints its meta description and
@@ -51,6 +53,16 @@ def main() -> None:
             print(f'  {page_url}: {e}')
             continue
         found = 0
+        # XML sitemaps (and sitemap indexes): the catalogue itself is
+        # rendered by JavaScript, so its plain HTML has no game links.
+        for loc in re.findall(r'<loc>\s*([^<\s]+)\s*</loc>', page):
+            loc = html.unescape(loc)
+            path = urllib.parse.urlparse(loc).path
+            if re.match(r'^/game/[^/]+/[^/]+/?$', path):
+                games.setdefault(loc, path.rstrip('/').rsplit('/', 1)[-1].replace('-', ' '))
+                found += 1
+            elif loc.endswith('.xml') and loc not in seen_pages and loc not in queue:
+                queue.append(loc)
         for href, label in re.findall(r'(?is)<a[^>]+href=["\']([^"\'#]+)["\'][^>]*>(.*?)</a>', page):
             url = urllib.parse.urljoin(page_url, href)
             path = urllib.parse.urlparse(url).path
