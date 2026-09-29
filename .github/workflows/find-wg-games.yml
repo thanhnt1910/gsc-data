@@ -1,0 +1,34 @@
+name: Find WGPlayground games
+
+on:
+  workflow_dispatch:
+    inputs:
+      urls:
+        description: 'Comma-separated WGPlayground catalogue page URLs'
+        required: true
+      keywords:
+        description: 'Regex matched against game titles/URLs (case-insensitive)'
+        required: true
+      max_pages:
+        description: 'Max catalogue pages to follow per start URL'
+        required: false
+        default: '30'
+
+permissions:
+  contents: read
+
+jobs:
+  find:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: List matching games
+        env:
+          URLS: ${{ inputs.urls }}
+          KEYWORDS: ${{ inputs.keywords }}
+          MAX_PAGES: ${{ inputs.max_pages }}
+        run: python scripts/find_wg_games.py
