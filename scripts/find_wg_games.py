@@ -48,6 +48,11 @@ def main() -> None:
                 games[url] = title or url.rstrip('/').rsplit('/', 1)[-1].replace('-', ' ')
         print(f'{len(games)} games from the rendered catalogue')
         urls = []
+    # A game page given directly is taken as-is (no catalogue crawl needed).
+    for u in list(urls):
+        if re.match(r'^/game/[^/]+/[^/]+/?$', urllib.parse.urlparse(u).path):
+            games[u] = u.rstrip('/').rsplit('/', 1)[-1].replace('-', ' ')
+            urls.remove(u)
     seen_pages = set()
     queue = list(urls)
     while queue and len(seen_pages) < max_pages * len(urls):
@@ -93,12 +98,19 @@ def main() -> None:
         except Exception as e:  # noqa: BLE001
             print(f'    (could not open: {e})')
             continue
-        desc = re.search(r'(?is)<meta[^>]+name=["\']description["\'][^>]+content=["\']([^"\']*)', page)
-        if desc:
-            print(f'    {html.unescape(desc.group(1))[:300]}')
-        embed = re.search(r'play\.wgplayground\.com/ifr/([0-9a-f]{32})', page) or re.search(r'data-id=["\']([0-9a-f]{32})', page)
-        if embed:
-            print(f'    wgId: {embed.group(1)}')
+        for name in ('og:title', 'description', 'og:image'):
+            m = re.search(r'(?is)<meta[^>]+(?:name|property)=["\']%s["\'][^>]+content=["\']([^"\']*)' % re.escape(name), page)
+            if m:
+                print(f'    {name}: {html.unescape(m.group(1))[:600]}')
+        ids = sorted(set(re.findall(r'(?:ifr/|data-id=["\']|static\.wgplayground\.com/)([0-9a-f]{32})', page)))
+        if ids:
+            print(f'    wgId candidates: {", ".join(ids)}')
+        # The gameplay text on the page body (description, how to play).
+        body = re.sub(r'(?is)<(script|style|noscript)[^>]*>.*?</\1>', ' ', page)
+        lines = [html.unescape(l).strip() for l in re.sub(r'(?s)<[^>]+>', '\n', body).splitlines()]
+        lines = [l for l in lines if len(l) > 40]
+        for l in lines[:12]:
+            print(f'      | {l[:400]}')
 
 
 if __name__ == '__main__':

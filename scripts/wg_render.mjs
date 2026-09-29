@@ -18,7 +18,7 @@ page.on('response', (r) => {
 const links = new Map();
 for (const url of urls) {
   try {
-    await page.goto(url, { waitUntil: 'networkidle', timeout: 60000 });
+    await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
   } catch (e) {
     console.log(`${url}: ${e.message.split('\n')[0]}`);
   }
