@@ -32,7 +32,12 @@ date,sessionDefaultChannelGroup,sessionSource,sessions,engagedSessions,activeUse
 2026-09-26,Direct,(direct),2,2,1
 2026-09-26,Referral,kidsearch.games,1,0,1
 2026-09-26,Referral,viesearch.com,1,1,1
-2026-09-27,Cross-network,(data not available),2,0,2
-2026-09-27,Direct,(direct),2,0,2
-2026-09-27,Unassigned,(not set),2,0,2
-2026-09-27,AI Assistant,chatgpt.com,1,0,1
+2026-09-27,Direct,(direct),3,1,3
+2026-09-27,AI Assistant,chatgpt.com,2,1,2
+2026-09-27,Organic Search,google,1,1,1
+2026-09-27,Referral,viesearch.com,1,1,1
+2026-09-28,Direct,(direct),7,1,6
+2026-09-28,AI Assistant,chatgpt.com,1,0,0
+2026-09-28,Organic Search,google,1,1,1
+2026-09-28,Referral,viesearch.com,1,1,1
+2026-09-28,Unassigned,(not set),1,0,1
