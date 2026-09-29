@@ -40,6 +40,14 @@ def main() -> None:
         sys.exit('Set URLS to comma-separated catalogue page URLs.')
 
     games = {}  # game url -> title
+    # Links collected by wg_render.mjs from the browser-rendered catalogue.
+    if os.path.exists('wg_links.tsv'):
+        for line in open('wg_links.tsv', encoding='utf-8'):
+            url, _, title = line.rstrip('\n').partition('\t')
+            if re.match(r'^/game/[^/]+/[^/]+/?$', urllib.parse.urlparse(url).path):
+                games[url] = title or url.rstrip('/').rsplit('/', 1)[-1].replace('-', ' ')
+        print(f'{len(games)} games from the rendered catalogue')
+        urls = []
     seen_pages = set()
     queue = list(urls)
     while queue and len(seen_pages) < max_pages * len(urls):

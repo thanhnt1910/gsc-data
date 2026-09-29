@@ -26,6 +26,17 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+      - name: Render the catalogue in a browser
+        env:
+          URLS: ${{ inputs.urls }}
+          MAX_PAGES: ${{ inputs.max_pages }}
+        run: |
+          npm install --no-save --no-package-lock playwright@1.56.1
+          npx playwright install --with-deps chromium
+          node scripts/wg_render.mjs
       - name: List matching games
         env:
           URLS: ${{ inputs.urls }}
