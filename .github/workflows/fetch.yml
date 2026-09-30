@@ -59,6 +59,15 @@ jobs:
           DAYS: ${{ inputs.days }}
         run: python scripts/fetch_ga4.py
 
+      - name: Fetch Bing Webmaster data
+        # Same as GA4: a Bing problem (no key yet, key revoked) must not
+        # block the Search Console data from being committed.
+        continue-on-error: true
+        env:
+          BING_API_KEY: ${{ secrets.BING_API_KEY }}
+          BING_SITE: ${{ vars.BING_SITE }}
+        run: python scripts/fetch_bing.py
+
       - name: Check index status
         if: inputs.inspect || github.event.schedule == '47 3 * * 1'
         env:
