@@ -48,8 +48,7 @@ date,sessionDefaultChannelGroup,sessionSource,sessions,engagedSessions,activeUse
 2026-09-29,AI Assistant,chatgpt.com,1,1,1
 2026-09-29,Referral,sitelike.org,1,1,1
 2026-09-30,Direct,(direct),3,0,3
-2026-09-30,Unassigned,(not set),3,0,3
-2026-09-30,Cross-network,(data not available),2,0,2
-2026-09-30,Organic Search,bing,1,0,1
-2026-09-30,Organic Search,google,1,0,0
-2026-09-30,Referral,viesearch.com,1,0,0
+2026-09-30,Organic Search,google,2,1,1
+2026-09-30,Referral,viesearch.com,2,1,1
+2026-09-30,AI Assistant,chatgpt.com,1,1,1
+2026-09-30,Organic Search,bing,1,1,1
