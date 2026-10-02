@@ -14,7 +14,9 @@ the page and records:
                    sign it lists sites like ours.
   links_to_us      whether it already links to mathlogicgames.com, and
                    with which rel (handy for checking live backlinks).
-  spam signals     gambling/pharma/crypto words, or a link-farm sized page.
+  spam signals     gambling/pharma/essay-mill phrases (skip), or more than
+                   300 outbound links (check by hand: a curated list or a
+                   link farm).
 
 and ends each row with a verdict: good / check / skip, plus the reason.
 Results go to data/prospects/rel-YYYY-MM-DD.csv and the log.
@@ -44,8 +46,12 @@ GAME_SITES = (
     'abcya.com', 'funbrain.com', 'primarygames.com', 'chess.com', 'lichess.org', 'lumosity.com',
     'armorgames.com', 'kongregate.com', 'miniclip.com', 'gamesgames.com', 'y8.com',
 )
-SPAM = re.compile(r'\b(casino|betting|sportsbook|slots?|poker bonus|payday loan|viagra|cialis|cbd|escort|'
-                  r'crypto ?casino|forex|essay writing|replica|porn|xxx)\b', re.I)
+# Strong phrases only: single words like "slot" or "xxx" turned up on clean
+# pages (time slots, placeholder text) in the first run.
+SPAM = re.compile(r'\b(online casino|casino bonus|sportsbook|online slots|slot gacor|judi online|togel|'
+                  r'payday loans?|viagra|cialis|escort service|essay writing service|porn|xxx videos|'
+                  r'crypto casino|forex signals|replica watches)\b', re.I)
+BIG_LIST = 300  # more outbound links than this: a directory or link list, judge by hand
 NOFOLLOW_RELS = {'nofollow', 'ugc', 'sponsored'}
 
 
@@ -105,6 +111,9 @@ def check(session: requests.Session, url: str) -> dict:
         row.update(status=f'error: {type(e).__name__}', verdict='skip', reason='page did not load')
         return row
     row['status'] = r.status_code if r.url == url else f'{r.status_code} via {r.url[:80]}'
+    if r.status_code in (401, 403, 429, 503):
+        row.update(verdict='check', reason=f'HTTP {r.status_code}: the site blocks automated checks, look by hand')
+        return row
     if r.status_code >= 400:
         row.update(verdict='skip', reason=f'HTTP {r.status_code}')
         return row
@@ -154,7 +163,7 @@ def check(session: requests.Session, url: str) -> dict:
     text = re.sub(r'(?s)<[^>]+>', ' ', page)
     spam_hits = sorted({m.group(0).lower() for m in SPAM.finditer(text)})
     signals = spam_hits[:5]
-    if external > 150:
+    if external > BIG_LIST:
         signals.append(f'{external} external links')
     row['spam_signals'] = ' '.join(signals)
 
@@ -162,8 +171,11 @@ def check(session: requests.Session, url: str) -> dict:
         row.update(verdict='skip', reason=f"not indexable: {row['indexable']}")
     elif page_nofollow:
         row.update(verdict='skip', reason='whole page is nofollow')
-    elif spam_hits or external > 150:
+    elif spam_hits:
         row.update(verdict='skip', reason='spam signals')
+    elif external > BIG_LIST:
+        row.update(verdict='check', reason=f'very long link list ({external} outbound links); '
+                   'fine for a curated wiki, a red flag for a link farm')
     elif external and dofollow / external >= 0.5:
         row.update(verdict='good', reason='indexable, mostly dofollow outbound links' +
                    (', already lists game sites' if games else ''))
