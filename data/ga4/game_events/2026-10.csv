@@ -1,0 +1,7 @@
+date,eventName,pagePath,eventCount
+2026-10-01,game_play_60s,/games/stickman-strike-shooter-games/,2
+2026-10-01,game_start,/games/stickman-strike-shooter-games/,2
+2026-10-01,game_play_60s,/games/tangram-grid/,1
+2026-10-01,game_play_60s,/games/tic-tac-ball/,1
+2026-10-01,game_start,/games/tangram-grid/,1
+2026-10-01,game_start,/games/tic-tac-ball/,1
