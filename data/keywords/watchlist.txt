@@ -1,0 +1,41 @@
+# Keywords tracked every Monday by .github/workflows/keywords.yml (max 60).
+# One per line; anything after # is ignored. Edit freely.
+
+# Games the site lacks, with known demand (niche strategy, 2/10/2026)
+freecell
+pyramid solitaire
+golf solitaire
+yukon solitaire
+hearts card game
+spades card game
+killer sudoku
+kakuro
+crossword puzzle online
+mancala
+chinese checkers
+triominos
+
+# Niche hub keywords
+mahjong solitaire free online
+free mahjong no download
+solitaire games free online
+klondike solitaire free
+spider solitaire free online
+sudoku online free
+nonogram online
+2048 online
+word search online free
+hangman online
+cryptogram online
+play checkers online free
+play dominoes online
+backgammon online free
+gomoku online
+nine men's morris online
+
+# Games already on the site with early traction
+daily mahjong challenge
+block bloom
+candy farm
+drift boss
+stickman hook

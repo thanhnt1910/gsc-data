@@ -1,0 +1,55 @@
+name: Keyword demand
+
+on:
+  schedule:
+    - cron: '7 3 * * 1' # Mondays 03:07 UTC (10:07 Vietnam), before the weekly SEO review
+  workflow_dispatch:
+    inputs:
+      keywords:
+        description: 'Keywords or game names, comma-separated (max 60); empty = data/keywords/watchlist.txt'
+        required: false
+      anchor:
+        description: 'Google Trends anchor keyword to compare against'
+        default: 'minesweeper'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: keywords
+  cancel-in-progress: false
+
+jobs:
+  measure:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Measure demand
+        env:
+          KEYWORDS: ${{ inputs.keywords }}
+          ANCHOR: ${{ inputs.anchor || 'minesweeper' }}
+          BING_API_KEY: ${{ secrets.BING_API_KEY }}
+        run: python scripts/keyword_demand.py
+
+      - name: Commit results
+        run: |
+          git add data/keywords
+          if git diff --cached --quiet; then
+            echo "No new data."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898299+github-actions[bot]@users.noreply.github.com'
+          git commit -m "Keyword demand, run $(date -u +%F)"
+          git pull --rebase --autostash
+          git push
