@@ -187,11 +187,22 @@ def main() -> None:
 
     out = OUT_ROOT / release
     out.mkdir(parents=True, exist_ok=True)
+
+    def kept_rows(name: str) -> list[list[str]]:
+        # A run for a few TARGETS must not wipe earlier rows for other targets in this release.
+        path = out / name
+        if not path.exists():
+            return []
+        with path.open(newline='') as f:
+            return [r for r in list(csv.reader(f))[1:] if r and r[0] not in targets]
+
+    old_summary, old_referring = kept_rows('summary.csv'), kept_rows('referring.csv')
     with (out / 'summary.csv').open('w', newline='') as f:
         w = csv.writer(f, lineterminator='\n')
         w.writerow(['target', 'referring_domains', 'harmonic_rank'])
         for t in targets:
             w.writerow([t, len(links.get(t, ())), ranks.get(rev(t), '')])
+        w.writerows(old_summary)
 
     with (out / 'referring.csv').open('w', newline='') as f:
         w = csv.writer(f, lineterminator='\n')
@@ -202,6 +213,7 @@ def main() -> None:
             rows = [(dom(names[s]), ranks.get(names[s], 10**9)) for s in links.get(t, ()) if s in names]
             for d, r in sorted(rows, key=lambda x: (x[1], x[0])):
                 w.writerow([t, d, r if r < 10**9 else ''])
+        w.writerows(old_referring)
 
     competitors = [t for t in targets if t != ours and t not in SUMMARY_ONLY]
     ours_links = links.get(ours, set())
@@ -209,7 +221,8 @@ def main() -> None:
     for t in competitors:
         for s in links.get(t, ()):
             counts.setdefault(s, []).append(t)
-    with (out / 'gap.csv').open('w', newline='') as f:
+    gap_name = 'gap-custom.csv' if os.environ.get('TARGETS') else 'gap.csv'
+    with (out / gap_name).open('w', newline='') as f:
         w = csv.writer(f, lineterminator='\n')
         w.writerow(['referring_domain', 'competitors_linked', 'links_to_us', 'harmonic_rank', 'competitors'])
         rows = [(s, c) for s, c in counts.items() if len(c) >= 2 and s in names]
@@ -221,7 +234,7 @@ def main() -> None:
     print(f'\n## Summary ({release})')
     print((out / 'summary.csv').read_text())
     print('## Top of gap.csv')
-    print(''.join((out / 'gap.csv').read_text().splitlines(keepends=True)[:60]))
+    print(''.join((out / gap_name).read_text().splitlines(keepends=True)[:60]))
 
 
 if __name__ == '__main__':
