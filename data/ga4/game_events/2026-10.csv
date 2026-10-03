@@ -5,3 +5,12 @@ date,eventName,pagePath,eventCount
 2026-10-01,game_play_60s,/games/tic-tac-ball/,1
 2026-10-01,game_start,/games/tangram-grid/,1
 2026-10-01,game_start,/games/tic-tac-ball/,1
+2026-10-02,game_play_300s,/games/tangram-grid/,1
+2026-10-02,game_play_60s,/games/fall-guys-coloring-book/,1
+2026-10-02,game_play_60s,/games/slices/,1
+2026-10-02,game_play_60s,/games/tangram-grid/,1
+2026-10-02,game_start,/games/arrow-escape/,1
+2026-10-02,game_start,/games/fall-guys-coloring-book/,1
+2026-10-02,game_start,/games/slices/,1
+2026-10-02,game_start,/games/tangram-grid/,1
+2026-10-02,game_start,/games/toca-hidden-stars/,1

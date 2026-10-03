@@ -6,3 +6,12 @@ date,eventName,eventCount
 2026-10-01,scroll,5
 2026-10-01,game_play_60s,4
 2026-10-01,game_start,4
+2026-10-02,page_view,35
+2026-10-02,user_engagement,26
+2026-10-02,session_start,13
+2026-10-02,first_visit,9
+2026-10-02,game_start,5
+2026-10-02,scroll,4
+2026-10-02,game_play_60s,3
+2026-10-02,form_start,1
+2026-10-02,game_play_300s,1
