@@ -1,12 +1,31 @@
 keyword,verdict,google_level,bing_level,trends_vs_anchor,trends_rising_ratio,bing_weekly_broad,bing_weekly_exact,source,autocomplete_related,autocomplete_game_intent,autocomplete_top
-arrow puzzle,medium,medium,medium,0.011,,804,89,input,10,6,arrow puzzle | arrow puzzle game | arrow puzzle game online | arrow puzzle game online free | arrow puzzle escape
-arrows game,medium,medium,medium,0.0299,1.14,991,871,input,10,6,arrows game | arrows game online free | arrows game free | arrows game online | arrows game for pc
-arrow escape,low + rising,low,medium,0.0044,2.33,908,145,input,10,8,arrow escape game online free | arrow escape game | arrow escape | arrow escape game free | arrow escape puzzle
-arrow game online,low + rising,low,low,0.0007,9.82,99,23,input,10,4,arrow game online free | arrow game online multiplayer | arrow game online free download | arrow game online play | arrow game online paisa wala
-arrow maze,low + rising,low,low,0.0006,1.78,218,28,input,10,3,arrow maze | arrow maze game | arrow maze cash reviews | arrow maze cash legit | arrow maze lucky guide
-arrow puzzle game,low + rising,low,low,0.0007,10.73,473,322,input,10,6,arrow puzzle game | arrow puzzle game online | arrow puzzle game online free | arrow puzzle game for pc | arrow puzzle game download
-arrows games,low + rising,low,low,0.0011,9.63,306,25,input,7,4,arrows games | arrows games free | arrows games online free | arrows games online | arrows games download
-arrows puzzle,low + rising,low,low,0.0006,5.83,173,16,input,10,4,arrows puzzle escape | arrows puzzle | arrows puzzle game | arrows puzzle escape max level | arrows puzzle escape answers
-arrowsgames,none,none,none,0.0,,0,0,input,0,0,arrows games | arrows games free | arrows games online free | arrows games online | arrows games download
-mathlogic games,none,low,none,0.0002,,0,0,input,1,0,mathlogic games | math logic games for kids | math logic games online | math logic games for adults | math logic games printable
-mathlogicgames,none,none,none,0.0,,0,0,input,0,0,
+2048,high + rising,high,high,0.3482,1.53,24848,8500,input,10,2,2048 | 2048 cupcakes | 2048 game | 2048 nowhere to run | 2048 tiles
+mahjong solitaire,high,high,high,0.0747,1.02,10837,4441,input,10,7,mahjong solitaire | mahjong solitaire free | mahjong solitaire classic free | mahjong solitaire game | mahjong solitaire online
+math games,high + rising,high,high,2.0598,2.12,241163,5897,input,10,2,math games | math games for kids | math games online | math games free | math games for grade 3
+minesweeper,high + rising,high,high,1.0,1.93,43941,29145,input,10,3,minesweeper | minesweeper google | minesweeper online | minesweeper plus | minesweeper solver
+solitaire,high,high,high,4.6875,0.97,1083568,217501,input,10,3,solitaire | solitaire bliss | solitaired | solitaire game | solitaire 247
+sudoku,high,high,high,1.2647,1.06,177545,71740,input,10,2,sudoku | sudoku nyt | sudoku puzzles | sudoku solver | sudoku online
+brain games,medium,high,medium,0.1404,1.09,2469,1095,input,10,2,brain games | brain games for adults | brain games show | brain games for seniors | brain games for kids
+brain teasers,medium + rising,medium,high,0.0135,1.48,10086,9547,input,10,0,brain teasers | brain teasers for adults | brain teasers for kids | brain teasers with answers | brain teasers for adults with answers
+logic puzzles,medium,medium,medium,0.0296,1.07,3874,3018,input,10,2,logic puzzles | logic puzzles for adults | logic puzzles online | logic puzzles for kids | logic puzzles printable
+math games for kids,medium + rising,medium,medium,0.015,2.31,1000,420,input,10,3,math games for kids | math games for kids free | math games for kids online free | math games for kids grade 2 | math games for kids online
+math games online,medium + rising,medium,medium,0.0331,2.59,1095,211,input,10,3,math games online | math games online for kids | math games online for adults | math games online free for kids | math games online for adults free
+multiplication games,medium + rising,medium,medium,0.0267,3.8,1975,1702,input,10,5,multiplication games | multiplication games free | multiplication games for kids | multiplication games for 3rd grade | multiplication games for 4th grade
+nonogram,medium,medium,medium,0.0154,0.48,587,349,input,10,3,nonograms | nonogram online | nonogram solver | nonogram puzzle | nonograms katana
+addition games,low + rising,low,low,0.005,5.22,27,18,input,10,4,addition games | addition games for grade 1 | addition games for kids | addition games for grade 2 | addition games for kindergarten
+brain games for adults,low + rising,low,low,0.001,4.26,79,65,input,10,5,brain games for adults | brain games for adults online | brain games for adults free apps | brain games for adults online free | brain games for adults questions and answers
+critical thinking games,low + rising,low,low,0.0006,1.79,13,13,input,10,3,critical thinking games | critical thinking games for adults | critical thinking games for kids | critical thinking games for teens | critical thinking games for students
+division games,low + rising,medium,low,0.0487,1.55,32,30,input,10,3,division games | division games for kids | division games for 3rd grade | division games 4th grade | division games free
+fraction games,low + rising,low,low,0.0059,4.41,18,15,input,10,3,fraction games | fraction games for kids | fraction games for 4th grade | fraction games online free | fraction games online
+kakuro,low + rising,low,medium,0.0032,1.9,1285,452,input,10,3,kakuro | kakuro puzzle | kakuro cheat sheet | kakuro online | kakuro conquest
+logic games,low,medium,low,0.0176,0.8,159,101,input,10,3,logic games | logic games lsat | logic games lsat example | logic games for adults | logic games online
+logic puzzles online,low + rising,low,low,0.0003,2.77,201,152,input,10,6,logic puzzles online | logic puzzles online free | logic puzzles online free for adults | logic puzzles online for kids | logic puzzles online free with answers
+math games for 3rd grade,low + rising,low,low,0.0003,2.32,18,18,input,10,2,math games for 3rd graders | math games for 3rd grade | math games for 3rd graders free | math games for 3rd graders in the classroom | math games for 3rd grade multiplication
+math puzzles,low + rising,low,low,0.0058,3.1,101,70,input,10,0,math puzzles | math puzzles for adults | math puzzles for kids | math puzzles for middle school | math puzzles brain teasers
+mental math games,low,low,low,0.0004,,7,7,input,10,4,mental math games | mental math games for adults | mental math games for kids | mental math games online | mental math games for grade 3
+multiplication games online,low,low,low,0.0004,,38,34,input,10,3,multiplication games online | multiplication games online free | multiplication games online free for kids | multiplication games online for kids | multiplication games online grade 3
+subtraction games,low + rising,low,low,0.0009,8.12,16,8,input,10,2,subtraction games | subtraction games for grade 1 | subtraction games for grade 2 | subtraction games for kids | subtraction games for grade 3
+tangram,low,medium,low,0.0479,0.81,370,141,input,10,0,tangrams | tangram mall | tangram regal | tangram puzzles | tangram mall flushing
+thinking games,low + rising,medium,low,0.0258,1.4,35,29,input,10,5,thinking games | thinking games for adults | thinking games for kids | thinking games online | thinking games for dogs
+times tables games,low + rising,low,medium,0.0061,9.81,792,731,input,10,5,times tables games | times tables games free | times tables games for kids | times tables games online | times tables games 3x3 garden
+math games for 4th grade,none,low,none,0.0001,,0,0,input,9,3,math games for 4th graders | math games for 4th graders free | math games for 4th graders printable | math games for 4th graders online | math games for 4th grade multiplication
