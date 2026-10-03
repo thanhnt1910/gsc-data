@@ -1,0 +1,775 @@
+{
+ "domain": "mathlogicgames.com",
+ "base": "https://mathlogicgames.com",
+ "home_status": 200,
+ "sitemaps": [
+  "https://mathlogicgames.com/sitemap-0.xml",
+  "https://mathlogicgames.com/sitemap-index.xml"
+ ],
+ "sitemap_url_count": 651,
+ "sections": [
+  [
+   "/games/",
+   607
+  ],
+  [
+   "/blog/",
+   17
+  ],
+  [
+   "/category/",
+   17
+  ],
+  [
+   "/(top-level pages)",
+   9
+  ],
+  [
+   "/",
+   1
+  ]
+ ],
+ "pages": [
+  {
+   "url": "https://mathlogicgames.com/",
+   "status": 200,
+   "final_url": "",
+   "title": "MathLogic — Free Math & Logic Games",
+   "title_len": 35,
+   "meta_description": "Free browser math and logic games — puzzles, educational challenges and strategy games. No installs, no accounts, just play.",
+   "meta_description_len": 124,
+   "canonical": "https://mathlogicgames.com/",
+   "meta_robots": "",
+   "lang": "en",
+   "og_image": true,
+   "h1": [
+    "MathLogic — Free Math & Logic Games"
+   ],
+   "h2": [
+    "Trending now",
+    "New this week",
+    "Recommended for you",
+    "Worth trying",
+    "Train your brain",
+    "Puzzles",
+    "Strategy",
+    "Educational",
+    "Browse by category",
+    "What is MathLogic?",
+    "Browse",
+    "Categories",
+    "Site"
+   ],
+   "h3_count": 70,
+   "words": 928,
+   "internal_links": 144,
+   "external_links": 0,
+   "iframe_hosts": [],
+   "jsonld_types": [
+    "Organization",
+    "SearchAction",
+    "WebSite"
+   ],
+   "faq": false,
+   "images": 74,
+   "images_no_alt": 0,
+   "ads": [],
+   "html_kb": 110
+  },
+  {
+   "url": "https://mathlogicgames.com/games/3d-halloween-jigsaw/",
+   "status": 200,
+   "final_url": "",
+   "title": "3D Halloween Jigsaw — MathLogic",
+   "title_len": 31,
+   "meta_description": "3D Halloween Jigsaw is a three-dimensional take on the classic jigsaw: complete spooky Halloween pictures with 6 to 96 pieces, from easy to tricky. Free.",
+   "meta_description_len": 153,
+   "canonical": "https://mathlogicgames.com/games/3d-halloween-jigsaw/",
+   "meta_robots": "",
+   "lang": "en",
+   "og_image": true,
+   "h1": [
+    "3D Halloween Jigsaw"
+   ],
+   "h2": [
+    "How to play 3D Halloween Jigsaw",
+    "About 3D Halloween Jigsaw",
+    "You might also like",
+    "Browse",
+    "Categories",
+    "Site"
+   ],
+   "h3_count": 10,
+   "words": 303,
+   "internal_links": 57,
+   "external_links": 0,
+   "iframe_hosts": [
+    "play.wgplayground.com"
+   ],
+   "jsonld_types": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Organization",
+    "SearchAction",
+    "VideoGame",
+    "WebSite"
+   ],
+   "faq": false,
+   "images": 10,
+   "images_no_alt": 0,
+   "ads": [],
+   "html_kb": 35
+  },
+  {
+   "url": "https://mathlogicgames.com/games/bimka-drive-smash-cars-into-splinters/",
+   "status": 200,
+   "final_url": "",
+   "title": "Bimka Drive - Smash cars into splinters! — MathLogic",
+   "title_len": 52,
+   "meta_description": "Bimka Drive - Smash cars into splinters! is a car destruction sandbox: pick a car and a location, then crash it to pieces or chase each mode's goal. Free.",
+   "meta_description_len": 154,
+   "canonical": "https://mathlogicgames.com/games/bimka-drive-smash-cars-into-splinters/",
+   "meta_robots": "",
+   "lang": "en",
+   "og_image": true,
+   "h1": [
+    "Bimka Drive - Smash cars into splinters!"
+   ],
+   "h2": [
+    "How to play Bimka Drive - Smash cars into splinters!",
+    "About Bimka Drive - Smash cars into splinters!",
+    "You might also like",
+    "Browse",
+    "Categories",
+    "Site"
+   ],
+   "h3_count": 10,
+   "words": 316,
+   "internal_links": 56,
+   "external_links": 0,
+   "iframe_hosts": [
+    "play.wgplayground.com"
+   ],
+   "jsonld_types": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Organization",
+    "SearchAction",
+    "VideoGame",
+    "WebSite"
+   ],
+   "faq": false,
+   "images": 10,
+   "images_no_alt": 0,
+   "ads": [],
+   "html_kb": 35
+  },
+  {
+   "url": "https://mathlogicgames.com/games/christmas-dress-up/",
+   "status": 200,
+   "final_url": "",
+   "title": "Christmas Dress Up — MathLogic",
+   "title_len": 30,
+   "meta_description": "Christmas Dress Up is a festive dress-up game: pick a Santa girl, elf or winter princess, style her holiday look and set it in a snowy scene. Free online.",
+   "meta_description_len": 154,
+   "canonical": "https://mathlogicgames.com/games/christmas-dress-up/",
+   "meta_robots": "",
+   "lang": "en",
+   "og_image": true,
+   "h1": [
+    "Christmas Dress Up"
+   ],
+   "h2": [
+    "How to play Christmas Dress Up",
+    "About Christmas Dress Up",
+    "You might also like",
+    "Browse",
+    "Categories",
+    "Site"
+   ],
+   "h3_count": 10,
+   "words": 325,
+   "internal_links": 56,
+   "external_links": 0,
+   "iframe_hosts": [
+    "play.wgplayground.com"
+   ],
+   "jsonld_types": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Organization",
+    "SearchAction",
+    "VideoGame",
+    "WebSite"
+   ],
+   "faq": false,
+   "images": 10,
+   "images_no_alt": 0,
+   "ads": [],
+   "html_kb": 36
+  },
+  {
+   "url": "https://mathlogicgames.com/games/dangerous-turn/",
+   "status": 200,
+   "final_url": "",
+   "title": "Dangerous Turn — MathLogic",
+   "title_len": 26,
+   "meta_description": "Dangerous Turn is a reflex runner: tap to switch direction on a zigzag path, avoid fire, ice and spikes, and collect coins for new heroes. Free online.",
+   "meta_description_len": 151,
+   "canonical": "https://mathlogicgames.com/games/dangerous-turn/",
+   "meta_robots": "",
+   "lang": "en",
+   "og_image": true,
+   "h1": [
+    "Dangerous Turn"
+   ],
+   "h2": [
+    "How to play Dangerous Turn",
+    "About Dangerous Turn",
+    "You might also like",
+    "Browse",
+    "Categories",
+    "Site"
+   ],
+   "h3_count": 10,
+   "words": 294,
+   "internal_links": 55,
+   "external_links": 0,
+   "iframe_hosts": [
+    "play.wgplayground.com"
+   ],
+   "jsonld_types": [
+    "BreadcrumbList",
+    "ListItem",
+    "Offer",
+    "Organization",
+    "SearchAction",
+    "VideoGame",
+    "WebSite"
+   ],
+   "faq": false,
+   "images": 10,
+   "images_no_alt": 0,
+   "ads": [],
+   "html_kb": 35
+  },
+  {
+   "url": "https://mathlogicgames.com/blog/5-logic-games-improve-critical-thinking/",
+   "status": 200,
+   "final_url": "",
+   "title": "5 Logic Games That Improve Critical Thinking — MathLogic Blog",
+   "title_len": 61,
+   "meta_description": "Five logic games that actually train critical thinking — deduction, pattern recognition, and planning. Free to play, no download needed.",
+   "meta_description_len": 136,
+   "canonical": "https://mathlogicgames.com/blog/5-logic-games-improve-critical-thinking/",
+   "meta_robots": "",
+   "lang": "en",
+   "og_image": true,
+   "h1": [
+    "5 Logic Games That Improve Critical Thinking"
+   ],
+   "h2": [
+    "1. Minesweeper — elimination by counting",
+    "2. Sudoku — constraint satisfaction",
+    "3. Gomoku — pattern recognition under pressure",
+    "4. Reversi — positional thinking",
+    "5. Dots and Boxes — risk calculation",
+    "How to actually get better",
+    "Games from this post",
+    "Popular Games",
+    "Browse",
+    "Categories",
+    "Site"
+   ],
+   "h3_count": 3,
+   "words": 735,
+   "internal_links": 84,
+   "external_links": 0,
+   "iframe_hosts": [],
+   "jsonld_types": [
+    "BlogPosting",
+    "BreadcrumbList",
+    "ListItem",
+    "Organization",
+    "SearchAction",
+    "WebSite"
+   ],
+   "faq": false,
+   "images": 34,
+   "images_no_alt": 0,
+   "ads": [],
+   "html_kb": 44
+  },
+  {
+   "url": "https://mathlogicgames.com/blog/chess-vs-checkers-which-learn-first/",
+   "status": 200,
+   "final_url": "",
+   "title": "Chess vs Checkers: Which One Should You Learn First? — MathLogic Blog",
+   "title_len": 69,
+   "meta_description": "Chess vs checkers — the real differences, which is harder, and which one you should learn first depending on your goals.",
+   "meta_description_len": 120,
+   "canonical": "https://mathlogicgames.com/blog/chess-vs-checkers-which-learn-first/",
+   "meta_robots": "",
+   "lang": "en",
+   "og_image": true,
+   "h1": [
+    "Chess vs Checkers: Which One Should You Learn First?"
+   ],
+   "h2": [
+    "The rules comparison",
+    "Which is harder?",
+    "Which should you learn first?",
+    "Can you learn both?",
+    "Games from this post",
+    "Popular Games",
+    "Browse",
+    "Categories",
+    "Site"
+   ],
+   "h3_count": 3,
+   "words": 727,
+   "internal_links": 80,
+   "external_links": 0,
+   "iframe_hosts": [],
+   "jsonld_types": [
+    "BlogPosting",
+    "BreadcrumbList",
+    "ListItem",
+    "Organization",
+    "SearchAction",
+    "WebSite"
+   ],
+   "faq": false,
+   "images": 34,
+   "images_no_alt": 0,
+   "ads": [],
+   "html_kb": 43
+  },
+  {
+   "url": "https://mathlogicgames.com/blog/how-to-solve-cryptograms/",
+   "status": 200,
+   "final_url": "",
+   "title": "How to Solve Cryptograms: Rules, Tips & Examples — MathLogic Blog",
+   "title_len": 65,
+   "meta_description": "Learn how cryptogram puzzles work and how to crack them step by step, with beginner tips, common letter patterns and three practice puzzles with answers.",
+   "meta_description_len": 153,
+   "canonical": "https://mathlogicgames.com/blog/how-to-solve-cryptograms/",
+   "meta_robots": "",
+   "lang": "en",
+   "og_image": true,
+   "h1": [
+    "How to Solve Cryptograms: Rules, Tips & Examples"
+   ],
+   "h2": [
+    "What is a cryptogram?",
+    "The rules",
+    "Seven techniques that crack most cryptograms",
+    "A worked example",
+    "Tips when you get stuck",
+    "Why cryptograms are good for your brain",
+    "Practice puzzles",
+    "Answers",
+    "Games from this post",
+    "Popular Games",
+    "Browse",
+    "Categories",
+    "Site"
+   ],
+   "h3_count": 3,
+   "words": 1210,
+   "internal_links": 83,
+   "external_links": 0,
+   "iframe_hosts": [],
+   "jsonld_types": [
+    "BlogPosting",
+    "BreadcrumbList",
+    "ListItem",
+    "Organization",
+    "SearchAction",
+    "WebSite"
+   ],
+   "faq": false,
+   "images": 34,
+   "images_no_alt": 0,
+   "ads": [],
+   "html_kb": 48
+  },
+  {
+   "url": "https://mathlogicgames.com/blog/is-minesweeper-luck-or-skill/",
+   "status": 200,
+   "final_url": "",
+   "title": "Is Minesweeper Luck or Skill? When You Have to Guess — MathLogic Blog",
+   "title_len": 69,
+   "meta_description": "Is Minesweeper luck or skill? Mostly skill: logic solves most of every board, and luck only enters in a few spots. Learn the patterns that cut guessing down.",
+   "meta_description_len": 157,
+   "canonical": "https://mathlogicgames.com/blog/is-minesweeper-luck-or-skill/",
+   "meta_robots": "",
+   "lang": "en",
+   "og_image": true,
+   "h1": [
+    "Is Minesweeper Luck or Skill? When You Have to Guess"
+   ],
+   "h2": [
+    "Quick answers",
+    "Where the skill is: patterns you can trust",
+    "Where the luck is",
+    "How to guess better when you have to",
+    "How difficulty changes the luck",
+    "A little history",
+    "Practice the skill part",
+    "Sources",
+    "Games from this post",
+    "Popular Games",
+    "Browse",
+    "Categories",
+    "Site"
+   ],
+   "h3_count": 8,
+   "words": 1233,
+   "internal_links": 83,
+   "external_links": 2,
+   "iframe_hosts": [],
+   "jsonld_types": [
+    "BlogPosting",
+    "BreadcrumbList",
+    "ListItem",
+    "Organization",
+    "SearchAction",
+    "WebSite"
+   ],
+   "faq": false,
+   "images": 34,
+   "images_no_alt": 0,
+   "ads": [],
+   "html_kb": 48
+  },
+  {
+   "url": "https://mathlogicgames.com/category/action/",
+   "status": 200,
+   "final_url": "",
+   "title": "Action Games — MathLogic",
+   "title_len": 24,
+   "meta_description": "Action games that train fast reflexes and split-second decision-making — no time to overthink, just react and adapt.",
+   "meta_description_len": 116,
+   "canonical": "https://mathlogicgames.com/category/action/",
+   "meta_robots": "",
+   "lang": "en",
+   "og_image": true,
+   "h1": [
+    "Action Games"
+   ],
+   "h2": [
+    "All action games",
+    "About action games",
+    "Browse",
+    "Categories",
+    "Site"
+   ],
+   "h3_count": 40,
+   "words": 423,
+   "internal_links": 86,
+   "external_links": 0,
+   "iframe_hosts": [],
+   "jsonld_types": [
+    "Organization",
+    "SearchAction",
+    "WebSite"
+   ],
+   "faq": false,
+   "images": 40,
+   "images_no_alt": 0,
+   "ads": [],
+   "html_kb": 61
+  },
+  {
+   "url": "https://mathlogicgames.com/category/dress-up-fashion/",
+   "status": 200,
+   "final_url": "",
+   "title": "Dress-up & Fashion Games — MathLogic",
+   "title_len": 36,
+   "meta_description": "Dress-up and makeover games — style princesses, K-pop stars and brides with outfits, hair and makeup, then save your favorite looks.",
+   "meta_description_len": 132,
+   "canonical": "https://mathlogicgames.com/category/dress-up-fashion/",
+   "meta_robots": "",
+   "lang": "en",
+   "og_image": true,
+   "h1": [
+    "Dress-up & Fashion Games"
+   ],
+   "h2": [
+    "All dress-up & fashion games",
+    "About dress-up & fashion games",
+    "Browse",
+    "Categories",
+    "Site"
+   ],
+   "h3_count": 33,
+   "words": 473,
+   "internal_links": 77,
+   "external_links": 0,
+   "iframe_hosts": [],
+   "jsonld_types": [
+    "Organization",
+    "SearchAction",
+    "WebSite"
+   ],
+   "faq": false,
+   "images": 33,
+   "images_no_alt": 0,
+   "ads": [],
+   "html_kb": 56
+  },
+  {
+   "url": "https://mathlogicgames.com/category/memory-games/",
+   "status": 200,
+   "final_url": "",
+   "title": "Memory Games — MathLogic",
+   "title_len": 24,
+   "meta_description": "Games that train short-term memory — remember what you saw, recall it under pressure, and repeat as the challenge grows.",
+   "meta_description_len": 120,
+   "canonical": "https://mathlogicgames.com/category/memory-games/",
+   "meta_robots": "",
+   "lang": "en",
+   "og_image": true,
+   "h1": [
+    "Memory Games"
+   ],
+   "h2": [
+    "All memory games",
+    "About memory games",
+    "Browse",
+    "Categories",
+    "Site"
+   ],
+   "h3_count": 29,
+   "words": 386,
+   "internal_links": 78,
+   "external_links": 0,
+   "iframe_hosts": [],
+   "jsonld_types": [
+    "Organization",
+    "SearchAction",
+    "WebSite"
+   ],
+   "faq": false,
+   "images": 29,
+   "images_no_alt": 0,
+   "ads": [],
+   "html_kb": 51
+  },
+  {
+   "url": "https://mathlogicgames.com/category/quiz-trivia/",
+   "status": 200,
+   "final_url": "",
+   "title": "Quiz & Trivia Games — MathLogic",
+   "title_len": 31,
+   "meta_description": "Quiz and trivia games that put your knowledge, memory and recall to the test — one question at a time, no notes allowed.",
+   "meta_description_len": 120,
+   "canonical": "https://mathlogicgames.com/category/quiz-trivia/",
+   "meta_robots": "",
+   "lang": "en",
+   "og_image": true,
+   "h1": [
+    "Quiz & Trivia Games"
+   ],
+   "h2": [
+    "All quiz & trivia games",
+    "About quiz & trivia games",
+    "Browse",
+    "Categories",
+    "Site"
+   ],
+   "h3_count": 23,
+   "words": 343,
+   "internal_links": 71,
+   "external_links": 0,
+   "iframe_hosts": [],
+   "jsonld_types": [
+    "Organization",
+    "SearchAction",
+    "WebSite"
+   ],
+   "faq": false,
+   "images": 23,
+   "images_no_alt": 0,
+   "ads": [],
+   "html_kb": 44
+  },
+  {
+   "url": "https://mathlogicgames.com/about/",
+   "status": 200,
+   "final_url": "",
+   "title": "About MathLogic",
+   "title_len": 15,
+   "meta_description": "MathLogic is a free browser game site with 500+ math, logic, puzzle and strategy games, plus lighter casual picks. No installs, no accounts — just play.",
+   "meta_description_len": 152,
+   "canonical": "https://mathlogicgames.com/about/",
+   "meta_robots": "",
+   "lang": "en",
+   "og_image": true,
+   "h1": [
+    "About MathLogic"
+   ],
+   "h2": [
+    "Where the games come from",
+    "How games are described and sorted",
+    "The blog",
+    "Your data",
+    "Get in touch",
+    "Browse",
+    "Categories",
+    "Site"
+   ],
+   "h3_count": 0,
+   "words": 436,
+   "internal_links": 46,
+   "external_links": 0,
+   "iframe_hosts": [],
+   "jsonld_types": [
+    "Organization",
+    "SearchAction",
+    "WebSite"
+   ],
+   "faq": false,
+   "images": 0,
+   "images_no_alt": 0,
+   "ads": [],
+   "html_kb": 22
+  },
+  {
+   "url": "https://mathlogicgames.com/blog/",
+   "status": 200,
+   "final_url": "",
+   "title": "Blog — MathLogic",
+   "title_len": 16,
+   "meta_description": "Guides, tips and mental-math tricks for math, logic, puzzle and strategy games — from Sudoku techniques and chess basics to memory training.",
+   "meta_description_len": 140,
+   "canonical": "https://mathlogicgames.com/blog/",
+   "meta_robots": "",
+   "lang": "en",
+   "og_image": true,
+   "h1": [
+    "Blog"
+   ],
+   "h2": [
+    "Is Minesweeper Luck or Skill? When You Have to Guess",
+    "Mahjong vs Mahjong Solitaire: What's the Difference?",
+    "The Benefits of Playing Strategy Games",
+    "Free Halloween Math Games & Puzzles for Kids",
+    "How to Get Better at Math: 7 Practical Tips",
+    "How to Solve Cryptograms: Rules, Tips & Examples",
+    "Spider vs Klondike vs TriPeaks: Solitaire Rules & Strategy",
+    "How to Solve a Rubik's Cube: Beginner's Guide",
+    "10 Best Puzzle Games for Adults",
+    "How to Improve Memory with Memory Games",
+    "Browse",
+    "Categories",
+    "Site"
+   ],
+   "h3_count": 0,
+   "words": 489,
+   "internal_links": 53,
+   "external_links": 0,
+   "iframe_hosts": [],
+   "jsonld_types": [
+    "Blog",
+    "BlogPosting",
+    "BreadcrumbList",
+    "ListItem",
+    "Organization",
+    "SearchAction",
+    "WebSite"
+   ],
+   "faq": false,
+   "images": 0,
+   "images_no_alt": 0,
+   "ads": [],
+   "html_kb": 28
+  },
+  {
+   "url": "https://mathlogicgames.com/contact/",
+   "status": 200,
+   "final_url": "",
+   "title": "Contact — MathLogic",
+   "title_len": 19,
+   "meta_description": "How to reach MathLogic — bug reports, game suggestions, broken links or anything else. One inbox, real replies, no ticket system.",
+   "meta_description_len": 129,
+   "canonical": "https://mathlogicgames.com/contact/",
+   "meta_robots": "",
+   "lang": "en",
+   "og_image": true,
+   "h1": [
+    "Contact"
+   ],
+   "h2": [
+    "Browse",
+    "Categories",
+    "Site"
+   ],
+   "h3_count": 0,
+   "words": 241,
+   "internal_links": 42,
+   "external_links": 0,
+   "iframe_hosts": [],
+   "jsonld_types": [
+    "Organization",
+    "SearchAction",
+    "WebSite"
+   ],
+   "faq": false,
+   "images": 0,
+   "images_no_alt": 0,
+   "ads": [],
+   "html_kb": 21
+  },
+  {
+   "url": "https://mathlogicgames.com/halloween-games/",
+   "status": 200,
+   "final_url": "",
+   "title": "Halloween Games Online: Math, Puzzles & Words — MathLogic",
+   "title_len": 57,
+   "meta_description": "Free Halloween games online for kids and adults: math games from counting to times tables, spooky puzzles, word search, hangman and memory games.",
+   "meta_description_len": 145,
+   "canonical": "https://mathlogicgames.com/halloween-games/",
+   "meta_robots": "",
+   "lang": "en",
+   "og_image": true,
+   "h1": [
+    "🎃 Halloween Games"
+   ],
+   "h2": [
+    "Halloween math games",
+    "Halloween puzzles",
+    "Halloween word games",
+    "Memory and observation games",
+    "Dress-up and just for fun",
+    "Halloween games FAQ",
+    "Browse",
+    "Categories",
+    "Site"
+   ],
+   "h3_count": 34,
+   "words": 596,
+   "internal_links": 74,
+   "external_links": 0,
+   "iframe_hosts": [],
+   "jsonld_types": [
+    "BreadcrumbList",
+    "CollectionPage",
+    "ItemList",
+    "ListItem",
+    "Organization",
+    "SearchAction",
+    "WebSite"
+   ],
+   "faq": false,
+   "images": 31,
+   "images_no_alt": 0,
+   "ads": [],
+   "html_kb": 59
+  }
+ ]
+}

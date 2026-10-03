@@ -1,0 +1,326 @@
+# Site audit: arrowsgames.io (2026-10-03)
+
+Home status: 200 · Sitemap URLs: 90 · Sitemaps read: 1
+
+## URLs by section
+
+| Section | URLs |
+|---|---|
+| `/game/` | 57 |
+| `/category/` | 23 |
+| `/(top-level pages)` | 7 |
+| `/` | 1 |
+| `/review/` | 1 |
+| `/tools/` | 1 |
+
+## https://arrowsgames.io/
+
+- **title**: Play Arrow Game Online Free – Best Arrow Puzzle Games
+- **title_len**: 53
+- **meta_description**: Play arrow game online for free! Enjoy arrow puzzle games, maze challenges, and brain-training levels — no download required.
+- **meta_description_len**: 125
+- **canonical**: https://arrowsgames.io
+- **meta_robots**: 
+- **lang**: en
+- **og_image**: True
+- **h1**: ['Play arrow game free online – guide arrows through intricate mazes, plan your moves carefully, avoid obstacles, and clea']
+- **h2**: ['Arrow Games', 'Arrow Game', 'Continue Playing', 'Arrow Games', 'Escape Games', 'Arrow Game Screenshots & Gameplay Highlights', 'Arrow Game: Plan Routes and Clear Maze Boards Online', 'Arrow Game Play Online & Gameplay FAQ', 'Recommended', 'Arrow Game', 'Arrow Game - How to Play Guide', 'Recommended']
+- **h3_count**: 15
+- **words**: 1106
+- **internal_links**: 56
+- **external_links**: 0
+- **iframe_hosts**: ['googletagmanager.com']
+- **jsonld_types**: ['AggregateRating', 'Answer', 'BreadcrumbList', 'FAQPage', 'ImageObject', 'ListItem', 'LocalBusiness', 'Offer', 'Organization', 'PostalAddress', 'Question', 'SearchAction', 'SoftwareApplication', 'WebSite']
+- **faq**: True
+- **images**: 50
+- **images_no_alt**: 0
+- **ads**: ['adsense', 'gamedistribution']
+- **html_kb**: 320
+
+## https://arrowsgames.io/game/arrow-escape/play
+
+- **title**: Arrow Game - Play Free Arrow Game Online on Arrow Games
+- **title_len**: 55
+- **meta_description**: Play arrow game free online – guide arrows through intricate mazes, plan your moves carefully, avoid obstacles, and clear hundreds of mind-bending puzzle levels!
+- **meta_description_len**: 161
+- **canonical**: https://arrowsgames.io/game/arrow-escape/play
+- **meta_robots**: 
+- **lang**: en
+- **og_image**: True
+- **h1**: ['Play arrow game free online – guide arrows through intricate mazes, plan your moves carefully, avoid obstacles, and clea']
+- **h2**: ['Arrow Games', 'Arrow Game', 'Continue Playing', 'Arrow Game: Plan Routes and Clear Maze Boards Online', 'Recommended', 'Arrow Game', 'Arrow Game - How to Play Guide', 'Recommended']
+- **h3_count**: 5
+- **words**: 601
+- **internal_links**: 48
+- **external_links**: 0
+- **iframe_hosts**: ['googletagmanager.com']
+- **jsonld_types**: ['AggregateRating', 'BreadcrumbList', 'ImageObject', 'ListItem', 'LocalBusiness', 'Offer', 'Organization', 'PostalAddress', 'SearchAction', 'SoftwareApplication', 'WebSite']
+- **faq**: False
+- **images**: 38
+- **images_no_alt**: 0
+- **ads**: ['adsense', 'gamedistribution']
+- **html_kb**: 230
+
+## https://arrowsgames.io/game/rebound-star/play
+
+- **title**: Rebound Star - Play Free Arrow Game Online on Arrow Games
+- **title_len**: 57
+- **meta_description**: A healing game where you become a cute soccer player and aim for goals
+- **meta_description_len**: 70
+- **canonical**: https://arrowsgames.io/game/rebound-star/play
+- **meta_robots**: 
+- **lang**: en
+- **og_image**: True
+- **h1**: ['A healing game where you become a cute soccer player and aim for goals']
+- **h2**: ['Arrow Games', 'Rebound Star', 'Continue Playing', 'Welcome to Rebound Star!', 'Recommended', 'Rebound Star', 'Rebound Star How to Play Guide', 'Recommended']
+- **h3_count**: 4
+- **words**: 269
+- **internal_links**: 54
+- **external_links**: 0
+- **iframe_hosts**: ['googletagmanager.com']
+- **jsonld_types**: ['AggregateRating', 'BreadcrumbList', 'ImageObject', 'ListItem', 'LocalBusiness', 'Offer', 'Organization', 'PostalAddress', 'SearchAction', 'SoftwareApplication', 'WebSite']
+- **faq**: False
+- **images**: 46
+- **images_no_alt**: 0
+- **ads**: ['adsense', 'gamedistribution']
+- **html_kb**: 210
+
+## https://arrowsgames.io/game/draw-2-save/play
+
+- **title**: Draw 2 Save - Play Free Arrow Game Online on Arrow Games
+- **title_len**: 56
+- **meta_description**: A fun game where you draw lines to solve puzzles and save cute characters
+- **meta_description_len**: 73
+- **canonical**: https://arrowsgames.io/game/draw-2-save/play
+- **meta_robots**: 
+- **lang**: en
+- **og_image**: True
+- **h1**: ['A fun game where you draw lines to solve puzzles and save cute characters']
+- **h2**: ['Arrow Games', 'Draw 2 Save', 'Continue Playing', 'Welcome to Draw 2 Save!', 'Recommended', 'Draw 2 Save', 'Draw 2 Save How to Play Guide', 'Recommended']
+- **h3_count**: 4
+- **words**: 263
+- **internal_links**: 53
+- **external_links**: 0
+- **iframe_hosts**: ['googletagmanager.com']
+- **jsonld_types**: ['AggregateRating', 'BreadcrumbList', 'ImageObject', 'ListItem', 'LocalBusiness', 'Offer', 'Organization', 'PostalAddress', 'SearchAction', 'SoftwareApplication', 'WebSite']
+- **faq**: False
+- **images**: 47
+- **images_no_alt**: 0
+- **ads**: ['adsense', 'gamedistribution']
+- **html_kb**: 212
+
+## https://arrowsgames.io/game/salamander-escape/play
+
+- **title**: Salamander Escape - Play Free Arrow Game Online on Arrow Games
+- **title_len**: 62
+- **meta_description**: Salamander Escape is a path-untangling logic puzzle where each cartoon salamander is attached to a long arrow-tail, and their routes cross and block one another. Your job is to figure out the right order to send them out so no two paths collide. Every level is a fresh tangle to read, plan, and clear—simple to grasp but quietly tricky to master.
+- **meta_description_len**: 346
+- **canonical**: https://arrowsgames.io/game/salamander-escape/play
+- **meta_robots**: 
+- **lang**: en
+- **og_image**: True
+- **h1**: ['Salamander Escape is a path-untangling logic puzzle where each cartoon salamander is attached to a long arrow-tail, and ']
+- **h2**: ['Arrow Games', 'Salamander Escape', 'Continue Playing', 'Salamander Escape: A Q-Style Untangle Puzzle About Freeing Every Little Salamander', 'Recommended', 'Salamander Escape', 'Salamander Escape How to Play Guide', 'Recommended']
+- **h3_count**: 5
+- **words**: 718
+- **internal_links**: 55
+- **external_links**: 0
+- **iframe_hosts**: ['googletagmanager.com']
+- **jsonld_types**: ['AggregateRating', 'BreadcrumbList', 'ImageObject', 'ListItem', 'LocalBusiness', 'Offer', 'Organization', 'PostalAddress', 'SearchAction', 'SoftwareApplication', 'WebSite']
+- **faq**: False
+- **images**: 47
+- **images_no_alt**: 0
+- **ads**: ['adsense', 'gamedistribution']
+- **html_kb**: 222
+
+## https://arrowsgames.io/category/home
+
+- **title**: Play Home on Arrow Games
+- **title_len**: 24
+- **meta_description**: Play Home and more arrow game titles on Arrow Games. Navigate arrows through mazes, plan moves, and master challenging levels.
+- **meta_description_len**: 126
+- **canonical**: https://arrowsgames.io
+- **meta_robots**: 
+- **lang**: en
+- **og_image**: True
+- **h1**: []
+- **h2**: ['Arrow Games', 'Geometry Arrow', 'Train Master', 'Escape Puzzle', 'Popular Games', 'Train Master', 'Tap Away Arrow', 'Battle Disc', 'Arrow Game', 'Fashion Girl', 'Garage Tycoon', 'Num Puz', 'Egg Adventure', 'Cooking Tile', 'Rebound Star']
+- **h3_count**: 0
+- **words**: 1287
+- **internal_links**: 91
+- **external_links**: 0
+- **iframe_hosts**: ['googletagmanager.com']
+- **jsonld_types**: ['AggregateRating', 'BreadcrumbList', 'ImageObject', 'ListItem', 'LocalBusiness', 'Offer', 'Organization', 'PostalAddress', 'SearchAction', 'SoftwareApplication', 'WebSite']
+- **faq**: False
+- **images**: 85
+- **images_no_alt**: 0
+- **ads**: ['adsense', 'gamedistribution']
+- **html_kb**: 506
+
+## https://arrowsgames.io/category/newgames
+
+- **title**: Play New Games on Arrow Games
+- **title_len**: 29
+- **meta_description**: Discover trending new arrow game titles and maze puzzles, plus other fresh releases players are talking about right now.
+- **meta_description_len**: 120
+- **canonical**: https://arrowsgames.io/category/newgames
+- **meta_robots**: 
+- **lang**: en
+- **og_image**: True
+- **h1**: ['Discover trending new arrow game titles and maze puzzles, plus other fresh releases players are talking about right now.']
+- **h2**: ['Arrow Games', 'New Games', 'New Games – Fresh Arrow Game Releases', 'PLAY NOW – New Arrow Game Online']
+- **h3_count**: 2
+- **words**: 229
+- **internal_links**: 44
+- **external_links**: 0
+- **iframe_hosts**: ['googletagmanager.com']
+- **jsonld_types**: ['AggregateRating', 'BreadcrumbList', 'ImageObject', 'ListItem', 'LocalBusiness', 'Offer', 'Organization', 'PostalAddress', 'SearchAction', 'SoftwareApplication', 'WebSite']
+- **faq**: False
+- **images**: 38
+- **images_no_alt**: 0
+- **ads**: ['adsense', 'gamedistribution']
+- **html_kb**: 177
+
+## https://arrowsgames.io/category/puzzle
+
+- **title**: Play Puzzle on Arrow Games
+- **title_len**: 26
+- **meta_description**: Puzzle games are fun, brain-teasing titles. Beautiful graphics and a variety of challenges stimulate the mind while you play.
+- **meta_description_len**: 125
+- **canonical**: https://arrowsgames.io/category/puzzle
+- **meta_robots**: 
+- **lang**: en
+- **og_image**: True
+- **h1**: ['Puzzle games are fun, brain-teasing titles. Beautiful graphics and a variety of challenges stimulate the mind while you ']
+- **h2**: ['Arrow Games', 'Puzzle', 'Recommended']
+- **h3_count**: 0
+- **words**: 308
+- **internal_links**: 79
+- **external_links**: 0
+- **iframe_hosts**: ['googletagmanager.com']
+- **jsonld_types**: ['AggregateRating', 'BreadcrumbList', 'ImageObject', 'ListItem', 'LocalBusiness', 'Offer', 'Organization', 'PostalAddress', 'SearchAction', 'SoftwareApplication', 'WebSite']
+- **faq**: False
+- **images**: 73
+- **images_no_alt**: 0
+- **ads**: ['adsense', 'gamedistribution']
+- **html_kb**: 457
+
+## https://arrowsgames.io/category/simulation
+
+- **title**: Play Simulation on Arrow Games
+- **title_len**: 30
+- **meta_description**: Simulation games let you experience various real-world activities in a virtual space. Try simulations such as city management and vehicle driving.
+- **meta_description_len**: 146
+- **canonical**: https://arrowsgames.io/category/simulation
+- **meta_robots**: 
+- **lang**: en
+- **og_image**: True
+- **h1**: ['Simulation games let you experience various real-world activities in a virtual space. Try simulations such as city manag']
+- **h2**: ['Arrow Games', 'Simulation', 'Recommended']
+- **h3_count**: 0
+- **words**: 219
+- **internal_links**: 44
+- **external_links**: 0
+- **iframe_hosts**: ['googletagmanager.com']
+- **jsonld_types**: ['AggregateRating', 'BreadcrumbList', 'ImageObject', 'ListItem', 'LocalBusiness', 'Offer', 'Organization', 'PostalAddress', 'SearchAction', 'SoftwareApplication', 'WebSite']
+- **faq**: False
+- **images**: 38
+- **images_no_alt**: 0
+- **ads**: ['adsense', 'gamedistribution']
+- **html_kb**: 264
+
+## https://arrowsgames.io/zh-tw
+
+- **title**: 箭頭迷宮解謎遊戲｜免費線上挑戰
+- **title_len**: 15
+- **meta_description**: 免費玩箭頭迷宮解謎遊戲！規劃路線、引導箭頭穿越迷宮，挑戰益智關卡。無須下載，開啟瀏覽器就能玩。
+- **meta_description_len**: 47
+- **canonical**: https://arrowsgames.io/zh-tw
+- **meta_robots**: 
+- **lang**: zh-Hant
+- **og_image**: True
+- **h1**: ['免費遊玩箭頭迷宮解謎遊戲！引導箭頭穿越迷宮，仔細安排移動順序、避開障礙，挑戰 100 多個益智關卡。']
+- **h2**: ['Arrow Games', '箭頭遊戲', '繼續遊玩', '箭頭遊戲', '逃脫遊戲', '箭頭迷宮解謎遊戲畫面與玩法亮點', '箭頭迷宮解謎遊戲：規劃路線，線上免費挑戰', '箭頭迷宮解謎遊戲玩法與常見問題', '推薦遊戲', '箭頭遊戲', '箭頭迷宮解謎遊戲玩法指南', '推薦遊戲']
+- **h3_count**: 14
+- **words**: 56
+- **internal_links**: 57
+- **external_links**: 0
+- **iframe_hosts**: ['googletagmanager.com']
+- **jsonld_types**: ['AggregateRating', 'Answer', 'BreadcrumbList', 'FAQPage', 'ImageObject', 'ListItem', 'LocalBusiness', 'Offer', 'Organization', 'PostalAddress', 'Question', 'SearchAction', 'SoftwareApplication', 'WebSite']
+- **faq**: True
+- **images**: 50
+- **images_no_alt**: 0
+- **ads**: ['adsense', 'gamedistribution']
+- **html_kb**: 316
+
+## https://arrowsgames.io/ja
+
+- **title**: 矢印迷路パズル｜ブラウザで無料プレイ
+- **title_len**: 18
+- **meta_description**: 出す順番を考えて矢印迷路をクリア。アプリ不要、ブラウザですぐ遊べる無料パズル。ステージは100以上。
+- **meta_description_len**: 50
+- **canonical**: https://arrowsgames.io/ja
+- **meta_robots**: 
+- **lang**: ja
+- **og_image**: True
+- **h1**: ['矢印を出して迷路をクリア。順番を間違えると詰む、100ステージ以上の無料パズルです。']
+- **h2**: ['Arrow Games', '矢印迷路パズル', '続きから', '矢印ゲーム', '脱出ゲーム', '画面と遊び方', '矢印迷路パズル：順番を読んでクリア', '矢印迷路パズル Q&A', 'おすすめ', '矢印迷路パズル', 'クリアのコツ', 'おすすめ']
+- **h3_count**: 14
+- **words**: 56
+- **internal_links**: 57
+- **external_links**: 0
+- **iframe_hosts**: ['googletagmanager.com']
+- **jsonld_types**: ['AggregateRating', 'Answer', 'BreadcrumbList', 'FAQPage', 'ImageObject', 'ListItem', 'LocalBusiness', 'Offer', 'Organization', 'PostalAddress', 'Question', 'SearchAction', 'SoftwareApplication', 'WebSite']
+- **faq**: True
+- **images**: 50
+- **images_no_alt**: 0
+- **ads**: ['adsense', 'gamedistribution']
+- **html_kb**: 317
+
+## https://arrowsgames.io/ko
+
+- **title**: 화살표 미로 퍼즐 | 설치 없이 바로 플레이
+- **title_len**: 24
+- **meta_description**: 내보내는 순서만 맞으면 화살표 미로 클리어. 앱 설치 없이 브라우저에서 바로 하는 무료 퍼즐. 스테이지 100개 이상.
+- **meta_description_len**: 66
+- **canonical**: https://arrowsgames.io/ko
+- **meta_robots**: 
+- **lang**: ko
+- **og_image**: True
+- **h1**: ['화살표를 내보내 미로를 클리어해요. 순서를 틀리면 막히는 무료 퍼즐, 스테이지는 100개가 넘어요.']
+- **h2**: ['Arrow Games', '화살표 미로 퍼즐', '이어하기', '화살표 게임', '탈출 게임', '화면이랑 플레이 팁', '화살표 미로 퍼즐: 순서 보고 클리어', '화살표 미로 퍼즐 Q&A', '추천', '화살표 미로 퍼즐', '클리어 팁', '추천']
+- **h3_count**: 14
+- **words**: 55
+- **internal_links**: 57
+- **external_links**: 0
+- **iframe_hosts**: ['googletagmanager.com']
+- **jsonld_types**: ['AggregateRating', 'Answer', 'BreadcrumbList', 'FAQPage', 'ImageObject', 'ListItem', 'LocalBusiness', 'Offer', 'Organization', 'PostalAddress', 'Question', 'SearchAction', 'SoftwareApplication', 'WebSite']
+- **faq**: True
+- **images**: 50
+- **images_no_alt**: 0
+- **ads**: ['adsense', 'gamedistribution']
+- **html_kb**: 316
+
+## https://arrowsgames.io/home
+
+- **title**: Play Home on Arrow Games
+- **title_len**: 24
+- **meta_description**: Play Home and more arrow game titles on Arrow Games. Navigate arrows through mazes, plan moves, and master challenging levels.
+- **meta_description_len**: 126
+- **canonical**: https://arrowsgames.io
+- **meta_robots**: 
+- **lang**: en
+- **og_image**: True
+- **h1**: ['About Arrow Games – Free Arrow Game Collection Hub']
+- **h2**: ['Arrow Games', 'Geometry Arrow', 'Train Master', 'Escape Puzzle', 'Popular Games', 'Train Master', 'Tap Away Arrow', 'Battle Disc', 'Arrow Game', 'Fashion Girl', 'Garage Tycoon', 'Num Puz', 'Egg Adventure', 'Cooking Tile', 'Rebound Star']
+- **h3_count**: 4
+- **words**: 1773
+- **internal_links**: 93
+- **external_links**: 0
+- **iframe_hosts**: ['googletagmanager.com']
+- **jsonld_types**: ['AggregateRating', 'BreadcrumbList', 'ImageObject', 'ListItem', 'LocalBusiness', 'Offer', 'Organization', 'PostalAddress', 'SearchAction', 'SoftwareApplication', 'WebSite']
+- **faq**: False
+- **images**: 85
+- **images_no_alt**: 0
+- **ads**: ['adsense', 'gamedistribution']
+- **html_kb**: 295
