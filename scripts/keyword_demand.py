@@ -20,7 +20,16 @@ data/keywords/YYYY-MM-DD.csv:
                        columns say "blocked".
   Bing                 Weekly search impressions on Bing (US, en-US) from
                        the Bing Webmaster keyword API, read with the same
-                       BING_API_KEY as fetch_bing.py. Skipped without a key.
+                       BING_API_KEY as fetch_bing.py. Graded on broad-match
+                       impressions (every search containing the words), the
+                       same scope Google Trends measures; exact-match is kept
+                       as a column. Skipped without a key.
+
+EXPAND mode: with EXPAND set to one or more seed keywords, the script first
+discovers related keywords for each seed (Google autocomplete for the seed,
+"seed a".."seed z" and common game modifiers, plus Bing's related keywords)
+then measures the best ones like any other list. Results go to
+data/keywords/YYYY-MM-DD-expand.csv so they don't overwrite the watchlist run.
 
 Google and Bing are each graded high / medium / low / none on their own
 scale, and the verdict needs both: it is the LOWER of the two grades,
@@ -158,17 +167,85 @@ def trends(keywords: list[str], anchor: str, low_anchor: str) -> dict[str, tuple
 
 # ---------- Bing keyword stats ----------
 
-def bing_weekly(session: requests.Session, key: str, kw: str):
-    url = 'https://ssl.bing.com/webmaster/api.svc/json/GetKeywordStats'
+def _bing_get(session: requests.Session, key: str, method: str, params: dict):
+    url = f'https://ssl.bing.com/webmaster/api.svc/json/{method}'
     try:
-        r = session.get(url, params={'q': kw, 'country': 'us', 'language': 'en-US', 'apikey': key}, timeout=30)
+        r = session.get(url, params={**params, 'apikey': key}, timeout=30)
     except requests.RequestException as e:
         return f'error: {type(e).__name__}'
     if r.status_code != 200:
         return f'error: HTTP {r.status_code}'  # never echo the URL: it carries the key
-    rows = r.json().get('d') or []
-    weekly = [row.get('Impressions', 0) for row in rows if isinstance(row, dict)]
-    return round(statistics.mean(weekly)) if weekly else 0
+    return r.json().get('d') or []
+
+
+def bing_weekly(session: requests.Session, key: str, kw: str):
+    """(exact, broad) average weekly impressions, or an error string."""
+    rows = _bing_get(session, key, 'GetKeywordStats', {'q': kw, 'country': 'us', 'language': 'en-US'})
+    if isinstance(rows, str):
+        return rows
+    rows = [row for row in rows if isinstance(row, dict)]
+    if not rows:
+        return 0, 0
+    exact = round(statistics.mean(row.get('Impressions', 0) or 0 for row in rows))
+    broad = round(statistics.mean(row.get('BroadImpressions', 0) or 0 for row in rows))
+    return exact, max(broad, exact)
+
+
+def bing_related(session: requests.Session, key: str, seed: str) -> list[tuple[str, int]]:
+    end = dt.date.today()
+    rows = _bing_get(session, key, 'GetRelatedKeywords', {
+        'q': seed, 'country': 'us', 'language': 'en-US',
+        'startDate': (end - dt.timedelta(days=90)).isoformat(), 'endDate': end.isoformat()})
+    if isinstance(rows, str):
+        print(f'  Bing related keywords for {seed!r}: {rows}')
+        return []
+    return [(str(r.get('Query', '')).lower(), int(r.get('BroadImpressions') or r.get('Impressions') or 0))
+            for r in rows if isinstance(r, dict) and r.get('Query')]
+
+
+# ---------- keyword discovery (EXPAND) ----------
+NOISE = re.compile(r'\b(near me|restaurant|menu|mall|stock|lyrics|movie|cast|apk|mod|hack|unblocked|'
+                   r'casino|real money|cash|legit|tattoo|shirt|necklace|ring|set for sale|amazon|'
+                   # other sites' brand names: useful to know, never ours to target
+                   r'arkadium|crazy ?games|poki|aarp|usa today|kristanix|microsoft|msn|pogo|247|coolmath)\b')
+MODIFIERS = ['{s} online', '{s} free', 'free {s}', 'play {s}', '{s} game', '{s} no download',
+             '{s} for seniors', '{s} for kids', 'best {s}', 'how to play {s}', '{s} rules', '{s} printable']
+
+
+def expand(session: requests.Session, key: str, seeds: list[str], budget: int) -> list[tuple[str, str]]:
+    """Discover related keywords; returns [(keyword, source)] with each seed first."""
+    found: dict[str, list] = {}
+    for seed in seeds:
+        core = seed.split()[0]
+        queries = [seed] + [f'{seed} {c}' for c in 'abcdefghijklmnopqrstuvwxyz'] + [m.format(s=seed) for m in MODIFIERS]
+        for rank_base, q in enumerate(queries):
+            try:
+                r = session.get('https://suggestqueries.google.com/complete/search',
+                                params={'client': 'firefox', 'hl': 'en', 'gl': 'us', 'q': q}, timeout=20)
+                suggestions = [s.lower() for s in r.json()[1]]
+            except Exception:
+                continue
+            for i, s in enumerate(suggestions):
+                if core in s and not NOISE.search(s):
+                    score = 10 - i + (5 if GAME_INTENT.search(s.replace(seed, ' ')) else 0)
+                    best = found.setdefault(s, [0, 'autocomplete'])
+                    best[0] = max(best[0], score)
+            time.sleep(0.2)
+        if key:
+            for q, impressions in bing_related(session, key, seed):
+                if core in q and not NOISE.search(q):
+                    best = found.setdefault(q, [0, 'bing related'])
+                    best[0] = max(best[0], 10 + min(impressions, 50_000) / 1000)
+                    if best[1] == 'autocomplete':
+                        best[1] = 'autocomplete + bing related'
+    ranked = sorted((kw for kw in found if kw not in seeds), key=lambda kw: -found[kw][0])
+    picked = [(s, 'seed') for s in seeds]
+    for kw in ranked:
+        if len(picked) >= budget:
+            break
+        picked.append((kw, found[kw][1]))
+    print(f'  discovered {len(found)} related keywords, measuring {len(picked)}')
+    return picked
 
 
 # ---------- verdict ----------
@@ -186,6 +263,8 @@ def google_level(rel) -> str | None:
 
 
 def bing_level(n) -> str | None:
+    if isinstance(n, tuple):
+        n = n[1]  # grade on broad-match impressions
     if not isinstance(n, int):
         return None
     return 'high' if n >= 5000 else 'medium' if n >= 500 else 'low' if n > 0 else 'none'
@@ -201,6 +280,16 @@ def verdict(g: str | None, b: str | None) -> str:
 
 def main() -> None:
     keywords = parse_keywords(os.environ.get('KEYWORDS', ''))
+    seeds = parse_keywords(os.environ.get('EXPAND', ''))
+    key = os.environ.get('BING_API_KEY', '').strip()
+    sources = {kw: 'input' for kw in keywords}
+    if seeds:
+        session = requests.Session()
+        session.headers.update(UA)
+        for kw, src in expand(session, key, seeds, MAX_KEYWORDS - len(keywords)):
+            if kw not in sources:
+                keywords.append(kw)
+                sources[kw] = src
     if not keywords and WATCHLIST.exists():
         # Scheduled runs pass no list: track the standing watchlist instead.
         lines = [ln.split('#')[0] for ln in WATCHLIST.read_text(encoding='utf-8').splitlines()]
@@ -209,7 +298,6 @@ def main() -> None:
         sys.exit('No keywords: pass KEYWORDS or fill data/keywords/watchlist.txt.')
     anchor = (os.environ.get('ANCHOR') or 'minesweeper').strip().lower()
     low_anchor = (os.environ.get('LOW_ANCHOR') or 'golf solitaire').strip().lower()
-    key = os.environ.get('BING_API_KEY', '').strip()
     print(f'{len(keywords)} keywords, Trends anchor "{anchor}", Bing {"on" if key else "off (no BING_API_KEY)"}')
 
     session = requests.Session()
@@ -230,7 +318,9 @@ def main() -> None:
             'bing_level': b or '',
             'trends_vs_anchor': t[0],
             'trends_rising_ratio': t[1],
-            'bing_weekly_impressions': bing,
+            'bing_weekly_broad': bing[1] if isinstance(bing, tuple) else bing,
+            'bing_weekly_exact': bing[0] if isinstance(bing, tuple) else '',
+            'source': sources.get(kw, 'watchlist'),
             'autocomplete_related': ac_n,
             'autocomplete_game_intent': ac_intent,
             'autocomplete_top': ac_top,
@@ -240,14 +330,14 @@ def main() -> None:
     order = {'high': 0, 'medium': 1, 'low': 2, 'none': 3, 'incomplete': 4}
     rows.sort(key=lambda r: (order[r['verdict'].split()[0]], r['keyword']))
     OUT.mkdir(parents=True, exist_ok=True)
-    path = OUT / f'{dt.date.today().isoformat()}.csv'
+    path = OUT / f'{dt.date.today().isoformat()}{"-expand" if seeds else ""}.csv'
     with path.open('w', newline='', encoding='utf-8') as f:
         writer = csv.DictWriter(f, fieldnames=list(rows[0]), lineterminator='\n')
         writer.writeheader()
         writer.writerows(rows)
     for r in rows:
         print(f"  {r['verdict']:28} G={r['google_level']:6} B={r['bing_level']:6} trends={r['trends_vs_anchor']!s:8} rising={r['trends_rising_ratio']!s:5} "
-              f"bing={r['bing_weekly_impressions']!s:7} ac={r['autocomplete_game_intent']}/{r['autocomplete_related']}  {r['keyword']}")
+              f"bing={r['bing_weekly_broad']!s:7} ac={r['autocomplete_game_intent']}/{r['autocomplete_related']}  {r['keyword']}  [{r['source']}]")
     print(f'Wrote {path.relative_to(DATA.parent)}')
 
 

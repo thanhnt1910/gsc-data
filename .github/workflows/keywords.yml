@@ -8,6 +8,9 @@ on:
       keywords:
         description: 'Keywords or game names, comma-separated (max 60); empty = data/keywords/watchlist.txt'
         required: false
+      expand:
+        description: 'Seed keywords to expand into related keywords first, comma-separated (optional)'
+        required: false
       anchor:
         description: 'Google Trends anchor keyword to compare against'
         default: 'minesweeper'
@@ -37,6 +40,7 @@ jobs:
       - name: Measure demand
         env:
           KEYWORDS: ${{ inputs.keywords }}
+          EXPAND: ${{ inputs.expand }}
           ANCHOR: ${{ inputs.anchor || 'minesweeper' }}
           BING_API_KEY: ${{ secrets.BING_API_KEY }}
         run: python scripts/keyword_demand.py
