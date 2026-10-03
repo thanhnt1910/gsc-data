@@ -1,2 +1,9 @@
 url,status,title,indexable,page_nofollow,external_links,external_dofollow,dofollow_share,game_sites_linked,links_to_us,spam_signals,verdict,reason
-https://www.browneyedbaker.com/baking-basics-types-of-flour/,403,,,,,,,,,,check,"HTTP 403: the site blocks automated checks, look by hand"
+https://elkeliving.com/,200,Elke Living - The healthy life made easy,yes,no,1,1,100%,,no,,good,"indexable, mostly dofollow outbound links"
+https://jacofallthings.com/,200,Practical Advice for Everyday Life - Jac of All Things,yes,no,1,1,100%,,no,,good,"indexable, mostly dofollow outbound links"
+https://learnalanguage.com/,200 via https://www.learnalanguage.com/,Learn a Language | Free Online Language Learning,yes,no,5,5,100%,,no,,good,"indexable, mostly dofollow outbound links"
+https://mizukara.com/,200,すべての人に可能性がある,yes,no,13,13,100%,,no,,good,"indexable, mostly dofollow outbound links"
+https://usalovelist.com/,200 via https://www.usalovelist.com/,USA Love List • Stuff We Love: Made in the USA,yes,no,12,12,100%,,no,,good,"indexable, mostly dofollow outbound links"
+https://yuom7.com/,200,اليوم السابع | Youm7,yes,no,5,5,100%,,no,,good,"indexable, mostly dofollow outbound links"
+https://thegreenspringhome.com/,200,The Greenspring Home - Create the Home You Deserve,yes,no,0,0,,,no,,check,no outbound links on this page; look for a resources/links page
+https://arrow-escape.com/,200 via https://arrowsgames.io/,Play Arrow Game Online Free – Best Arrow Puzzle Games,yes,no,0,0,,,no,online slots,skip,spam signals
