@@ -1,0 +1,2 @@
+url,status,title,indexable,page_nofollow,external_links,external_dofollow,dofollow_share,game_sites_linked,links_to_us,spam_signals,verdict,reason
+https://astro.build/showcase/,200,Showcase | Astro,yes,no,52,22,42%,,no,,check,only 42% of outbound links are dofollow
