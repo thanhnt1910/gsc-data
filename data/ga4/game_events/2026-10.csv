@@ -14,3 +14,7 @@ date,eventName,pagePath,eventCount
 2026-10-02,game_start,/games/slices/,1
 2026-10-02,game_start,/games/tangram-grid/,1
 2026-10-02,game_start,/games/toca-hidden-stars/,1
+2026-10-03,game_play_60s,/games/impossible-10/,1
+2026-10-03,game_start,/games/color-mosaic/,1
+2026-10-03,game_start,/games/impossible-10/,1
+2026-10-03,game_start,/games/princesses-rock-ballerinas/,1
