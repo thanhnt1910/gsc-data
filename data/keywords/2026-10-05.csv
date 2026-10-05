@@ -1,35 +1,18 @@
 keyword,verdict,google_level,bing_level,trends_vs_anchor,trends_rising_ratio,bing_weekly_broad,bing_weekly_exact,source,autocomplete_related,autocomplete_game_intent,autocomplete_top
-halloween coloring,medium + rising,high,medium,0.0608,5.04,1346,14,input,10,1,halloween coloring pages | halloween coloring sheets | halloween coloring book | halloween coloring | halloween coloring blanket
-billiards online,low + rising,low,low,0.0005,2.15,165,126,input,10,5,billiards online | billiards online free | billiards online game | billiards online store | billiards online multiplayer
-halloween games,low (conflict) + rising,high,low,0.0969,3.33,297,234,input,10,2,halloween games | halloween games online | halloween games for kids | halloween games for adults | halloween games ps5
-halloween games online,low,low,low,0.0008,,32,28,input,10,4,halloween games online | halloween games online free | halloween games online google | halloween games online for kids | halloween games online free for kids
-halloween jigsaw puzzle,low,low,low,0.0001,,38,38,input,8,2,halloween jigsaw puzzles | halloween jigsaw puzzles for adults | halloween jigsaw puzzle 1000 | halloween jigsaw puzzles online | halloween jigsaw puzzles online free
-halloween mahjong,low + rising,low,low,0.0014,7.48,220,117,input,10,0,halloween mahjong | halloween mahjong tiles | halloween mahjong mat | halloween mahjong set | halloween mahjong tile set
-halloween memory game,low,low,low,0.0001,,5,5,input,10,4,halloween memory game | halloween memory game printable | halloween memory game online | halloween memory game online free | halloween memory game for kids
-halloween solitaire,low,low,low,0.0005,,59,13,input,8,5,halloween solitaire | halloween solitaire free | halloween solitaire 247 | halloween solitaire free download | halloween solitaire free no download
-halloween word search,low,low,low,0.0012,,218,141,input,10,3,halloween word search | halloween word search printable | halloween word search for adults | halloween word search for kids | halloween word search printable free
-merge the numbers,low + rising,low,low,0.0004,4.8,28,7,input,10,6,merge the numbers | merge the numbers game | merge the numbers poki | merge the numbers crazy games | merge the numbers poki games
-parking jam,low + rising,low,low,0.0022,1.95,158,89,input,10,4,parking jam | parking jam game | parking jam 3d | parking jam game online | parking jamaica plain
-pop it,low (conflict),high,low,0.7148,1.22,215,102,input,10,1,pop its | pop its fireworks | pop it toy | pop it game | pop it fidget toy
-pumpkin games,low + rising,medium,low,0.0138,5.03,50,2,input,9,1,pumpkin games | pumpkin games for kids | pumpkin games for adults | pumpkin games online | pumpkin games 3d print
-tripeaks,low + rising,low,medium,0.0019,2.47,3148,460,input,10,4,tripeaks solitaire | tripeaks | tripeaks solitaire free online | tripeaks solitaire free | tripeaks solitaire online
-tripeaks solitaire,low + rising,low,medium,0.0009,14.97,2044,806,input,10,6,tripeaks solitaire | tripeaks solitaire free online | tripeaks solitaire free | tripeaks solitaire online | tripeaks solitaire rules
-water sort,low,medium,low,0.0302,1.02,198,40,input,10,7,water sort puzzle | water sort | water sort game | water sort match earn money | water sort puzzle solver
-water sort puzzle,low,low,low,0.0002,,43,29,input,10,6,water sort puzzle | water sort puzzle solver | water sort puzzle play online free | water sort puzzle bottle game | water sort puzzle online
-autumn solitaire,none,none,low,0.0,,12,12,input,3,0,autumn solitaire | autumn solitaire 247 | autumn solitaire tripeaks | solitaire autumn level 77 | autumn leaves solitaire
-connect the bulb,none,low,none,0.0005,,0,0,input,1,0,connect the bulb | connect the light bulb and battery | connect the light bulb | connect bulb to switch | connect bulb to alexa
-crunch lock,none,low,none,0.0001,,0,0,input,9,1,crunch lockers | crunch lockwood ridge | crunch locker policy | crunch locker room policy | crunch lock
-fuji leaper,none,none,none,0.0,,0,0,input,0,0,
-halloween arkanoid,none,low,none,0.0001,,0,0,input,0,0,
-halloween bubble shooter,none,low,none,0.0001,,0,0,input,4,1,halloween bubble shooter | halloween bubble shooter trophy guide | halloween bubble shooter game | friv halloween bubble shooter | bubble shooter halloween 2
-halloween find the difference,none,none,none,0.0,,0,0,input,6,2,halloween find the difference | halloween find the difference printable | halloween find the difference printable free | halloween find the difference pictures | halloween find the difference game
-halloween hidden objects,none,none,none,0.0,,0,0,input,5,2,halloween hidden objects | halloween hidden objects game | halloween hidden objects free | halloween hidden objects printables | halloween hidden objects worksheet
-halloween match 3,none,low,none,0.0004,0.41,0,0,input,4,3,halloween match 3 games | halloween match 3 | halloween match 3 games free | halloween match 3 games online free | spooky halloween witch 3 saga
-halloween math games,none + rising,low,none,0.0009,13.77,0,0,input,10,2,halloween math games | halloween math games online | halloween math games for kids | halloween math games printable | halloween math games 4th grade
-halloween merge,none + rising,low,none,0.0003,1.41,0,0,input,10,1,halloween merge | halloween merge mania | halloween merge mania game | halloween merge house design | halloween merge mania friv
-halloween puzzle games,none,none,none,0.0,,0,0,input,6,1,halloween puzzle games online | halloween puzzle games | halloween puzzle games printable | halloween puzzle games for kids | halloween puzzle games 4 baby
-halloween sliding puzzle,none,none,none,0.0,,0,0,input,1,0,halloween sliding puzzle | popular halloween activities | sliding puzzle numbers
-parking master 3d,none,none,none,0.0,,0,0,input,5,1,parking master 3d | parking master 3d traffic jam | parking master 3d game | garage master 3d | car parking master 3d
-russian billiards,none,none,low,0.0,,4,4,input,10,1,russian billiards | russian billiards near me | russian billiards rules | russian billiards table | russian billiards vs pool
-sort match 3d,none,none,none,0.0,,0,0,input,7,2,sort match 3d goods master | sort match 3d matching puzzle | sort match 3d goods puzzle | sort match 3d | sort match 3d goods fix
-spooky tripeaks,none,none,none,0.0,,0,0,input,1,0,spooky tripeaks
+8 ball pool,high,high,high,0.0703,1.19,5254,3187,input,10,2,8 ball pool | 8 ball pool play online | 8 ball pool near me | 8 ball pool rules | 8 ball pool download
+basketball stars,high + rising,high,high,0.0803,1.89,7934,6259,input,10,2,basketball stars | basketball stars 2026 | basketball stars game | basketball stars 3 script | basketball stars 2
+among us online,medium,medium,medium,0.0283,0.89,4716,3712,input,10,1,among us online | among us online game | among us online multiplayer | among us online with friends | among us online with real players
+cut the rope,medium + rising,medium,medium,0.0219,1.48,1206,798,input,10,2,cut the rope | cut the rope game | cut the rope 2 | cut the rope character | cut the rope remastered
+fireboy and watergirl,medium + rising,medium,medium,0.0219,1.48,2954,2410,input,10,1,fireboy and watergirl | fireboy and watergirl game | fireboy and watergirl 5 | fireboy and watergirl 7 | fireboy and watergirl 2
+freecell solitaire,medium,medium,high,0.0487,0.57,22119,10582,input,10,3,freecell solitaire | freecell solitaire play it online for free | freecell solitaire free | freecell solitaire - green felt | freecell solitaire aarp
+monkey mart,medium + rising,medium,medium,0.0171,2.32,1721,1392,input,10,2,monkey mart | monkey mart game | monkey mart wilmington nc | monkey martini | monkey martial arts
+moto x3m,medium + rising,high,medium,0.0517,4.13,3897,3015,input,10,2,moto x3m | moto x3m 2 | moto x3m pool party | moto x3m bike race game | moto x3m winter
+badland,low (conflict) + rising,high,low,0.0532,1.45,184,37,input,10,0,badlands | badlands national park | badlands ranch dog food | badlands movie | badlands chugs
+cut the rope 2,low,low,low,0.0003,,89,86,input,10,0,cut the rope 2 | cut the rope 2010 | cut the rope 2 characters | cut the rope 2-10 | cut the rope 2 toss
+mancala online,low + rising,low,low,0.0004,4.75,104,103,input,9,4,mancala online | mancala online 2 player | mancala online multiplayer | mancala online hard | mancala online play with friends
+moto x3m spooky land,low,low,low,0.0003,,32,32,input,10,5,moto x3m spooky land | moto x3m spooky land level 19 | moto x3m spooky land level 22 | moto x3m spooky land poki | moto x3m spooky land friv
+multiplication table game,low,low,low,0.0002,,13,13,input,6,2,multiplication table games | multiplication table games free | multiplication table game app | multiplication table game wordwall | multiplication table game quiz
+pyramid solitaire classic,low,low,low,0.0001,,27,27,input,8,4,pyramid solitaire classic | pyramid solitaire classic free | pyramid solitaire classic online free | pyramid solitaire classic free no download | pyramid solitaire classic unblocked
+worms zone,low,low,low,0.0002,,46,32,input,6,1,worms zone | worms zone io | worms zone snake game | worms zone a slithery snake | worms zone old version
+cut the rope time travel,none,none,low,0.0,,30,28,input,10,1,cut the rope time travel | cut the rope time travel apk | cut the rope time travel game | cut the rope time travel logo | cut the rope time travel burger king
+kakuro online,none,none,low,0.0,,130,126,input,9,3,kakuro online | kakuro online free | kakuro online 30x30 | kakuro online puzzle | kakuro online solver
