@@ -11,6 +11,9 @@ on:
       expand:
         description: 'Seed keywords to expand into related keywords first, comma-separated (optional)'
         required: false
+      rising:
+        description: 'Seed keywords whose Google Trends rising related queries become the list to measure, comma-separated (optional)'
+        required: false
       anchor:
         description: 'Google Trends anchor keyword to compare against'
         default: 'minesweeper'
@@ -41,6 +44,7 @@ jobs:
         env:
           KEYWORDS: ${{ inputs.keywords }}
           EXPAND: ${{ inputs.expand }}
+          RISING: ${{ inputs.rising }}
           ANCHOR: ${{ inputs.anchor || 'minesweeper' }}
           BING_API_KEY: ${{ secrets.BING_API_KEY }}
         run: python scripts/keyword_demand.py

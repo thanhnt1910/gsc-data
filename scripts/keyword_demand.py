@@ -31,6 +31,13 @@ discovers related keywords for each seed (Google autocomplete for the seed,
 then measures the best ones like any other list. Results go to
 data/keywords/YYYY-MM-DD-expand.csv so they don't overwrite the watchlist run.
 
+RISING mode: with RISING set to one or more seed keywords, the keyword list
+comes from Google Trends instead: the "rising" related queries for each seed
+(US, past 30 days), i.e. what people searching around the seed have started
+searching for. Those queries are measured like any other list and written to
+data/keywords/YYYY-MM-DD-rising.csv; the source column names the seed and
+Trends' growth figure ("+250%", "Breakout").
+
 Google and Bing are each graded high / medium / low / none on their own
 scale, and the verdict needs both: it is the LOWER of the two grades,
 marked "(conflict)" when they are two grades apart. If either source is
@@ -203,6 +210,47 @@ def bing_related(session: requests.Session, key: str, seed: str) -> list[tuple[s
             for r in rows if isinstance(r, dict) and r.get('Query')]
 
 
+def trends_rising(session: requests.Session, seed: str) -> list[tuple[str, str]]:
+    """Trends' rising related queries for a seed (US, past 30 days): [(query, growth)]."""
+    req = {'comparisonItem': [{'keyword': seed, 'geo': 'US', 'time': 'today 1-m'}], 'category': 0, 'property': ''}
+    explore = _trends_get(session, 'https://trends.google.com/trends/api/explore',
+                          {'hl': 'en-US', 'tz': '0', 'req': json.dumps(req)})
+    widget = next(w for w in explore['widgets'] if w['id'] == 'RELATED_QUERIES')
+    data = _trends_get(session, 'https://trends.google.com/trends/api/widgetdata/relatedsearches',
+                       {'hl': 'en-US', 'tz': '0', 'req': json.dumps(widget['request']), 'token': widget['token']})
+    ranked = data['default']['rankedList']
+    rising = ranked[1]['rankedKeyword'] if len(ranked) > 1 else []
+    return [(k['query'].lower(), k.get('formattedValue', '')) for k in rising]
+
+
+def discover_rising(seeds: list[str], budget: int) -> list[tuple[str, str]]:
+    """Rising related queries for every seed, most-growing first, minus noise."""
+    session = requests.Session()
+    session.headers.update(UA)
+    try:
+        session.get('https://trends.google.com/trends/explore', params={'geo': 'US'}, timeout=30)  # sets the NID cookie
+    except requests.RequestException:
+        pass
+    found: dict[str, tuple[int, str]] = {}
+    for seed in seeds:
+        try:
+            rows = trends_rising(session, seed)
+        except Exception as e:
+            print(f'  Trends rising for {seed!r} unavailable ({str(e)[:60]})')
+            rows = []
+        print(f'  {seed!r}: {len(rows)} rising queries')
+        for q, growth in rows:
+            if NOISE.search(q) or q in seeds:
+                continue
+            g = 10**6 if growth.lower() == 'breakout' else int(re.sub(r'[^0-9]', '', growth) or 0)
+            if q not in found or g > found[q][0]:
+                found[q] = (g, f'trends rising {growth} ({seed})')
+        time.sleep(5)  # stay well under Trends' rate limit
+    ranked = sorted(found, key=lambda q: -found[q][0])[:budget]
+    print(f'  discovered {len(found)} rising queries, measuring {len(ranked)}')
+    return [(q, found[q][1]) for q in ranked]
+
+
 # ---------- keyword discovery (EXPAND) ----------
 NOISE = re.compile(r'\b(near me|restaurant|menu|mall|stock|lyrics|movie|cast|apk|mod|hack|unblocked|'
                    r'casino|real money|cash|legit|tattoo|shirt|necklace|ring|set for sale|amazon|'
@@ -281,8 +329,14 @@ def verdict(g: str | None, b: str | None) -> str:
 def main() -> None:
     keywords = parse_keywords(os.environ.get('KEYWORDS', ''))
     seeds = parse_keywords(os.environ.get('EXPAND', ''))
+    rising_seeds = parse_keywords(os.environ.get('RISING', ''))
     key = os.environ.get('BING_API_KEY', '').strip()
     sources = {kw: 'input' for kw in keywords}
+    if rising_seeds:
+        for kw, src in discover_rising(rising_seeds, MAX_KEYWORDS - len(keywords)):
+            if kw not in sources:
+                keywords.append(kw)
+                sources[kw] = src
     if seeds:
         session = requests.Session()
         session.headers.update(UA)
@@ -330,7 +384,8 @@ def main() -> None:
     order = {'high': 0, 'medium': 1, 'low': 2, 'none': 3, 'incomplete': 4}
     rows.sort(key=lambda r: (order[r['verdict'].split()[0]], r['keyword']))
     OUT.mkdir(parents=True, exist_ok=True)
-    path = OUT / f'{dt.date.today().isoformat()}{"-expand" if seeds else ""}.csv'
+    suffix = '-rising' if rising_seeds else '-expand' if seeds else ''
+    path = OUT / f'{dt.date.today().isoformat()}{suffix}.csv'
     with path.open('w', newline='', encoding='utf-8') as f:
         writer = csv.DictWriter(f, fieldnames=list(rows[0]), lineterminator='\n')
         writer.writeheader()
