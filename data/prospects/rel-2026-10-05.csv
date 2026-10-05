@@ -1,0 +1,10 @@
+url,status,title,indexable,page_nofollow,external_links,external_dofollow,dofollow_share,game_sites_linked,links_to_us,spam_signals,verdict,reason
+https://chatgate.ai/post/scroll-launch,200,Scroll Launch: Launch your product and get discovered by other makers | ChatGate,yes,no,15,15,100%,,no,,good,"indexable, mostly dofollow outbound links"
+https://www.educationworld.com/a_tech/sites/sites086.shtml,200,Sites to See: PreK-2 Math Resources | Education World,yes,no,25,25,100%,,no,,good,"indexable, mostly dofollow outbound links"
+https://www.merlot.org/merlot/materials.htm?keywords=math+games,200,Material Search Results,yes,no,15,15,100%,,no,,good,"indexable, mostly dofollow outbound links"
+https://index.dodopayments.com/scroll-launch,200,Scroll Launch: Your weekly launchpad for visibility and backlinks. – Index,yes,no,14,3,21%,,no,,check,only 21% of outbound links are dofollow
+https://scrolllaunch.com/,200 via https://www.scrolllaunch.com/,ScrollLaunch - Launch Your Product. Rank on Google & AI.,yes,no,76,16,21%,,no,,check,only 21% of outbound links are dofollow
+https://www.productcool.com/product/scroll-launch,200,Scroll Launch - Launch your product and get discovered by other makers | ProductCool,yes,no,2,0,0%,,no,,check,only 0% of outbound links are dofollow
+https://www.tes.com/teaching-resources/hub/secondary/maths-for-early-years/maths-games,200,Secondary maths games resources,yes,no,2,0,0%,,no,,check,only 0% of outbound links are dofollow
+https://oercommons.org/search?f.search=math+games,200,OER Commons,no (robots.txt),no,6,6,100%,,no,,skip,not indexable: no (robots.txt)
+https://www.lancaster.ac.uk/~simpsons/nonogram/list-programs,200 via https://stevocity.me.uk/nonogram/list-programs,Program sites â Nonogram Solver,no (noindex),no,41,41,100%,,no,,skip,not indexable: no (noindex)
