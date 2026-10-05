@@ -31,9 +31,9 @@ date,type,coverageState,count
 2026-09-30,other,Submitted and indexed,7
 2026-10-05,blog,Submitted and indexed,18
 2026-10-05,category,Submitted and indexed,17
-2026-10-05,game,Crawled - currently not indexed,2
+2026-10-05,game,Crawled - currently not indexed,1
 2026-10-05,game,Discovered - currently not indexed,8
-2026-10-05,game,Submitted and indexed,596
-2026-10-05,game,URL is unknown to Google,2
+2026-10-05,game,Submitted and indexed,600
+2026-10-05,game,URL is unknown to Google,14
 2026-10-05,home,Submitted and indexed,1
 2026-10-05,other,Submitted and indexed,12
