@@ -56,3 +56,12 @@ brain teasers
 minesweeper online
 arrow puzzle game
 arrow game online
+
+# New-game demand (approved 5/10/2026)
+freecell
+spider solitaire
+word search
+color by number
+chess online
+daily sudoku
+sudoku free
