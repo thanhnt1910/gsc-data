@@ -1,5 +1,17 @@
 url,status,title,indexable,page_nofollow,external_links,external_dofollow,dofollow_share,game_sites_linked,links_to_us,spam_signals,verdict,reason
-https://mathlogicgames.com/games/stop/,200,STOP â MathLogic,yes,no,0,0,,,no,,check,no outbound links on this page; look for a resources/links page
-https://mathlogicgames.com/games/zero21-solitare/,200 via https://mathlogicgames.com/games/zero21-solitaire/,Zero21 Solitare â MathLogic,yes,no,0,0,,,no,,check,no outbound links on this page; look for a resources/links page
-https://www.mathlogicgames.com/,200,MathLogic â Free Math & Logic Games,yes,no,0,0,,,no,,check,no outbound links on this page; look for a resources/links page
-https://www.mathlogicgames.com/games/drift-boss/,200,Drift Boss â MathLogic,yes,no,0,0,,,no,,check,no outbound links on this page; look for a resources/links page
+https://edublogs.org/,200,Edublogs – free blogs for education,yes,no,44,44,100%,,no,,good,"indexable, mostly dofollow outbound links"
+https://www.kidzsearch.com/,200,KidzSearch | Safe Search Engine for Kids,yes,no,4,4,100%,,no,,good,"indexable, mostly dofollow outbound links"
+https://www.weebly.com/,200,Free Website Builder: Build a Free Website or Online Store | WeeblyGet GoingGet OnlineGet SellingGet Growing,yes,no,12,12,100%,,no,,good,"indexable, mostly dofollow outbound links"
+https://discovergg.com/,200,New Browser Games — Discovergg,yes,no,0,0,,,no,,check,no outbound links on this page; look for a resources/links page
+https://flipboard.com/@flipboard,200,Flipboard (@flipboard) on FlipboardFlipboard HomeSearchverifiedcheckmarkExpandExpandExpandExpandLikecommentFlipShareverified_publisher,yes,no,1,0,0%,,no,,check,only 0% of outbound links are dofollow
+https://gravatar.com/matt,200,Matt | Gravatar,yes,no,20,3,15%,,no,,check,only 15% of outbound links are dofollow
+https://gws.ala.org/,403 via https://www.ala.org/alsc/awardsgrants/notalists/ncdm,,,,,,,,,,check,"HTTP 403: the site blocks automated checks, look by hand"
+https://gws.ala.org/suggest-site,403 via https://www.ala.org/alsc/awardsgrants/notalists/ncdm,,,,,,,,,,check,"HTTP 403: the site blocks automated checks, look by hand"
+https://www.protopage.com/,200,Protopage - Free Personalized Start Pages,yes,no,0,0,,,no,,check,no outbound links on this page; look for a resources/links page
+https://www.refseek.com/directory/mathematics.html,200,25 Best Math Education Resources,yes,no,70,1,1%,mathplayground.com,no,,check,only 1% of outbound links are dofollow
+https://www.trustpilot.com/review/coolmathgames.com,403,,,,,,,,,,check,"HTTP 403: the site blocks automated checks, look by hand"
+https://discovergg.com/submit,404,,,,,,,,,,skip,HTTP 404
+https://itch.io/profile/2fever,200,2fever - itch.io,no (canonical to other site),no,5,2,40%,,no,,skip,not indexable: no (canonical to other site)
+https://www.educational-freeware.com/,error: ConnectTimeout,,,,,,,,,,skip,page did not load
+https://www.oercommons.org/courses/math-playground,404 via https://oercommons.org/courses/math-playground,,,,,,,,,,skip,HTTP 404
+https://www.uen.org/games/,404,,,,,,,,,,skip,HTTP 404
