@@ -1,26 +1,13 @@
 keyword,verdict,google_level,bing_level,trends_vs_anchor,trends_rising_ratio,bing_weekly_broad,bing_weekly_exact,source,autocomplete_related,autocomplete_game_intent,autocomplete_top
-backgammon,high,high,high,0.208,0.79,36776,6376,input,10,2,backgammon | backgammon set up | backgammon online | backgammon rules | backgammon board
-checkers online,high,high,high,0.0621,0.84,5503,3169,input,10,4,checkers online | checkers online 2 players | checkers online free | checkers online game | checkers online free play
-crossword,high,high,high,6.6895,0.97,358514,21299,input,10,3,crossword | crossword puzzles | crossword solver | crossword clues | crosswordle
-klondike solitaire,high,high,high,0.0969,0.77,65043,29138,input,10,2,klondike solitaire | klondike solitaire green felt | klondike solitaire turn 3 | klondike solitaire game | klondike solitaire rules
-minesweeper,high + rising,high,high,1.0,1.93,43941,29145,input,10,3,minesweeper | minesweeper google | minesweeper online | minesweeper solver | minesweeper plus
-tic tac toe,high + rising,high,high,0.1607,1.5,5133,3401,input,10,5,tic tac toe | tic tac toe game | tic tac toe 2 player | tic tac toe strategy | tic tac toe 2 player online
-battleship game,medium,medium,medium,0.0282,0.86,552,351,input,10,2,battleship game | battleship game online | battleship game online free | battleship game strategy | battleship game rules
-ludo,medium,high,medium,0.0573,0.82,1369,332,input,10,1,ludovico einaudi | ludovico einaudi tour | ludo | ludo game | ludo labyrinth
-math games for kids,medium + rising,medium,medium,0.0176,1.95,1000,420,input,10,3,math games for kids | math games for kids free | math games for kids online free | math games for kids grade 2 | math games for kids online
-arithmetic games,low + rising,low,low,0.0005,4.79,3,3,input,4,1,arithmetic games | arithmetic games for adults | arithmetic games for kids | arithmetic games online | arithmetic examples
-battleship online,low + rising,low,low,0.0009,8.37,438,357,input,10,6,battleship online | battleship online 2 player | battleship online game | battleship online with friends | battleship online free
-chess multiplayer,low + rising,low,low,0.0004,3.21,44,26,input,10,5,chess multiplayer | chess multiplayer online | chess multiplayer offline | chess multiplayer 2 player | chess multiplayer local
-crossword online,low (conflict),high,low,0.1105,0.8,354,116,input,10,2,crossword online | crossword online free | crossword online game | crossword online easy | crossword online with friends
-get 10,low (conflict),high,low,1.3827,1.07,67,7,input,10,0,get 100 dollars now | get 10 dollars now | get 1000 dollars now | get 1000 loan instantly | get 100 loan instantly
-laser maze,low + rising,low,low,0.0006,5.42,10,10,input,10,5,laser maze | laser maze game | laser maze near me | laser maze jr | laser maze board game
-liquid sort,low + rising,low,low,0.0012,15.51,16,16,input,10,7,liquid sort game | liquid sort | liquid sort game online | liquid sort game free | liquid sort game online free
-ludo online,low,low,low,0.0002,,76,55,input,10,7,ludo online | ludo online free | ludo online game | ludo online with friends | ludo online 2 player
-mahjong connect,low + rising,low,medium,0.0012,2.65,2329,751,input,10,3,mahjong connect | mahjong connect classic facebook | mahjong connect 2 | mahjong connect free | mahjong connect online
-math battle,low + rising,low,low,0.0031,8.15,10,10,input,10,3,math battle | math battle game | math battleship | math battleship game | math battle royale
-number sums,low,low,low,0.0031,1.01,15,11,input,10,9,number sums | number sums game | number sums puzzle | number sums game online free | number sums game online
-solitaire tripeaks,low + rising,low,low,0.0015,2.62,110,32,input,10,4,solitaire tripeaks | solitaire tripeaks free | solitaire tripeaks journey | solitaire tripeaks - farm trip | solitaire tripeaks game
-tic tac toe online,low + rising,low,low,0.0017,3.65,151,107,input,10,6,tic tac toe online 2 player | tic tac toe online free | tic tac toe online game | tic tac toe online with friends | tic tac toe online multiplayer
-unblock me,low + rising,medium,low,0.0275,1.31,13,13,input,10,1,unblock me | unblock messages | unblock messages iphone | unblock me game | unblock me in spanish
-counting games for kids,none,none,low,0.0,,9,9,input,4,3,counting games for kids | counting games for kids free | counting games for kids online | counting games for kids free online | math games for kids
-sudoku blocks,none,none,low,0.0,,14,14,input,10,6,sudoku blocks | sudoku blocks free online | sudoku blocks cnn | sudoku blocks game | sudoku blocks online
+typing games,high + rising,high,high,0.1408,1.62,12922,9379,input,10,4,typing games | typing games for kids | typing games free | typing games for beginners | typing games online
+typing practice,high,high,high,0.0721,0.96,14477,9140,input,10,4,typing practice | typing practice for adults | typing practice free | typing practice for kids | typing practice games
+typing test,high,high,high,0.2704,1.23,60944,46320,input,10,4,typing test | typing test wpm | typing test free | typing test online | typing test game
+free typing games,medium + rising,medium,medium,0.0135,1.66,1164,936,input,10,2,free typing games | free typing games for kids | free typing games for adults | free typing games online | free typing games for kids online
+learn to type,medium + rising,high,medium,0.0999,1.47,1032,681,input,10,4,learn to type | learn to type for free | learn to type for kids | learn to type games | learn to type for adults
+typing games free,medium + rising,medium,medium,0.0139,1.77,855,685,input,10,2,typing games free | typing games free online | typing games free for kids | typing games free download | typing games free for adults
+typing speed test,medium,medium,medium,0.0428,0.99,3829,3129,input,10,4,typing speed test | typing speed test free | typing speed test online | typing speed test monkey | typing speed test game
+keyboard games,low (conflict),high,low,0.0638,0.97,306,188,input,10,2,keyboard games | keyboard games for kids | keyboard games for toddlers | keyboard games typing | keyboard games online
+typing games for adults,low,low,low,0.0004,,215,165,input,10,4,typing games for adults to improve speed and accuracy | typing games for adults free | typing games for adults free online | typing games for adults paragraphs | typing games for adults to improve speed
+typing games for kids,low + rising,low,medium,0.0026,5.54,530,346,input,10,4,typing games for kids | typing games for kids free | typing games for kids online | typing games for kids free online | typing games for kids 2000s
+typing games online,low + rising,low,low,0.0011,11.46,138,77,input,10,3,typing games online | typing games online for kids | typing games online free for kids | typing games online for adults | typing games online free for adults
+typing races,none,none,low,0.0,,13,13,input,3,1,typing races | typing races online | typing games racing | qwerty typing races | typing racing games for beginners
