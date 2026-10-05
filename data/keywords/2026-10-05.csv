@@ -1,15 +1,17 @@
 keyword,verdict,google_level,bing_level,trends_vs_anchor,trends_rising_ratio,bing_weekly_broad,bing_weekly_exact,source,autocomplete_related,autocomplete_game_intent,autocomplete_top
-block blast,high,high,high,0.1834,1.07,12434,10129,input,10,3,block blast | block blast solver | block blaster | block blast online | block blaster gun
-arrow puzzle,medium,medium,medium,0.0105,0.09,804,89,input,10,6,arrow puzzle | arrow puzzle game | arrow puzzle game online | arrow puzzle game online free | arrow puzzle escape
-basket random,medium + rising,medium,medium,0.04,3.99,3302,2642,input,10,5,basket random | basket random 2 player games | basket random game | basket random 2 player | basket random crazy games
-eggy car,medium + rising,medium,medium,0.0306,3.95,2136,1690,input,10,4,eggy car | eggy car game | eggy cart | eggy car cool math games | eggy car 2
-hidden object games,medium,medium,high,0.0238,0.49,9166,3356,input,10,7,hidden object games | hidden object games free | hidden object games free download | hidden object games free online | hidden object games free download full version unlimited
-tower defense games,medium,medium,medium,0.0173,0.91,768,657,input,10,1,tower defense games | tower defense games online | tower defense games steam | tower defense games ps5 | tower defense games switch
-connect 4 online,low + rising,low,low,0.0019,3.58,330,302,input,10,5,connect 4 online | connect 4 online 2 player | connect 4 online vs computer | connect 4 online free | connect 4 online with friends
-find the frog,low + rising,low,low,0.0016,3.38,7,2,input,10,2,find the frog | find the frogs game | find the frogs game online free | find the frog image | find the frog pet wobbly life
-geometry vibes,low,low,low,0.0006,,269,233,input,10,2,geometry vibes | geometry vibes 3d | geometry vibes monster | geometry vibes x-ball | geometry vibes x-arrow
-ludo game,low + rising,low,low,0.0019,1.45,145,97,input,10,3,ludo game | ludo game board | ludo game online | ludo game rules | ludo game origin
-screw puzzle,low,low,low,0.0002,,28,10,input,10,5,screw puzzle game | screw puzzle | screw puzzle nuts and bolts | screw puzzle game online | screw puzzle game no ads
-sort puzzle,low,low,low,0.0048,0.98,193,0,input,10,4,sort puzzle | sort puzzle cash promo code | sort puzzle cash | sort puzzle game | sort puzzle cash promo code reddit
-word solitaire,low + rising,medium,low,0.0132,1.37,186,122,input,10,5,word solitaire | word solitaire game | word solitaire online | word solitaire without ads | word solitaire no ads
-nuts and bolts puzzle,none,none,low,0.0,,7,0,input,8,4,nuts and bolts puzzle game | nuts and bolts puzzle | nuts and bolts puzzle game online | nuts and bolts puzzle page | nuts and bolts puzzle online
+crossword,high,high,high,6.6837,0.98,358514,21299,input,10,2,crossword | crossword puzzles | crossword solver | crossword clues | crosswordle
+crossword puzzle,high,high,high,0.3083,0.96,37058,2021,input,10,3,crossword puzzles | crossword puzzles online free | crossword puzzles printable | crossword puzzle maker | crossword puzzle solver
+freecell,high,high,high,0.2754,0.71,107656,38224,input,10,4,freecell | freecell green felt | freecell io | freecell solitaire | freecell play online
+cut the rope,medium,medium,medium,0.0241,1.22,1206,798,input,10,2,cut the rope | cut the rope game | cut the rope 2 | cut the rope character | cut the rope time travel
+freecell solitaire,medium,medium,high,0.047,0.67,22119,10582,input,10,5,freecell solitaire | freecell solitaire play it online for free | freecell solitaire - green felt | freecell solitaire free | freecell solitaire rules
+hidden object games,medium,medium,high,0.015,0.65,9166,3356,input,10,7,hidden object games | hidden object games free | hidden object games free download | hidden object games free online | hidden object games free download full version unlimited
+hidden objects,medium,medium,high,0.0207,0.83,6084,578,input,10,6,hidden objects | hidden objects games | hidden objects games free | hidden objects games free online | hidden objects cheat sims 4
+ludo,medium,high,medium,0.0553,0.87,1369,332,input,10,1,ludovico einaudi | ludo | ludovico einaudi chicago | ludovico einaudi tour | ludo game
+mancala,medium,high,medium,0.0726,0.86,895,522,input,10,4,mancala | mancala rules | mancala game | mancala board | mancala instructions
+cut the rope 2,low,low,low,0.0003,,89,86,input,10,1,cut the rope 2 | cut the rope 2 online | cut the rope 2010 | cut the rope 2 characters | cut the rope 2-10
+ludo online,low + rising,low,low,0.0006,1.32,76,55,input,10,7,ludo online | ludo online free | ludo online game | ludo online with friends | ludo online 2 player
+mancala online,low,low,low,0.0003,,104,103,input,10,5,mancala online | mancala online free | mancala online 2 player | mancala online game | mancala online multiplayer
+cut the rope experiments,none,none,low,0.0,,21,21,input,10,4,cut the rope experiments | cut the rope experiments game | cut the rope experiments online | cut the rope experiments apk | cut the rope experiments music
+cut the rope magic,none,none,low,0.0,,24,22,input,10,7,cut the rope magic | cut the rope magic box level 22 | cut the rope magic box level 18 | cut the rope magic box level 24 | cut the rope magic box level 9
+cut the rope online,none,none,low,0.0,,8,8,input,9,4,cut the rope online game | cut the rope online free game | cut the rope online game 2 | cut the rope online poki | cut the rope online download
+cut the rope time travel,none,none,low,0.0,,30,28,input,10,2,cut the rope time travel | cut the rope time travel apk | cut the rope time travel game | cut the rope time travel online | cut the rope time travel 2
