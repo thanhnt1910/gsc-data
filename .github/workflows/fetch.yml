@@ -85,4 +85,6 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898299+github-actions[bot]@users.noreply.github.com'
           git commit -m "Search Console data, run $(date -u +%F)"
-          git push
+          # Other workflows (keywords, check-rel) may have pushed meanwhile.
+          for i in 1 2 3; do git pull --rebase --autostash && git push && exit 0; sleep 5; done
+          exit 1
