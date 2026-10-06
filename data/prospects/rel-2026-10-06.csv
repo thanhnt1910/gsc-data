@@ -1,2 +1,5 @@
 url,status,title,indexable,page_nofollow,external_links,external_dofollow,dofollow_share,game_sites_linked,links_to_us,spam_signals,verdict,reason
-https://dev.to/thanhnt9x/600-game-pages-from-one-typescript-file-lessons-from-building-a-static-games-site-with-astro-2e4o,200,600+ game pages from one TypeScript file: lessons from building a static games site with Astro - DEV CommunityNavigation menu,yes,no,10,10,100%,,dofollow dofollow,,good,"indexable, mostly dofollow outbound links"
+https://blog.jym.sg/how-to-add-google-analytics-and-submit-hashnode-blog-for-indexing,200,How to add Google Analytics & submit Hashnode blog for indexing?,yes,no,40,38,95%,,no,,good,"indexable, mostly dofollow outbound links"
+https://hashnode.com/posts/top-25-android-games-under-25-mb-part-2/607943861cee6c6ebbdcb60d,200,"Discussion on ""Top 25 Android Games under 25 Mb (Part 2)"" | Hashnode",yes,no,6,6,100%,,no,,good,"indexable, mostly dofollow outbound links"
+http://gws.ala.org/suggest-site,403 via https://www.ala.org/alsc/awardsgrants/notalists/ncdm,,,,,,,,,,check,"HTTP 403: the site blocks automated checks, look by hand"
+https://gws.ala.org/,403 via https://www.ala.org/alsc/awardsgrants/notalists/ncdm,,,,,,,,,,check,"HTTP 403: the site blocks automated checks, look by hand"
