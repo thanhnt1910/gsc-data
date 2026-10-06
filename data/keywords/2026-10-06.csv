@@ -1,55 +1,51 @@
 keyword,verdict,google_level,bing_level,trends_vs_anchor,trends_rising_ratio,bing_weekly_broad,bing_weekly_exact,source,autocomplete_related,autocomplete_game_intent,autocomplete_top
-math games,high + rising,high,high,2.0579,2.09,241163,5897,input,10,2,math games | math games for kids | math games online | math games free | math games for grade 3
-geometry games,medium + rising,high,medium,0.1248,1.81,599,465,input,10,3,geometry games | geometry games io | geometry games online free | geometry games online | geometry games for kids
-math games for kids,medium + rising,medium,medium,0.012,1.85,1000,420,input,10,2,math games for kids | math games for kids free | math games for kids online free | math games for kids grade 2 | math games for kids in classroom
-multiplication games,medium + rising,medium,medium,0.0305,2.38,1975,1702,input,10,5,multiplication games | multiplication games free | multiplication games for kids | multiplication games for 3rd grade | multiplication games for 4th grade
-24 game,low (conflict),high,low,0.1806,0.65,72,45,input,10,2,24 game | 24 game solver | 24 game online | 24 game cards | 24 game math
-addition games,low + rising,low,low,0.0039,3.23,27,18,input,10,4,addition games | addition games for grade 1 | addition games for kids | addition games for grade 2 | addition games for kindergarten
-algebra games,low + rising,low,low,0.0027,3.22,25,25,input,10,3,algebra games | algebra games online | algebra games for high school | algebra games free | algebra games online free
-counting money games,low,low,low,0.0001,,24,24,input,10,7,counting money games | counting money games online free | counting money games online | counting money games for adults | counting money games for kids
-decimal games,low + rising,low,low,0.0014,6.28,5,5,input,10,2,decimal games | decimal games for 5th grade | decimal games online | decimal games for kids | decimal games for 4th grade
-digits game,low + rising,low,low,0.0015,3.27,32,24,input,8,2,digits game | digits game nyt | digits game online | digits game unlimited | digits game alternative
-division games,low + rising,medium,low,0.0496,2.03,32,30,input,10,3,division games | division games mlb | division games for kids | division games for 3rd grade | division games 4th grade
-fraction games,low + rising,low,low,0.0047,3.3,18,15,input,10,3,fraction games | fraction games for kids | fraction games for 4th grade | fraction games online free | fraction games online
-kakuro,low + rising,low,medium,0.0018,2.68,1285,452,input,10,2,kakuro | kakuro puzzle | kakuro cheat sheet | kakuro conquest | kakuro definition
-math board games,low + rising,low,low,0.0008,13.34,15,15,input,10,1,math board games | math board games for kids | math board games for middle school | math board games for adults | math board games for 4th graders
-math brain teasers,low,low,low,0.0001,,19,19,input,10,0,math brain teasers | math brain teasers for adults | math brain teasers with answers | math brain teasers for kids | math brain teasers for middle school
-math card games,low + rising,low,low,0.0007,10.8,14,14,input,10,0,math card games | math card games for kids | math card games for 2nd graders | math card games for 1st grade | math card games for middle school
-math crossword,low + rising,low,low,0.0039,2.0,87,17,input,10,5,math crossword | math crossword puzzles | math crossword puzzles printable | math crossword number puzzle with answers | math crossword puzzles pdf
-math escape room,low,low,low,0.0004,,14,9,input,10,3,math escape room | math escape room 5th grade | math escape room 4th grade | math escape room free | math escape room 3rd grade
-math facts games,low,low,low,0.0009,,25,25,input,10,5,math facts games | math facts games online free | math facts games for kids | math facts games free | math facts games online
-math games for 3rd graders,low,low,low,0.0001,,34,31,input,6,2,math games for 3rd graders | math games for 3rd graders free | math games for 3rd graders in the classroom | math games for 3rd graders online | math games for 3rd graders multiplication
-math games for adults,low,low,low,0.0002,,19,17,input,10,6,math games for adults | math games for adults free | math games for adults free online | math games for adults app | math games for adults online
-math games for kindergarten,low,low,low,0.0002,,22,22,input,10,3,math games for kindergarten | math games for kindergarten free | math games for kindergarten online free | math games for kindergarten printable | math games for kindergarten online
-math puzzles,low + rising,low,low,0.0051,2.53,101,70,input,10,0,math puzzles | math puzzles for adults | math puzzles for kids | math puzzles for middle school | math puzzles brain teasers
-math puzzles for adults,low,low,low,0.0003,0.06,15,15,input,8,2,math puzzles for adults | math puzzles for adults with answers | math puzzles for adults pdf | math puzzles for adults printable | math puzzles for adults online
-math riddles,low + rising,low,low,0.0013,2.23,61,49,input,10,0,math riddles | math riddles for kids | math riddles for adults | math riddles with answers | math riddles for middle school
-math wordle,low + rising,medium,low,0.0367,2.51,100,100,input,10,1,math wordle | math wordle game | math wordle for kids | math wordle unlimited | math wordle solver
-mental math games,low,low,low,0.0001,,7,7,input,10,4,mental math games | mental math games for adults | mental math games for kids | mental math games online | mental math games for grade 3
-money games,low (conflict),high,low,0.3327,0.99,264,97,input,10,6,money games | money games for kids | money games online free | money games for free | money games for cash app
-number puzzles,low + rising,low,low,0.0062,2.15,117,38,input,10,1,number puzzles | number puzzles for adults | number puzzles for kids | number puzzles printable | number puzzles online
-nyt digits,low,low,low,0.0001,,25,25,input,9,3,nyt digits | nyt digits game | nyt digits archive | nyt digits solver | nyt digits game unlimited
-percent games,low,medium,low,0.047,1.17,55,55,input,2,1,percent games | percent games online | percentage games online | percentage games for grade 7 | percentage games for 6th grade
-place value games,low + rising,low,low,0.0008,9.1,27,22,input,10,3,place value games | place value games 4th grade | place value games 3rd grade | place value games for 2nd grade | place value games online
-probability games,low,low,low,0.0056,1.12,8,8,input,10,2,probability games | probability games for kids | probability games for middle school | probability games ideas for students | probability games online
-ratio games,low,medium,low,0.0279,0.57,11,11,input,10,1,ratio games | ratio games 6th grade | ratio games for the classroom | ratio games online | ratio games for 7th grade
-rounding games,low + rising,low,low,0.0005,7.01,12,12,input,10,3,rounding games | rounding games 4th grade | rounding games 3rd grade | rounding games for kids | rounding games online
-subtraction games,low + rising,low,low,0.0007,8.55,16,8,input,10,2,subtraction games | subtraction games for grade 1 | subtraction games for grade 2 | subtraction games for kids | subtraction games for grade 3
-sumplete,low + rising,low,low,0.0003,4.07,133,124,input,10,2,sumplete | sumplete game | sumplete puzzle | sumplete 5x5 | sumplete 7x7
-telling time games,low,low,low,0.0005,,20,20,input,10,4,telling time games | telling time games free | telling time games for kids | telling time games online | telling time games 3rd grade
-times tables games,low + rising,low,medium,0.005,9.64,792,731,input,10,5,times tables games | times tables games free | times tables games for kids | times tables games online | times tables games 3x3 garden
-coordinate plane games,none,none,none,0.0,,0,0,input,9,1,coordinate plane games | coordinate plane games online | coordinate plane games printable | coordinate plane games 6th grade | coordinate plane games 5th grade
-countdown numbers game,none,none,low,0.0,,3,3,input,10,3,countdown numbers game | countdown numbers game rules | countdown numbers game solver | countdown numbers game online | countdown numbers game generator
-crossmath,none,none,low,0.0,,23,0,input,10,7,crossmath | crossmath online | crossmath puzzle | crossmath free | crossmath free online
-equation games,none + rising,low,none,0.0043,2.41,0,0,input,10,1,equation games | equation games for 7th grade | equation games for kids | equation games online | math equation games
-equation puzzle,none,low,none,0.0001,,0,0,input,10,0,equation puzzles | equation puzzles balance | equation puzzle worksheet | equation puzzles with solutions | equation puzzle kotor 2
-graphing games,none + rising,low,none,0.0014,21.97,0,0,input,7,3,graphing games | graphing games for kids | graphing games online free | graphing games online | graphing games for 3rd grade
-integer games,none + rising,low,none,0.0005,2.3,0,0,input,10,2,integer games | integer games online free | integer games online | integer games for 6th grade | integer games pdf
-math fact practice,none + rising,low,none,0.0004,5.11,0,0,input,10,4,math fact practice | math fact practice online | math fact practice games | math fact practice worksheets | math fact practice sheets
-math games for 6th graders,none,none,low,0.0,,25,25,input,5,2,math games for 6th graders | math games for 6th graders free | math games for 6th graders online | math activities for 6th graders | math games for 6th grade classroom
-math games for middle school,none,low,none,0.0003,,0,0,input,8,2,math games for middle school | math games for middle school students | math games for middle school pdf | math games for middle school online | math games for middle school classroom
-math multiplayer game,none,low,none,0.0002,,0,0,input,3,1,math multiplayer games | math multiplayer games online | multiplayer math games online free | multiplayer math games for classroom | multiplayer math games for kids
-math race game,none,low,none,0.0003,,0,0,input,8,2,math race game | math race game questions | math race game online | math race game for kids | math race games online for kids
-order of operations games,none,none,none,0.0,,0,0,input,7,2,order of operations games | order of operations games online | order of operations games printable | order of operations games 5th grade | order of operations games 6th grade
-prime number games,none + rising,low,none,0.0006,5.65,0,0,input,5,1,prime number games | prime number games for the classroom | prime number games online | prime number games for kids | prime number games ks2
-speed math game,none + rising,low,none,0.0003,3.66,0,0,input,5,3,speed math game | speed math game online | speed math game for kids | speed math game free | speed math game app
+2 player games,high,high,high,0.1749,1.1,7885,6413,input,10,4,2 player games | 2 player games ps5 | 2 player games online | 2 player games on xbox | 2 player games free
+bubble shooter,high,high,high,0.0672,0.72,35043,20460,input,10,6,bubble shooter | bubble shooter game | bubble shooter free | bubble shooter hd | bubble shooter game free
+car games,high,high,high,0.4055,1.03,10518,5376,input,10,4,car games | car games for kids | car games for adults | car games to play | car games free
+io games,high + rising,high,high,0.1716,1.63,7845,3050,input,10,4,io games | io games list | io games online | io games to play with friends | io games backgammon
+jigsaw puzzles,high,high,high,0.1274,0.76,65137,4231,input,10,5,jigsaw puzzles | jigsaw puzzles online | jigsaw puzzles online free | jigsaw puzzles for adults | jigsaw puzzles near me
+mahjong,high,high,high,1.81,0.9,197488,34415,input,10,2,mahjong | mahjong set | mahjong game | mahjong tiles | mahjong 4 friends
+pinball,high,high,high,0.4184,0.92,5177,1267,input,10,0,pinball machine | pinball capital | pinball | pinball expo | pinball chicago
+snake game,high + rising,high,high,1.8997,2.33,48571,35262,input,10,2,snake game | snake game google | snake game online | snake game io | snake game 2
+soccer games,high,high,high,1.3105,0.58,12788,2603,input,10,0,soccer games today | soccer games | soccer games tomorrow | soccer games schedule | soccer games right now
+solitaire,high,high,high,4.5529,0.99,1083568,217501,input,10,1,solitaire | solitaire bliss | solitaired | solitaire games | solitaire set up
+word games,high,high,high,0.2273,1.25,6187,1946,input,10,4,word games | word games free | word games online | word games online free | word games to play with friends
+aim trainer,medium,medium,medium,0.0302,0.89,3348,2264,input,10,0,aim trainer | aim trainer overwatch | aim trainer overwatch code | aim trainer valorant | aim trainer overwatch 2 code
+basketball games,medium + rising,high,medium,0.2664,1.35,3574,1988,input,10,2,basketball games today | basketball games | basketball games in chicago | basketball games tonight | basketball games online
+bike games,medium + rising,high,medium,0.0593,1.32,1447,445,input,10,3,bike games | bike games free | bike games 3d | bike games on xbox | bike games online
+billiards,medium,high,medium,0.277,0.87,2196,491,input,10,1,billiards near me | billiards chicago | billiards naperville | billiards | billiards store near me
+bowling games,medium,medium,medium,0.0327,0.99,771,337,input,10,3,bowling games | bowling games online | bowling games free | bowling games online free | bowling games for kids
+cooking games,medium,high,medium,0.084,0.44,1677,1047,input,10,2,cooking games | cooking games switch | cooking games online free | cooking games ps5 | cooking games nintendo switch
+fighting games,medium,high,medium,0.1269,0.79,1238,621,input,10,1,fighting games | fighting games ps5 | fighting games on xbox | fighting games on switch | fighting games online
+fishing games,medium,high,medium,0.0993,0.6,848,613,input,10,2,fishing games | fishing games for ps5 | fishing games online | fishing games free | fishing games on xbox
+golf games,medium,high,medium,0.145,1.1,1233,706,input,10,3,golf games | golf games online | golf games today | golf games for ps5 | golf games xbox
+hidden object games,medium,medium,high,0.0255,0.58,9166,3356,input,10,7,hidden object games | hidden object games free | hidden object games free online | hidden object games free download | hidden object games free download full version unlimited
+mini golf,medium,high,medium,0.9146,0.57,2377,484,input,10,0,mini golf chicago | mini golf naperville | mini golf near me | mini golf | mini golf schaumburg
+motorcycle games,medium,medium,medium,0.012,0.8,673,554,input,10,3,motorcycle games | motorcycle games free | motorcycle games xbox | motorcycle games ps5 | motorcycle games online
+pool games,medium,high,medium,0.0916,0.73,2498,1182,input,10,2,pool games | pool games for kids | pool games for adults | pool games to play | pool games for 2 people
+racing games,medium,high,medium,0.1233,1.03,2376,1092,input,10,1,racing games | racing games for ps5 | racing games xbox | racing games online | racing games for switch
+reaction time test,medium + rising,medium,medium,0.0418,1.44,3062,3007,input,10,2,reaction time test | reaction time tester | reaction time test f1 | reaction time test spacebar | reaction time test world record
+rhythm games,medium,medium,medium,0.0316,0.94,726,596,input,10,2,rhythm games | rhythm games online | rhythm games on switch | rhythm games pc | rhythm games on steam
+shooting games,medium,high,medium,0.0764,0.95,3197,1980,input,10,3,shooting games | shooting games online | shooting games ps5 | shooting games for free | shooting games pc
+stickman games,medium + rising,medium,medium,0.0182,1.98,820,663,input,10,4,stickman games | stickman games fight | stickman games for free | stickman games online | stickman games 2 player
+air hockey,low (conflict),high,low,0.0629,1.0,223,63,input,10,1,air hockey table | air hockey | air hockey table for sale | air hockey pucks | air hockey table costco
+archery games,low + rising,low,low,0.0015,5.15,115,102,input,10,3,archery games | archery games denver | archery games online | archery games free | archery games for kids
+ball games,low (conflict),high,low,0.1825,1.26,493,130,input,10,1,ball games | ball games today | ball games tonight | ball games in chicago today | ball games for kids
+bottle flip,low,medium,low,0.0114,0.21,314,140,input,10,2,bottle flip | bottle flip game | bottle flip 3d | bottle flip chug cap | bottle flip inc
+darts game,low,medium,low,0.0171,0.41,31,26,input,10,2,darts games | darts game rules | darts game cricket | darts game online | darts games to play
+drift games,low (conflict) + rising,high,low,0.0766,3.05,468,392,input,10,2,drift games | drift games online | drift games free | drift games merch | drift games pc
+jumping games,low + rising,low,low,0.0021,4.22,62,59,input,10,2,jumping games | jumping games for kids | jumping games online | jumping games outdoor | jumping games free
+parking games,low (conflict),high,low,0.0956,1.13,204,111,input,10,4,parking games | parking games online | parking games free | parking games online free | parking games cool math games
+parkour games,low + rising,low,low,0.0018,4.18,314,280,input,10,2,parkour games | parkour games ps5 | parkour games online | parkour games on xbox | parkour games pc
+penalty shootout game,low,low,low,0.0005,0.72,21,12,input,10,2,penalty shootout game | penalty shootout game online | penalty shootout game google | penalty shootout game world cup | penalty shootout game poki
+platformer games,low + rising,low,low,0.0022,2.41,77,71,input,10,1,platformer games | platformer games ps5 | platformer games switch | platformer games on steam | platformer games xbox
+reflex games,low,low,low,0.0005,,8,8,input,10,4,reflex games | reflex games for kids | reflex games for adults | reflex games online | reflex games for kids online
+running games,low (conflict),high,low,0.1342,0.77,197,167,input,10,4,running games | running games for kids | running games online | running games to play outside | running games off external ssd
+skateboard games,low + rising,low,low,0.001,2.06,136,125,input,10,3,skateboard games | skateboard games ps5 | skateboard games online | skateboard games free | skateboard games for switch
+skill games,low + rising,medium,low,0.0425,1.3,124,42,input,10,1,skill games | skill games pa | skill games news | skill games near me | skill games deadline
+sniper games,low + rising,medium,low,0.0131,1.31,384,245,input,10,3,sniper games | sniper games ps5 | sniper games online | sniper games xbox | sniper games free
+stack game,low,medium,low,0.0256,0.53,378,250,input,10,5,stack game | stack game online | stack game world record | stack game cool math games | stack game online free
+table tennis game,low + rising,low,low,0.0009,2.94,50,46,input,10,2,table tennis games | table tennis games today | table tennis game online | table tennis games live | table tennis game rockstar
+tank games,low,medium,low,0.0385,0.92,327,204,input,10,2,tank games | tank games free | tank games online | tank games on steam | tank games pc
+tower building game,low,low,low,0.0001,,38,21,input,10,3,tower building game | tower building game crossword | tower building game team building | tower building game online | tower building game with blocks online
+knife throwing game,none,none,none,0.0,,0,0,input,10,2,knife throwing game | knife throwing game roblox | knife throwing game online | knife throwing game silksong | knife throwing game at feet
