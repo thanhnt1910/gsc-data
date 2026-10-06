@@ -1,19 +1,46 @@
 keyword,verdict,google_level,bing_level,trends_vs_anchor,trends_rising_ratio,bing_weekly_broad,bing_weekly_exact,source,autocomplete_related,autocomplete_game_intent,autocomplete_top
-daily sudoku,medium,medium,medium,0.0278,0.79,2324,1021,input,10,2,daily sudoku | daily sudoku puzzle | daily sudoku hard | daily sudoku printable | daily sudoku washington post
-sudoku daily,medium,medium,medium,0.0278,0.9,649,130,input,10,4,sudoku daily | sudoku daily challenge today | sudoku daily puzzle | sudoku daily challenge | sudoku daily printable
-daily killer sudoku,low,low,low,0.0001,,256,197,input,10,3,daily killer sudoku | daily killer sudoku online | daily killer sudoku printable | daily killer sudoku online free | daily killer sudoku app
-daily math game,low,low,low,0.0001,,22,0,input,5,2,daily math game | daily math game like wordle | daily math games online | daily math game new york times | daily math games app
-daily minesweeper,low + rising,low,low,0.0002,2.28,18,18,input,5,2,daily minesweeper | daily minesweeper puzzle | daily minesweeper variants | daily minesweeper challenge | daily minesweeper game
-no guess minesweeper,low,low,low,0.0001,0.13,21,21,input,9,2,no guess minesweeper | no guess minesweeper app | no guess minesweeper online | no guess minesweeper android | no guess minesweeper ios
-queens game online,low,low,low,0.0001,,68,58,input,10,3,queens game online | queens game online free | queens game online linkedin | queens game online vercel | queens game online hard
-2048 daily,none,none,none,0.0,,0,0,input,2,0,2048 daily challenge | 2048 daily | 2048 rules | 2048 tips | 2048 tricks
-daily 2048,none,none,none,0.0,,0,0,input,1,0,daily 2048 | day 2048 | 2048 daily challenge | highest score in 2048 8x8 | is 3x3 2048 possible
-daily brain teaser,none,none,none,0.0,,0,0,input,6,1,daily brain teaser | daily brain teasers for adults | daily brain teaser games | daily brain teasers for kids | daily brain teaser questions
-daily logic puzzle,none,none,none,0.0,,0,0,input,10,5,daily logic puzzle | daily logic puzzle online | daily logic puzzle game | daily logic puzzle online free | daily logic puzzle app
-minesweeper daily,none + rising,low,none,0.0002,2.28,0,0,input,6,2,minesweeper daily | minesweeper daily puzzle | minesweeper daily game | minesweeper daily challenges | daily minesweeper variants
-minesweeper daily challenge,none,low,none,0.0001,,0,0,input,3,0,minesweeper daily challenges | msn minesweeper daily challenge | microsoft minesweeper daily challenges | has anyone beat minesweeper
-minesweeper no guess,none,low,none,0.0001,0.13,0,0,input,9,2,minesweeper no guess | minesweeper no guessing mode | minesweeper no guess app | minesweeper no guess online | minesweeper no guessing algorithm
-minesweeper without guessing,none,none,none,0.0,,0,0,input,3,1,minesweeper without guessing | minesweeper without guessing reddit | minesweeper without guessing app | minesweeper no guessing mode | minesweeper no guessing algorithm
-queens game unlimited,none,none,low,0.0,,19,19,input,3,0,queens game unlimited | queens game unlimited linkedin | queens game unlimited with hints | queens unlimited game | queens game endless
-tango game online,none,none,low,0.0,,10,10,input,5,3,tango game online free | tango game online play | tango game online linkedin | tango game online hard | tango puzzle game online
-zip game unlimited,none,none,none,0.0,,0,0,input,5,3,zip game unlimited | zip game unlimited free | zip game unlimited linkedin | zip game unlimited online | zip game unlimited level 51
+15 puzzle,low,medium,low,0.0145,0.19,19,18,input,10,3,15 puzzle | 15 puzzle game ff1 | 15 puzzle game | 15 puzzle solver | 15 puzzle online
+cube puzzle game,low + rising,low,low,0.0003,4.05,21,0,input,10,2,cube puzzle game | cube puzzle game online | cube puzzle game solution | cube puzzle game solve | cube puzzle game name
+flood it,low (conflict),high,low,0.1517,1.06,7,7,input,10,1,flood it again meme | flood it again | flood it | flood it again jesus meme | flood it game
+inertia puzzle,low,low,low,0.0001,,50,0,input,2,1,inertia puzzle game | inertia puzzle | inertia explained | inertia examples | inertia in easy words
+jigsaw sudoku,low + rising,low,low,0.0007,3.26,219,111,input,10,4,jigsaw sudoku | jigsaw sudoku printable | jigsaw sudoku puzzles | jigsaw sudoku solver | jigsaw sudoku online
+light up puzzle,low + rising,low,low,0.0004,3.92,8,8,input,10,1,light up puzzle | light up puzzle solver | light up puzzle game | light up puzzles for adults | light up puzzle big walk
+lights out game,low + rising,low,low,0.0024,2.53,12,12,input,10,1,lights out game | lights out game solver | lights out game 90s | lights out game online | lights out game real life
+lights out puzzle,low,low,low,0.0001,,23,9,input,10,2,lights out puzzle solver | lights out puzzle | lights out puzzle 3x3 | lights out puzzle solver 3x3 | lights out puzzle solver 6x6
+mastermind game,low,low,low,0.0007,,56,54,input,10,4,mastermind game | mastermind game online | mastermind game show | mastermind game rules | mastermind game instructions
+mastermind online,low,low,low,0.0007,0.59,13,13,input,10,5,mastermind online | mastermind online game | mastermind online 2 player | mastermind online free | mastermind online game free
+masyu,low + rising,low,low,0.0002,2.27,26,25,input,10,1,masyumaro | masyu | masyumaro sanrio | masyu puzzles | masyumaro plush
+pattern puzzle,low + rising,low,low,0.0016,1.93,17,0,input,10,1,pattern puzzles | pattern puzzle crimson desert | pattern puzzles for kids | pattern puzzle game | pattern puzzles for adults
+peg solitaire,low + rising,low,low,0.0003,1.38,7,7,input,10,4,peg solitaire | peg solitaire solution | peg solitaire game | peg solitaire online | peg solitaire triangle
+pipe puzzle,low + rising,low,low,0.0008,5.3,11,5,input,10,2,pipe puzzle | pipe puzzle dos2 | pipe puzzle games | pipe puzzle solver | pipe puzzle dino crisis
+pipes game,low + rising,low,low,0.0015,2.57,51,50,input,9,5,pipes game | pipes game online | pipes game new york times | pipes game puzzle | pipes game free
+same game,low (conflict),high,low,0.4173,1.06,48,44,input,10,3,same game parlay | same game | same game parlay meaning | same game parlay app | same game different levels
+shikaku,low + rising,low,medium,0.0022,2.54,509,359,input,10,2,shikaku | shikaku nara | shikaku anime | shikaku naruto | shikaku puzzle
+sliding puzzle,low + rising,low,low,0.0028,2.04,78,36,input,10,3,sliding puzzle | sliding puzzle solver | sliding puzzle game | sliding puzzle online | sliding puzzle solver 3x3
+x sudoku,low,low,low,0.0006,,13,13,input,10,2,x sudoku | x sudoku puzzles | x sudoku printable | x sudoku online | x sudoku solver
+black box game,none (conflict),medium,none,0.0115,0.45,0,0,input,10,1,black box game | black box game hints | black box game console | black box games nes | black box games list
+dominosa,none,none,low,0.0,,18,18,input,8,2,dominosa | dominosapp | dominosapply | dominosa puzzle | dominosantantonio
+fillomino,none,none,low,0.0,,6,6,input,10,5,fillomino | fillomino puzzle | fillomino rules | fillomino solver | fillomino online
+flood it game,none,low,none,0.0002,,0,0,input,4,1,flood it game | flood it game online | flood it game solver | flood it game strategy | flood game steam
+four color map puzzle,none,none,none,0.0,,0,0,input,1,0,four color map puzzle | 4 color map theory | how many colours do you need for a map
+futoshiki,none,none,low,0.0,,69,52,input,10,5,futoshiki | futoshiki puzzle | futoshiki solver | futoshiki how to play | futoshiki tips
+galaxies puzzle,none,none,low,0.0,,3,3,input,10,3,galaxies puzzle | galaxies puzzle game | galaxies puzzle solver | galaxies puzzle strategy | galaxies puzzle online
+keen puzzle,none,none,none,0.0,,0,0,input,7,1,keen puzzle | keen puzzle ledge | keen puzzle wedge | keen puzzle game | keen puzzle solver
+loopy puzzle,none,low,none,0.0001,0.18,0,0,input,7,1,loopy puzzle | loopy puzzle game | loopy puzzle tips | loopy puzzle solver | loopy puzzle miniso
+magnets puzzle,none,low,none,0.0002,0.23,0,0,input,4,1,magnets puzzle | magnets puzzle solver | magnets puzzle game | magnets puzzle fridge | magnetic puzzles for kids
+net puzzle,none,low,none,0.0009,0.83,0,0,input,4,2,net puzzle game | net puzzle | .net/puzzle 0001 | net puzzle game download | net puzzle solver
+netwalk,none,none,low,0.0,,6,6,input,10,1,netwalk | netwalking | netwalk game | netwalking events | netwalker
+pearl puzzle,none,low,none,0.0001,,0,0,input,8,1,pearl puzzle | pearl puzzle stardew | pearl puzzle game | pearl puzzle indiana jones | pearl puzzle solver
+peg solitaire online,none,none,none,0.0,,0,0,input,6,2,peg solitaire online | peg solitaire online free | peg solitaire online triangle | peg solitaire online free no download | peg solitaire online solver
+range puzzle,none + rising,low,none,0.0012,1.43,0,0,input,10,1,range puzzle | range puzzle board | range puzzle mat | range puzzle solver | range puzzle game
+samegame,none,none,low,0.0,,5,5,input,9,2,samegame | samegame online | samegame online free | same game parlay | samegame solver
+signpost puzzle,none,none,none,0.0,,0,0,input,10,1,signpost puzzle | signpost puzzle solver | signpost puzzle re1 | signpost puzzle resident evil | signpost puzzle infinity nikki
+singles puzzle,none,low,none,0.0001,,0,0,input,1,0,singles puzzle | single puzzle piece | single puzzle piece template | single puzzle game | single puzzle piece image
+skyscrapers puzzle,none,low,none,0.0007,,0,0,input,10,2,skyscrapers puzzle | skyscrapers puzzle game | skyscrapers puzzle solver | skyscrapers puzzle tips | skyscrapers puzzle online
+solo sudoku,none,none,none,0.0,,0,0,input,4,1,solo sudoku | solo sudoku online | solo vs sudoku | solo games like sudoku | solo sudoku diabolici
+tents puzzle,none,none,low,0.0,,9,9,input,9,2,tents puzzle | tents puzzle game | tents puzzle solver | tents puzzle online | tents puzzle strategy
+towers puzzle,none,low,none,0.0001,,0,0,input,5,1,towers puzzle | towers puzzle game | towers puzzle solver | towers puzzle rs3 | towers puzzle crimson desert
+undead puzzle,none,none,none,0.0,,0,0,input,6,1,undead puzzle | undead puzzle dnd | undead puzzle game | undead puzzle solver | undead scourge puzzles and chaos
+unequal puzzle,none,none,none,0.0,,0,0,input,3,1,unequal puzzle | unequal puzzle solver | unequal puzzle game | unequal to sign | different size puzzles
+unruly puzzle,none,low,none,0.0002,,0,0,input,3,1,unruly puzzle | unruly puzzle game | unruly puzzle solver | unruly crowd crossword puzzle | how to unlock defiant lock
+untangle game,none,none,low,0.0,,9,9,input,10,5,untangle game | untangle game online | untangle game with hands | untangle game online free | untangle game free
