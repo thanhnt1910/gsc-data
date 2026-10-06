@@ -22,3 +22,13 @@ date,eventName,pagePath,eventCount
 2026-10-04,game_start,/games/impossible-10/,1
 2026-10-04,game_start,/games/last-stand-zombie-defense/,1
 2026-10-04,game_start,/games/triple-shelf-match/,1
+2026-10-05,game_play_60s,/games/moto-x3m-spooky-land/,2
+2026-10-05,game_start,/games/moto-x3m-spooky-land/,2
+2026-10-05,game_fullscreen,/games/moto-x3m-spooky-land/,1
+2026-10-05,game_play_300s,/games/freecell-solitaire-deluxe/,1
+2026-10-05,game_play_60s,/games/freecell-solitaire-deluxe/,1
+2026-10-05,game_start,/games/crossword/,1
+2026-10-05,game_start,/games/explainable-minesweeper/,1
+2026-10-05,game_start,/games/freecell-solitaire-deluxe/,1
+2026-10-05,game_start,/games/mystery-mansion/,1
+2026-10-05,game_start,/games/scary-math/,1
