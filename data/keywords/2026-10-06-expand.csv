@@ -1,61 +1,56 @@
 keyword,verdict,google_level,bing_level,trends_vs_anchor,trends_rising_ratio,bing_weekly_broad,bing_weekly_exact,source,autocomplete_related,autocomplete_game_intent,autocomplete_top
-2048,high + rising,high,high,0.3494,1.51,24848,8500,seed,10,2,2048 | 2048 cupcakes | 2048 game | 2048 nowhere to run | 2048 x 1152
-2048 cupcakes,medium + rising,medium,medium,0.0211,2.09,1447,1396,autocomplete + bing related,10,1,2048 cupcakes | 2048 cupcakes christmas | 2048 cupcakes game | 2048 cupcakes halloween | 2048 cupcakes extension
-2048 game,medium + rising,medium,high,0.0211,1.35,11061,10713,seed,10,1,2048 game | 2048 game online | 2048 game strategy | 2048 game download | 2048 game offline
-cupcake 2048,medium + rising,medium,medium,0.0148,2.84,1088,1052,bing related,6,2,cupcake 2048 | cupcake 2048 game | cupcake 2048 christmas | cupcake 2048 extension | cupcake 2048 scratch
-2048 cupcake game,low + rising,low,low,0.0003,6.08,12,12,autocomplete + bing related,5,1,2048 cupcake game | 2048 cupcake game online | 2048 cupcake game extension | 2048 cupcake game taylor swift | 2048 cupcakes games play online free
-2048 free,low + rising,low,low,0.0004,7.57,14,5,autocomplete,8,2,2048 free | 2048 free download | 2048 free fire diamond app | 2048 free app | 2048 free fire
-2048 free game,low,low,low,0.0001,,7,7,autocomplete,4,1,2048 free game | 2048 free game online | 2048 game free download | train 2048 free game | ball run 2048 free game
-2048 game cool math games,low,low,low,0.0001,0.27,15,15,autocomplete,1,0,2048 game cool math games | what is the trick to 2048 game | does coolmath games still work
-2048 game free,low,low,low,0.0001,,9,6,autocomplete,2,0,2048 game free | 2048 game free download | 2048 game offline free | 2048 game offline free download | 2048 game online free no download
-2048 game online,low + rising,low,low,0.0002,2.36,34,33,autocomplete + bing related,9,3,2048 game online | 2048 game online free | 2048 game online play | 2048 game online google | 2048 game online free no download
-2048 game play,low,low,low,0.0001,,5,1,autocomplete,6,3,2048 game play | 2048 game play store | 2048 game play online | 2048 game play free | 2048 game play puzzle
-2048 online,low,low,low,0.0003,,40,15,autocomplete + bing related,4,3,2048 online | 2048 online game 8x8 | 2048 online game 5x5 | 2048 online free game | how to get 2048 in 2048
-2048 online game,low + rising,low,low,0.0002,2.36,5,5,autocomplete + bing related,6,2,2048 online game | 2048 online game 8x8 | 2048 online game 5x5 | 2048 online game razzle puzzle | 2048 online game 8x8 free
-ball run 2048,low + rising,low,low,0.0002,2.06,176,127,bing related,10,1,ball run 2048 | ball run 2048 infinity | ball run 2048 merge number | ball run 2048 online | ball run 2048 calculator
-cubes 2048,low,low,low,0.0001,,342,248,bing related,10,0,cubes 2048 | cubes 2048 io | cubes 2048 io world record | cubes 2048 io poki | cubes 2048 royale
-free 2048,low + rising,low,low,0.0004,7.57,1,1,autocomplete,8,4,free 2048 game | free 2048 game online | free 2048x texture pack minecraft | free 2048 texture pack | free 2048 minecraft texture pack
-free 2048 game,low,low,low,0.0001,,1,1,autocomplete,4,1,free 2048 game | free 2048 game online | free games 2048 merge | free download 2048 game for android | free 2048 train game
-how to play 2048 game,low,low,low,0.0001,,2,2,autocomplete,5,1,how to play 2048 game | how to play 2048 game rules | how to play 2048 game online | how to play 2048 game in smartwatch | how to play 2048 game for beginners
-jelly run 2048,low,low,low,0.0002,0.15,176,133,bing related,10,2,jelly run 2048 | jelly run 2048 online | jelly run 2048 crazy games | jelly run 2048 old version | jelly run 2048 1u
-play 2048,low + rising,low,low,0.0004,7.52,58,37,autocomplete + bing related,10,1,play 2048 | play 2048 cupcakes | play 2048 free online | play 2048 balls | play 2048 with undo
-play 2048 game,low,low,low,0.0001,,4,1,autocomplete,9,1,play 2048 game | play 2048 game online | play 2048 game com | google play 2048 game | play puzzle game 2048
-2048 app,none + rising,low,none,0.0002,2.36,0,0,autocomplete,10,1,2048 app | 2048 apple watch | 2048 app store | 2048 app game | 2048 apple arcade
-2048 free download,none,none,none,0.0,,0,0,autocomplete,2,0,2048 free download | 2048 free download for pc | 2048 game download | 2048 game download apk | 2048 game download for pc
-2048 free download for pc,none,none,none,0.0,,0,0,autocomplete,1,0,2048 free download for pc | 2048 game download for pc
-2048 free game online,none,none,none,0.0,,0,0,autocomplete,1,0,2048 free game online | 2048 merge game free online | 2048 ball game free online | 2048 play the free online game | 2048 tile game play free online
-2048 free online,none,none,low,0.0,,4,1,autocomplete,6,1,2048 free online | 2048 free online game | cube 2048 free online | 2048 play the free online game | cube arena 2048 free online
-2048 game app,none,none,none,0.0,,0,0,autocomplete,9,0,2048 game app | 2048 game app store | 2048 game app download | 2048 game apple watch | 2048 game apple
-2048 game download free,none,none,none,0.0,,0,0,autocomplete,2,0,2048 game download free | 2048 game download free android | 2048 game offline free download | 2048 game online free no download | what is the trick to 2048 game
-2048 game for kids,none,low,none,0.0001,,0,0,autocomplete,1,0,2048 game for kids | what is the trick to 2048 game | what is the goal of 2048 game | 2048 rules
-2048 game free online,none,none,low,0.0,,5,5,autocomplete,1,0,2048 game free online | 2048 game online free no download | 2048 merge game free online | 2048 ball game free online | 2048 tile game play free online
-2048 game free play,none,none,none,0.0,,0,0,autocomplete,1,0,2048 game free play | 2048 tile game play free online | what is the trick to 2048 game | strategy for 2048 game | what is the goal of 2048 game
-2048 game game,none (conflict) + rising,medium,none,0.0203,1.43,0,0,autocomplete,1,0,2048 game game | 2048 game crazy games | 2048 game play 2048 game online | 2048 game cool math games | 2048 snake game crazy games
-2048 game google free,none,low,none,0.0001,,0,0,autocomplete,1,0,2048 game google free | what is the trick to 2048 game | what is the 2048 game | what is the goal of 2048 game
-2048 game how to play,none,low,none,0.0001,,0,0,autocomplete,1,0,2048 game how to play | 2048 game online how to play | 2048 game play store | 2048 game play free | 2048 game play puzzle
-2048 game offline,none,low,none,0.0002,,0,0,autocomplete,4,2,2048 game offline | 2048 game offline free | 2048 game offline free download | 2048 game offline android | play 2048 offline
-2048 game online free,none,none,low,0.0,,6,5,autocomplete,2,0,2048 game online free | 2048 game online free no download | 2048 game for free | 2048 play online for free poki | 2048 online game 8x8 free
-2048 game online free no download,none,none,none,0.0,,0,0,autocomplete,1,0,2048 game online free no download | what is the trick to 2048 game | what is the trick to 2048 | is it possible to get 2048
-2048 game online no download,none,none,none,0.0,,0,0,autocomplete,1,0,2048 game online no download | 2048 game online free no download
-2048 game online play,none,none,low,0.0,,1,1,autocomplete,1,0,2048 game online play | 2048 cupcakes games play online free | 2048 balls 3d online game 🕹 play now | online games for more than 4 players | 2 player online games iphone
-2048 game play 2048 game online,none,low,none,0.0001,,0,0,autocomplete,1,0,2048 game play 2048 game online | what is the trick to 2048 game | strategy for 2048 game | what is the goal of 2048 game
-2048 game strategy,none,none,none,0.0,,0,0,autocomplete,3,0,2048 game strategy | 2048 game strategy reddit | 2048 game strategy cheat | 2048 game tips | 2048 game tips and tricks
-2048 kids game,none,low,none,0.0001,,0,0,autocomplete,1,0,2048 kids game | stray kids 2048 game | 2048 game trick | 2048 rules | what is the goal of 2048 game
-2048 online free,none,none,low,0.0,,10,1,autocomplete,5,2,2048 online free | 2048 online free game | merge 2048 online free game | 2048 game online free no download | cubes 2048 online free
-2048 online game free,none,none,low,0.0,,2,2,autocomplete,1,0,2048 online game free | 2048 game online free no download | 2048 online game 8x8 free | merge 2048 online free game | 2048 ball game free online
-2048 qt game,none,none,none,0.0,,0,0,autocomplete,1,0,2048 qt game | 2048 game highest possible score | 2048 game trick | 2048 strategy to get 8192 | 2048 tricks
-2048 sandbox free no download,none,none,none,0.0,,0,0,autocomplete,1,0,2048 sandbox free no download | what is the trick to 2048 | 2048 strategy to get 8192 | how to get 2048 in 2048 | is 2048 beatable
-2048 video game,none,none,low,0.0,,58,58,autocomplete + bing related,2,0,2048 video game | 2048 video game edition | 2048 game highest possible score | what is the trick to 2048 game
-2048 x2 game,none,none,none,0.0,,0,0,autocomplete,1,0,2048 x2 game | 2048 rules and strategy | what is the trick to 2048 game | strategy for 2048 game | 2048 game highest possible score
-best 2048 game,none,none,none,0.0,,0,0,autocomplete,5,1,best 2048 game | best 2048 game ios | best 2048 game ever | best 2048 game app | best 2048 game reddit
-free 2048 game online,none,none,none,0.0,,0,0,autocomplete,1,0,free 2048 game online | 2048 game online free no download | 2048 online game 8x8 free | 2048 merge game free online | 2048 ball game free online
-free 2048x texture pack minecraft,none,none,none,0.0,,0,0,autocomplete,1,0,free 2048x texture pack minecraft | are texture packs in minecraft free
-free games 2048 merge,none,none,none,0.0,,0,0,autocomplete,1,0,free games 2048 merge
-how to play 2048,none,none,low,0.0,,5,3,autocomplete,10,3,how to play 2048 | how to play 2048 game | how to play 2048 puzzle fun | how to play 2048 well | how to play 2048 puzzle game
-how to play 2048 game in watch,none,none,none,0.0,,0,0,autocomplete,1,0,how to play 2048 game in watch | how many game and watch games are there | does ea play have full games
-how to play 2048 game rules,none,low,none,0.0001,,0,0,autocomplete,1,0,how to play 2048 game rules | what is the trick to 2048 game | strategy for 2048 game
-how to play 2048 puzzle fun,none,none,none,0.0,,0,0,autocomplete,1,0,how to play 2048 puzzle fun | how do you play 2048 puzzle fun | how to play 2048 puzzle game | how do you play 2048 puzzle | puzzle games like 2048
-play 2048 game com,none,none,none,0.0,,0,0,autocomplete,0,0,com.play 2048.simply game | what is the trick to 2048 game | what is the 2048 game
-play 2048 game online,none,none,low,0.0,,1,1,autocomplete,1,0,play 2048 game online | 2048 play the free online game | can you play ps2 games on mobile | 2 player online games on play store | play games right now
-play 2048 online,none,none,low,0.0,,21,15,autocomplete + bing related,1,0,play 2048 online | 2048 play online for free poki | 2048 play online at coolmath games | game 2048 online free | play 2048 game online
-play 2048 online free,none,none,low,0.0,,10,10,autocomplete,1,0,play 2048 online free | play 2048 for free | 2048 play online for free poki | cubes 2048 play free online | ball run 2048 play online free
+google snake,high + rising,high,high,1.7185,2.22,26709,21094,bing related,10,3,google snake | google snake game | google snake mods | google snake play | google snake doodle
+snake,high + rising,high,high,9.3298,1.57,140884,26829,bing related,10,1,snake | snake game | snake farm | snake plant | snake farm zoo
+snake game,high + rising,high,high,1.9033,2.33,48571,35262,seed,10,2,snake game | snake game google | snake game online | snake game 3 | snake game io
+snake game google,high + rising,high,high,0.2398,2.2,7450,6932,autocomplete + bing related,10,4,snake game google | snake game google doodle | snake game google horror | snake game google play | snake game google 2
+games snake,medium + rising,high,medium,0.2533,2.32,1495,62,bing related,10,3,games snake | games snake io | games snake google | games snake clash | games snakes and ladders
+google doodle snake,medium + rising,high,medium,0.0603,1.91,712,591,bing related,8,2,google doodle snake | google doodle snake game | google doodle snake 2 | google doodle snake game play | google doodle snake mods
+google games snake,medium + rising,high,medium,0.1418,1.83,1202,1138,bing related,9,3,google games snake | google games snake free | google games snake io | google games snake apple | google games snake clash
+google snake game,medium + rising,high,medium,0.2032,2.64,3909,3696,bing related,10,4,google snake game | google snake game play | google snake game offline | google snake game world record | google snake game 3d
+play snake,medium + rising,high,medium,0.0744,2.21,607,474,bing related,10,6,play snake | play snake game | play snake online | play snake clash | play snake google
+snake games,medium + rising,high,medium,0.2973,1.97,948,699,input,10,5,snake games | snake games online | snake games for kids | snake games google | snake games for free
+snake google,medium + rising,high,medium,1.6966,2.23,4324,3396,bing related,10,3,snake google | snake google game | snake google doodle | snake google 3d | snake google 2
+snake google game,medium + rising,high,medium,0.2352,2.2,607,598,bing related,7,3,snake google game | snake google game doodle | snake google game play | snake google game free | snake google game world record
+snake io,medium + rising,high,medium,0.0549,1.37,2998,2352,input,10,2,snake io | snake io game | snake io 2 | snake io free | snake io google
+classic snake game,low,low,low,0.0001,,15,15,input,10,4,classic snake game | classic snake game google | classic snake game online | classic snake game toy | classic snake game google play
+death worm,low + rising,low,medium,0.0019,1.55,3243,15,input,10,3,death worm | death worm game | death worm ark | death worm egg ice and fire | death worm cryptid
+deep worm,low + rising,low,low,0.0005,3.78,44,44,input,10,1,deep worm | deep worm haven and hearth | deep worm game | deep worm tracker | deep worm 2
+free snake game,low + rising,low,low,0.0052,2.66,25,25,autocomplete + bing related,7,2,free snake game | free snake games online | free snake games for kids | free snake games to play | free snake games no download
+play snake game,low + rising,medium,low,0.0149,2.44,25,23,autocomplete + bing related,7,3,play snake game | play snake game google | play snake game online | play snake game for free | play snake game online free
+snake 2048,low + rising,low,low,0.0017,8.33,64,46,input,10,5,snake 2048 | snake 2048 io | snake 2048 playhop | snake 2048 roblox | snake 2048 game
+snake apple,low,medium,low,0.032,1.2,309,50,bing related,10,3,snake apple | snake apple game | snake apple plant | snake apple fruit | snake apple vine
+snake apple game,low + rising,medium,low,0.0113,3.21,258,229,bing related,10,3,snake apple game | snake apple game google | snake apple game puzzle | snake apple game online | snake apple game tiktok
+snake arena,low,low,low,0.0002,,7,7,input,10,2,snake arena | snake arena 2048 | snake arena game | snake arena 2 | snake arena 2 demo
+snake escape,low + rising,low,low,0.0024,2.27,48,10,input,10,7,snake escape | snake escape from new york | snake escape china | snake escape game | snake escape game online free
+snake game app,low,low,low,0.0004,,25,25,autocomplete,10,1,snake game apple | snake game app | snake game apple watch | snake game app store | snake game app free
+snake game free,low + rising,medium,low,0.012,3.15,177,34,input,10,3,snake game free | snake game free online | snake game free download | snake game free to play | snake game free no download
+snake game free online,low,low,low,0.0003,,119,89,autocomplete + bing related,4,1,snake game free online | snake game free online play | snake game free online no download | snake game free online full screen | snake game online free multiplayer
+snake game google doodle,low + rising,medium,low,0.0138,2.09,287,254,autocomplete + bing related,4,2,snake game google doodle | snake game google doodle play | snake game google doodle free | car game google doodle | worm game google doodle
+snake game online,low + rising,medium,low,0.0127,3.48,201,105,input,10,4,snake game online | snake game online free | snake game online google | snake game online multiplayer | snake game online free play
+snake game online free,low,low,low,0.0003,,67,54,autocomplete + bing related,7,1,snake game online free | snake game online free play | snake game online free no download | snake game online free multiplayer | snake game online free download
+snake game play,low + rising,low,low,0.0078,2.47,446,367,autocomplete + bing related,10,4,snake game play | snake game playstation | snake game play free | snake game play online | snake game play store
+snake io game,low + rising,medium,low,0.016,2.32,336,322,input,10,5,snake io game | snake io gameplay | snake io game free | snake io game online | snake io game age rating
+snake.io,low + rising,low,medium,0.0036,2.81,804,602,bing related,10,3,snake.io | snake.io online | snake.io 2 | snake.io google | snake.io games
+snakeio,low + rising,low,low,0.0006,13.28,342,342,bing related,0,0,snake io | snake io game | snake io google | snake io online | snake io free
+worm game,low,medium,low,0.0324,1.07,488,382,input,10,1,worm game | worm game google | worm game of thrones | worm game online | worm game apple
+worm games,low + rising,low,low,0.0016,4.37,19,17,input,10,5,worm games | worm games for kids | worm games online | worm games free | worm games to play for free
+worm hunt,low + rising,low,low,0.0002,3.95,20,15,input,10,1,worm hunting | worm hunter x hunter | worm hunt overkill to gouge | worm hunter | worm hunting stick
+worms zone,low,low,low,0.0001,,46,32,input,7,3,worms zone | worms zone io | worms zone snake game | worms zone io hungry snake | worms zone game
+worms zone io,low,low,low,0.0001,,2,2,input,6,2,worms zone io | worms zone io hungry snake | worms zone io hungry snake game | worms zone io game download | worms zone io hungry snake 2022
+color snake 3d,none,none,none,0.0,,0,0,input,2,1,color snake 3d | color snake 3d online | snake 3d number | what color snakes are dangerous
+free snake games online,none,low,none,0.0003,,0,0,autocomplete,1,0,free snake games online | free snake escape game online | free snake and ladder game online | free games online snake clash | free online snake games for kids
+gusano io,none,low,none,0.0001,,0,0,input,5,2,gusano io | gusano io worms snake game | gusano io juego | gusano io online | gusano io apk
+how to play snake,none (conflict) + rising,medium,none,0.0127,2.76,0,0,input,10,1,how to play snakes and ladders | how to play snake on spotify | how to play snake | how to play snake smash bros | how to play snake in scp sl
+how to play snake game,none + rising,low,none,0.0006,5.89,0,0,autocomplete,10,0,how to play snake game on spotify | how to play snake game | how to play snake game on discord | how to play snake game on google | how to play snake game on calculator
+how to play snake game on spotify,none,none,none,0.0,,0,0,autocomplete,1,0,how to play snake game on spotify | how to play spotify snake game on laptop | how to play spotify snake game on iphone | how to play snake game | how to play snake game discord
+play snake game google,none + rising,low,none,0.0011,4.75,0,0,autocomplete,2,0,play snake game google | apple play snake game google | play snake game on google app | snake game google play free | snake game google play store
+snake and circles,none,low,none,0.0003,0.14,0,0,input,0,0,snakes and circles | snake circle meaning | snake circle symbol | snake circle tattoo meaning
+snake block,none (conflict) + rising,medium,none,0.0167,2.53,0,0,input,10,2,snake block tower star coins | snake block | snake blocker | snake block tower secret exit | snake block puzzle
+snake game free download,none,none,low,0.0,,4,4,autocomplete + bing related,4,0,snake game free download | snake game free download for android | snake game free download for pc windows 10 | snake game free download for pc windows 7 | snake game download free play store
+snake game game,none (conflict) + rising,high,none,1.9011,2.33,0,0,autocomplete,8,3,snake game game | snake game gameplay | snake game gameboy | snake game gameplay free | snake game game over
+snake game high score,none,none,none,0.0,,0,0,input,5,0,snake game high score | snake game high score screenshot | snake game high score world record | snake game high score google | snake game highest score
+snake game io free,none,none,none,0.0,,0,0,autocomplete,1,0,snake game io free | snake io game free online | snake io game free play | snake doodle worm .io game free | snake io games list
+snake game tips,none,none,none,0.0,,0,0,input,2,0,snake game tips | snake game tips and tricks | snake game strategy | snake game strategy medium map | snake game guide
+snake game zone online,none,none,none,0.0,,0,0,autocomplete,1,0,snake game zone online | snake game worms zone online | snake zone io hungry game online | snake game description | how to play snake io online
+snake io war,none,none,none,0.0,,0,0,input,1,0,snake io war | snake warz io | snake warz io free download | snake game war | snake game warm
+snake simple retro,none,none,none,0.0,,0,0,input,0,0,
