@@ -1,8 +1,36 @@
 keyword,verdict,google_level,bing_level,trends_vs_anchor,trends_rising_ratio,bing_weekly_broad,bing_weekly_exact,source,autocomplete_related,autocomplete_game_intent,autocomplete_top
-halloween coloring pages,medium + rising,medium,medium,0.0326,10.45,1069,549,input,10,3,halloween coloring pages | halloween coloring pages for kids | halloween coloring pages for adults | halloween coloring pages printable | halloween coloring pages free
-color by number printable,low + rising,low,low,0.0047,2.08,384,342,input,10,2,color by number printable | color by number printables for adults | color by number printable for kids | color by number printables for adults pdf | color by number printable free
-halloween color by number,low,low,low,0.0008,,46,40,input,10,4,halloween color by number | halloween color by number for adults | halloween color by number printable | halloween color by number for kids | halloween color by number app
-halloween color by number printable,low,low,low,0.0002,,20,20,input,6,2,halloween color by number printable | halloween color by number printable free | halloween color by number printable pdf | halloween color by number printable for kids | halloween color by number printable for adults
-halloween printables for kids,low,low,low,0.0003,0.99,23,0,input,2,1,halloween printables for kids | halloween printables for kids free | halloween worksheets for kids | halloween coloring for kids | halloween sheets for kids
-halloween math color by number,none,none,none,0.0,,0,0,input,4,1,halloween math color by number | halloween math color by number multiplication free printable | halloween math color by number multiplication | halloween math color by number addition | halloween subtraction color by number
-halloween math worksheets,none,low,none,0.0002,,0,0,input,10,1,halloween math worksheets | halloween math worksheets kindergarten | halloween math worksheets free | halloween math worksheets pdf | halloween math worksheets 2nd grade
+2048,high + rising,high,high,0.3496,1.52,24848,8500,input,10,2,2048 | 2048 cupcakes | 2048 game | 2048 nowhere to run | 2048 x 1152
+checkers,high,high,high,0.5715,1.07,26013,6464,input,10,2,checkers | checkers menu | checkers near me | checkers chicago | checkers missouri
+chess online,high,high,high,0.1593,0.85,14492,8781,input,10,3,chess online | chess online free | chess online 2 player | chess online game | chess online with friends
+dominoes,high,high,high,0.5344,1.0,8826,267,input,1,1,dominos | dominos near me | dominos iowa | dominos chicago | dominos pizza
+tic tac toe,high + rising,high,high,0.157,1.48,5133,3401,input,10,3,tic tac toe | tic tac toe game | tic tac toe online | tic tac toe strategy | tic tac toe 2 player online
+2048 game,medium + rising,medium,high,0.0211,1.35,11061,10713,input,10,1,2048 game | 2048 game online | 2048 game strategy | 2048 game offline | 2048 game 8x8
+battleship,medium,high,medium,0.2656,0.87,3548,626,input,10,2,battleship | battleship cast | battleship movie | battleship game | battleship potemkin
+battleship game,medium,medium,medium,0.0263,0.85,552,351,input,10,2,battleship game | battleship game online | battleship game online free | battleship game rules | battleship game pieces
+master chess,medium,medium,medium,0.0237,1.06,752,397,input,10,4,master chess | master chess poki | master chess player | master chess online | master chess game
+othello,medium,high,medium,0.1337,0.98,2613,923,input,10,2,othello | othello game | othello villain | othello wa | othello movie
+reversi,medium + rising,medium,medium,0.0126,2.32,591,344,input,10,1,reversi | reversible | reversion | reversi game | reversing valve
+arithmetic game,low + rising,low,low,0.0004,2.02,28,25,input,8,2,arithmetic game | arithmetic game zetamac | arithmetic game speed drill | arithmetic game online speed drill | arithmetic games for adults
+brain doctor,low,medium,low,0.0496,1.17,32,29,input,10,0,brain doctor | brain doctor called | brain doctor near me | brain doctor neurologist | brain doctor specialist
+domino online,low + rising,low,low,0.0006,2.16,86,28,input,10,3,domino online | domino online order | domino online game | domino online specials | domino online free
+get 10,low (conflict),high,low,1.363,1.08,67,7,input,10,0,get 100 dollars now | get 10 dollars now | get 1000 dollars now | get 1000 loan instantly | get 100 loan instantly
+kids math games,low + rising,medium,low,0.0448,1.58,108,43,input,10,5,kids math games | kids math games free | kids math games online | kids math games online free | kids math games app
+master of numbers,low,low,low,0.0017,0.76,11,10,input,7,5,master of numbers | master of numbers game | master of numbers crazy games | master of numbers online | master of numbers cool math games
+math test,low (conflict),high,low,0.2815,1.19,346,139,input,10,2,math test | math test online | math test for 3rd grade | math test quiz | math test for 5th grade
+memory cards,low,medium,low,0.0485,0.72,43,38,input,10,1,memory cards | memory cards for cameras | memory cards for funeral | memory cards near me | memory cards game
+number sums,low,low,low,0.0019,1.1,15,11,input,10,9,number sums | number sums game | number sums game online free | number sums puzzle | number sums game online
+shell game,low (conflict),high,low,0.0619,0.71,45,37,input,10,0,shell game | shell game meaning | shell game podcast | shell game gif | shell game isaac
+simon game,low,medium,low,0.0367,0.78,68,65,input,10,2,simon game | simon game mat | simon game online | simon game 1978 | simon game original
+sliding puzzle,low + rising,low,low,0.0022,1.5,78,36,input,10,3,sliding puzzle | sliding puzzle solver | sliding puzzle game | sliding puzzle online | sliding puzzle solver 3x3
+connect the dots puzzle,none,none,low,0.0,,10,10,input,10,2,connect the dots puzzle | connect the dots puzzle solution | connect the dots puzzle game | connect the dots puzzle book | connect the dots puzzle printable
+dot link puzzle,none,none,none,0.0,,0,0,input,3,1,dot link puzzle | dot link puzzle game | dot connection puzzle | connect dot link puzzle | connect dots link puzzle online
+heart calcopus,none,none,none,0.0,,0,0,input,0,0,
+kobadoo,none,low,none,0.0001,0.13,0,0,input,0,0,kobadi flags
+math fight club,none,none,none,0.0,,0,0,input,0,0,fight club math | math se fait fight club | fight club formula | what is the main point of fight club | fight club explanation
+multiplication simulator,none,low,none,0.0001,,0,0,input,2,0,multiplication simulator | multiplication check simulator | multiplication table simulator | 8085 simulator multiplication | matrix multiplication simulator
+path puzzle,none + rising,low,none,0.0014,1.61,0,0,input,9,1,path puzzles | path puzzle game | path puzzles watch dogs | path puzzle for kids | path puzzle generator
+shapes game for kids,none,none,low,0.0,,11,11,input,9,4,shapes game for kids | shapes game for kids online | shapes game for kids wordwall | shapes game for kids english | shapes game for kids online free
+sudoku blocks,none,none,low,0.0,,14,14,input,10,6,sudoku blocks | sudoku blocks free online | sudoku blocks cnn | sudoku blocks game | sudoku blocks online
+super chains,none + rising,low,none,0.0006,3.16,0,0,input,6,0,super chainsaw | super chainsaw man motorcycle | super chainsaw man | super chainsaw battery | super chainsaw chain
+three cups game,none,none,none,0.0,,0,0,input,3,1,three cups game | three cups game casino | three cups game online | three cup game origin | three cup game name
+unblock that,none (conflict),medium,none,0.0248,1.21,0,0,input,4,0,unblock that | unblock that site | unblock that website | unblock that number | websites that unblock everything
