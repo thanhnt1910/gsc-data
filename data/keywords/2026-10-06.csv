@@ -1,46 +1,55 @@
 keyword,verdict,google_level,bing_level,trends_vs_anchor,trends_rising_ratio,bing_weekly_broad,bing_weekly_exact,source,autocomplete_related,autocomplete_game_intent,autocomplete_top
-15 puzzle,low,medium,low,0.0145,0.19,19,18,input,10,3,15 puzzle | 15 puzzle game ff1 | 15 puzzle game | 15 puzzle solver | 15 puzzle online
-cube puzzle game,low + rising,low,low,0.0003,4.05,21,0,input,10,2,cube puzzle game | cube puzzle game online | cube puzzle game solution | cube puzzle game solve | cube puzzle game name
-flood it,low (conflict),high,low,0.1517,1.06,7,7,input,10,1,flood it again meme | flood it again | flood it | flood it again jesus meme | flood it game
-inertia puzzle,low,low,low,0.0001,,50,0,input,2,1,inertia puzzle game | inertia puzzle | inertia explained | inertia examples | inertia in easy words
-jigsaw sudoku,low + rising,low,low,0.0007,3.26,219,111,input,10,4,jigsaw sudoku | jigsaw sudoku printable | jigsaw sudoku puzzles | jigsaw sudoku solver | jigsaw sudoku online
-light up puzzle,low + rising,low,low,0.0004,3.92,8,8,input,10,1,light up puzzle | light up puzzle solver | light up puzzle game | light up puzzles for adults | light up puzzle big walk
-lights out game,low + rising,low,low,0.0024,2.53,12,12,input,10,1,lights out game | lights out game solver | lights out game 90s | lights out game online | lights out game real life
-lights out puzzle,low,low,low,0.0001,,23,9,input,10,2,lights out puzzle solver | lights out puzzle | lights out puzzle 3x3 | lights out puzzle solver 3x3 | lights out puzzle solver 6x6
-mastermind game,low,low,low,0.0007,,56,54,input,10,4,mastermind game | mastermind game online | mastermind game show | mastermind game rules | mastermind game instructions
-mastermind online,low,low,low,0.0007,0.59,13,13,input,10,5,mastermind online | mastermind online game | mastermind online 2 player | mastermind online free | mastermind online game free
-masyu,low + rising,low,low,0.0002,2.27,26,25,input,10,1,masyumaro | masyu | masyumaro sanrio | masyu puzzles | masyumaro plush
-pattern puzzle,low + rising,low,low,0.0016,1.93,17,0,input,10,1,pattern puzzles | pattern puzzle crimson desert | pattern puzzles for kids | pattern puzzle game | pattern puzzles for adults
-peg solitaire,low + rising,low,low,0.0003,1.38,7,7,input,10,4,peg solitaire | peg solitaire solution | peg solitaire game | peg solitaire online | peg solitaire triangle
-pipe puzzle,low + rising,low,low,0.0008,5.3,11,5,input,10,2,pipe puzzle | pipe puzzle dos2 | pipe puzzle games | pipe puzzle solver | pipe puzzle dino crisis
-pipes game,low + rising,low,low,0.0015,2.57,51,50,input,9,5,pipes game | pipes game online | pipes game new york times | pipes game puzzle | pipes game free
-same game,low (conflict),high,low,0.4173,1.06,48,44,input,10,3,same game parlay | same game | same game parlay meaning | same game parlay app | same game different levels
-shikaku,low + rising,low,medium,0.0022,2.54,509,359,input,10,2,shikaku | shikaku nara | shikaku anime | shikaku naruto | shikaku puzzle
-sliding puzzle,low + rising,low,low,0.0028,2.04,78,36,input,10,3,sliding puzzle | sliding puzzle solver | sliding puzzle game | sliding puzzle online | sliding puzzle solver 3x3
-x sudoku,low,low,low,0.0006,,13,13,input,10,2,x sudoku | x sudoku puzzles | x sudoku printable | x sudoku online | x sudoku solver
-black box game,none (conflict),medium,none,0.0115,0.45,0,0,input,10,1,black box game | black box game hints | black box game console | black box games nes | black box games list
-dominosa,none,none,low,0.0,,18,18,input,8,2,dominosa | dominosapp | dominosapply | dominosa puzzle | dominosantantonio
-fillomino,none,none,low,0.0,,6,6,input,10,5,fillomino | fillomino puzzle | fillomino rules | fillomino solver | fillomino online
-flood it game,none,low,none,0.0002,,0,0,input,4,1,flood it game | flood it game online | flood it game solver | flood it game strategy | flood game steam
-four color map puzzle,none,none,none,0.0,,0,0,input,1,0,four color map puzzle | 4 color map theory | how many colours do you need for a map
-futoshiki,none,none,low,0.0,,69,52,input,10,5,futoshiki | futoshiki puzzle | futoshiki solver | futoshiki how to play | futoshiki tips
-galaxies puzzle,none,none,low,0.0,,3,3,input,10,3,galaxies puzzle | galaxies puzzle game | galaxies puzzle solver | galaxies puzzle strategy | galaxies puzzle online
-keen puzzle,none,none,none,0.0,,0,0,input,7,1,keen puzzle | keen puzzle ledge | keen puzzle wedge | keen puzzle game | keen puzzle solver
-loopy puzzle,none,low,none,0.0001,0.18,0,0,input,7,1,loopy puzzle | loopy puzzle game | loopy puzzle tips | loopy puzzle solver | loopy puzzle miniso
-magnets puzzle,none,low,none,0.0002,0.23,0,0,input,4,1,magnets puzzle | magnets puzzle solver | magnets puzzle game | magnets puzzle fridge | magnetic puzzles for kids
-net puzzle,none,low,none,0.0009,0.83,0,0,input,4,2,net puzzle game | net puzzle | .net/puzzle 0001 | net puzzle game download | net puzzle solver
-netwalk,none,none,low,0.0,,6,6,input,10,1,netwalk | netwalking | netwalk game | netwalking events | netwalker
-pearl puzzle,none,low,none,0.0001,,0,0,input,8,1,pearl puzzle | pearl puzzle stardew | pearl puzzle game | pearl puzzle indiana jones | pearl puzzle solver
-peg solitaire online,none,none,none,0.0,,0,0,input,6,2,peg solitaire online | peg solitaire online free | peg solitaire online triangle | peg solitaire online free no download | peg solitaire online solver
-range puzzle,none + rising,low,none,0.0012,1.43,0,0,input,10,1,range puzzle | range puzzle board | range puzzle mat | range puzzle solver | range puzzle game
-samegame,none,none,low,0.0,,5,5,input,9,2,samegame | samegame online | samegame online free | same game parlay | samegame solver
-signpost puzzle,none,none,none,0.0,,0,0,input,10,1,signpost puzzle | signpost puzzle solver | signpost puzzle re1 | signpost puzzle resident evil | signpost puzzle infinity nikki
-singles puzzle,none,low,none,0.0001,,0,0,input,1,0,singles puzzle | single puzzle piece | single puzzle piece template | single puzzle game | single puzzle piece image
-skyscrapers puzzle,none,low,none,0.0007,,0,0,input,10,2,skyscrapers puzzle | skyscrapers puzzle game | skyscrapers puzzle solver | skyscrapers puzzle tips | skyscrapers puzzle online
-solo sudoku,none,none,none,0.0,,0,0,input,4,1,solo sudoku | solo sudoku online | solo vs sudoku | solo games like sudoku | solo sudoku diabolici
-tents puzzle,none,none,low,0.0,,9,9,input,9,2,tents puzzle | tents puzzle game | tents puzzle solver | tents puzzle online | tents puzzle strategy
-towers puzzle,none,low,none,0.0001,,0,0,input,5,1,towers puzzle | towers puzzle game | towers puzzle solver | towers puzzle rs3 | towers puzzle crimson desert
-undead puzzle,none,none,none,0.0,,0,0,input,6,1,undead puzzle | undead puzzle dnd | undead puzzle game | undead puzzle solver | undead scourge puzzles and chaos
-unequal puzzle,none,none,none,0.0,,0,0,input,3,1,unequal puzzle | unequal puzzle solver | unequal puzzle game | unequal to sign | different size puzzles
-unruly puzzle,none,low,none,0.0002,,0,0,input,3,1,unruly puzzle | unruly puzzle game | unruly puzzle solver | unruly crowd crossword puzzle | how to unlock defiant lock
-untangle game,none,none,low,0.0,,9,9,input,10,5,untangle game | untangle game online | untangle game with hands | untangle game online free | untangle game free
+math games,high + rising,high,high,2.0579,2.09,241163,5897,input,10,2,math games | math games for kids | math games online | math games free | math games for grade 3
+geometry games,medium + rising,high,medium,0.1248,1.81,599,465,input,10,3,geometry games | geometry games io | geometry games online free | geometry games online | geometry games for kids
+math games for kids,medium + rising,medium,medium,0.012,1.85,1000,420,input,10,2,math games for kids | math games for kids free | math games for kids online free | math games for kids grade 2 | math games for kids in classroom
+multiplication games,medium + rising,medium,medium,0.0305,2.38,1975,1702,input,10,5,multiplication games | multiplication games free | multiplication games for kids | multiplication games for 3rd grade | multiplication games for 4th grade
+24 game,low (conflict),high,low,0.1806,0.65,72,45,input,10,2,24 game | 24 game solver | 24 game online | 24 game cards | 24 game math
+addition games,low + rising,low,low,0.0039,3.23,27,18,input,10,4,addition games | addition games for grade 1 | addition games for kids | addition games for grade 2 | addition games for kindergarten
+algebra games,low + rising,low,low,0.0027,3.22,25,25,input,10,3,algebra games | algebra games online | algebra games for high school | algebra games free | algebra games online free
+counting money games,low,low,low,0.0001,,24,24,input,10,7,counting money games | counting money games online free | counting money games online | counting money games for adults | counting money games for kids
+decimal games,low + rising,low,low,0.0014,6.28,5,5,input,10,2,decimal games | decimal games for 5th grade | decimal games online | decimal games for kids | decimal games for 4th grade
+digits game,low + rising,low,low,0.0015,3.27,32,24,input,8,2,digits game | digits game nyt | digits game online | digits game unlimited | digits game alternative
+division games,low + rising,medium,low,0.0496,2.03,32,30,input,10,3,division games | division games mlb | division games for kids | division games for 3rd grade | division games 4th grade
+fraction games,low + rising,low,low,0.0047,3.3,18,15,input,10,3,fraction games | fraction games for kids | fraction games for 4th grade | fraction games online free | fraction games online
+kakuro,low + rising,low,medium,0.0018,2.68,1285,452,input,10,2,kakuro | kakuro puzzle | kakuro cheat sheet | kakuro conquest | kakuro definition
+math board games,low + rising,low,low,0.0008,13.34,15,15,input,10,1,math board games | math board games for kids | math board games for middle school | math board games for adults | math board games for 4th graders
+math brain teasers,low,low,low,0.0001,,19,19,input,10,0,math brain teasers | math brain teasers for adults | math brain teasers with answers | math brain teasers for kids | math brain teasers for middle school
+math card games,low + rising,low,low,0.0007,10.8,14,14,input,10,0,math card games | math card games for kids | math card games for 2nd graders | math card games for 1st grade | math card games for middle school
+math crossword,low + rising,low,low,0.0039,2.0,87,17,input,10,5,math crossword | math crossword puzzles | math crossword puzzles printable | math crossword number puzzle with answers | math crossword puzzles pdf
+math escape room,low,low,low,0.0004,,14,9,input,10,3,math escape room | math escape room 5th grade | math escape room 4th grade | math escape room free | math escape room 3rd grade
+math facts games,low,low,low,0.0009,,25,25,input,10,5,math facts games | math facts games online free | math facts games for kids | math facts games free | math facts games online
+math games for 3rd graders,low,low,low,0.0001,,34,31,input,6,2,math games for 3rd graders | math games for 3rd graders free | math games for 3rd graders in the classroom | math games for 3rd graders online | math games for 3rd graders multiplication
+math games for adults,low,low,low,0.0002,,19,17,input,10,6,math games for adults | math games for adults free | math games for adults free online | math games for adults app | math games for adults online
+math games for kindergarten,low,low,low,0.0002,,22,22,input,10,3,math games for kindergarten | math games for kindergarten free | math games for kindergarten online free | math games for kindergarten printable | math games for kindergarten online
+math puzzles,low + rising,low,low,0.0051,2.53,101,70,input,10,0,math puzzles | math puzzles for adults | math puzzles for kids | math puzzles for middle school | math puzzles brain teasers
+math puzzles for adults,low,low,low,0.0003,0.06,15,15,input,8,2,math puzzles for adults | math puzzles for adults with answers | math puzzles for adults pdf | math puzzles for adults printable | math puzzles for adults online
+math riddles,low + rising,low,low,0.0013,2.23,61,49,input,10,0,math riddles | math riddles for kids | math riddles for adults | math riddles with answers | math riddles for middle school
+math wordle,low + rising,medium,low,0.0367,2.51,100,100,input,10,1,math wordle | math wordle game | math wordle for kids | math wordle unlimited | math wordle solver
+mental math games,low,low,low,0.0001,,7,7,input,10,4,mental math games | mental math games for adults | mental math games for kids | mental math games online | mental math games for grade 3
+money games,low (conflict),high,low,0.3327,0.99,264,97,input,10,6,money games | money games for kids | money games online free | money games for free | money games for cash app
+number puzzles,low + rising,low,low,0.0062,2.15,117,38,input,10,1,number puzzles | number puzzles for adults | number puzzles for kids | number puzzles printable | number puzzles online
+nyt digits,low,low,low,0.0001,,25,25,input,9,3,nyt digits | nyt digits game | nyt digits archive | nyt digits solver | nyt digits game unlimited
+percent games,low,medium,low,0.047,1.17,55,55,input,2,1,percent games | percent games online | percentage games online | percentage games for grade 7 | percentage games for 6th grade
+place value games,low + rising,low,low,0.0008,9.1,27,22,input,10,3,place value games | place value games 4th grade | place value games 3rd grade | place value games for 2nd grade | place value games online
+probability games,low,low,low,0.0056,1.12,8,8,input,10,2,probability games | probability games for kids | probability games for middle school | probability games ideas for students | probability games online
+ratio games,low,medium,low,0.0279,0.57,11,11,input,10,1,ratio games | ratio games 6th grade | ratio games for the classroom | ratio games online | ratio games for 7th grade
+rounding games,low + rising,low,low,0.0005,7.01,12,12,input,10,3,rounding games | rounding games 4th grade | rounding games 3rd grade | rounding games for kids | rounding games online
+subtraction games,low + rising,low,low,0.0007,8.55,16,8,input,10,2,subtraction games | subtraction games for grade 1 | subtraction games for grade 2 | subtraction games for kids | subtraction games for grade 3
+sumplete,low + rising,low,low,0.0003,4.07,133,124,input,10,2,sumplete | sumplete game | sumplete puzzle | sumplete 5x5 | sumplete 7x7
+telling time games,low,low,low,0.0005,,20,20,input,10,4,telling time games | telling time games free | telling time games for kids | telling time games online | telling time games 3rd grade
+times tables games,low + rising,low,medium,0.005,9.64,792,731,input,10,5,times tables games | times tables games free | times tables games for kids | times tables games online | times tables games 3x3 garden
+coordinate plane games,none,none,none,0.0,,0,0,input,9,1,coordinate plane games | coordinate plane games online | coordinate plane games printable | coordinate plane games 6th grade | coordinate plane games 5th grade
+countdown numbers game,none,none,low,0.0,,3,3,input,10,3,countdown numbers game | countdown numbers game rules | countdown numbers game solver | countdown numbers game online | countdown numbers game generator
+crossmath,none,none,low,0.0,,23,0,input,10,7,crossmath | crossmath online | crossmath puzzle | crossmath free | crossmath free online
+equation games,none + rising,low,none,0.0043,2.41,0,0,input,10,1,equation games | equation games for 7th grade | equation games for kids | equation games online | math equation games
+equation puzzle,none,low,none,0.0001,,0,0,input,10,0,equation puzzles | equation puzzles balance | equation puzzle worksheet | equation puzzles with solutions | equation puzzle kotor 2
+graphing games,none + rising,low,none,0.0014,21.97,0,0,input,7,3,graphing games | graphing games for kids | graphing games online free | graphing games online | graphing games for 3rd grade
+integer games,none + rising,low,none,0.0005,2.3,0,0,input,10,2,integer games | integer games online free | integer games online | integer games for 6th grade | integer games pdf
+math fact practice,none + rising,low,none,0.0004,5.11,0,0,input,10,4,math fact practice | math fact practice online | math fact practice games | math fact practice worksheets | math fact practice sheets
+math games for 6th graders,none,none,low,0.0,,25,25,input,5,2,math games for 6th graders | math games for 6th graders free | math games for 6th graders online | math activities for 6th graders | math games for 6th grade classroom
+math games for middle school,none,low,none,0.0003,,0,0,input,8,2,math games for middle school | math games for middle school students | math games for middle school pdf | math games for middle school online | math games for middle school classroom
+math multiplayer game,none,low,none,0.0002,,0,0,input,3,1,math multiplayer games | math multiplayer games online | multiplayer math games online free | multiplayer math games for classroom | multiplayer math games for kids
+math race game,none,low,none,0.0003,,0,0,input,8,2,math race game | math race game questions | math race game online | math race game for kids | math race games online for kids
+order of operations games,none,none,none,0.0,,0,0,input,7,2,order of operations games | order of operations games online | order of operations games printable | order of operations games 5th grade | order of operations games 6th grade
+prime number games,none + rising,low,none,0.0006,5.65,0,0,input,5,1,prime number games | prime number games for the classroom | prime number games online | prime number games for kids | prime number games ks2
+speed math game,none + rising,low,none,0.0003,3.66,0,0,input,5,3,speed math game | speed math game online | speed math game for kids | speed math game free | speed math game app
