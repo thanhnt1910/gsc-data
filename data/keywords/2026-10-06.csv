@@ -1,51 +1,19 @@
 keyword,verdict,google_level,bing_level,trends_vs_anchor,trends_rising_ratio,bing_weekly_broad,bing_weekly_exact,source,autocomplete_related,autocomplete_game_intent,autocomplete_top
-2048,high + rising,high,high,0.3485,1.5,24848,8500,input,10,2,2048 | 2048 cupcakes | 2048 game | 2048 nowhere to run | 2048 x 1152
-block blast,high,high,high,0.1829,1.05,12434,10129,input,10,3,block blast | block blast solver | block blaster | block blast online | block blaster gun
-mahjong,high,high,high,1.8475,0.9,197488,34415,input,10,2,mahjong | mahjong set | mahjong game | mahjong tiles | mahjong 4 friends
-math games,high + rising,high,high,2.056,2.06,241163,5897,input,10,2,math games | math games for kids | math games online | math games free | math games for grade 3
-minesweeper,high + rising,high,high,1.0,1.89,43941,29145,input,10,3,minesweeper | minesweeper google | minesweeper online | minesweeper plus | minesweeper solver
-solitaire,high,high,high,4.6115,0.99,1083568,217501,input,10,3,solitaire | solitaire bliss | solitaired | solitaire games | solitaire set up
-sudoku,high,high,high,1.2557,1.07,177545,71740,input,10,2,sudoku | sudoku nyt | sudoku puzzles | sudoku online | sudoku solver
-arrow puzzle,medium,medium,medium,0.0126,0.07,804,89,input,10,6,arrow puzzle | arrow puzzle game | arrow puzzle game online | arrow puzzle game online free | arrow puzzle escape
-brain teasers,medium + rising,medium,high,0.0163,1.33,10086,9547,input,10,0,brain teasers | brain teasers for adults | brain teasers for kids | brain teasers with answers | brain teasers for adults with answers
-daily puzzle,medium,high,medium,0.0549,0.8,3500,73,input,10,2,daily puzzles | daily puzzle games | daily puzzle word cookies | daily puzzle wordscapes | daily puzzles online
-kenken,medium,medium,medium,0.0271,1.0,3155,1579,input,10,4,kenken | kenken puzzle | kenken nyt | kenken meaning | kenken online
-killer sudoku,medium,medium,medium,0.0211,0.99,2485,1471,input,10,2,killer sudoku | killer sudoku calculator | killer sudoku combinations | killer sudoku cheat sheet | killer sudoku online
-logic puzzles,medium,medium,medium,0.0308,0.89,3874,3018,input,10,2,logic puzzles | logic puzzles for adults | logic puzzles online | logic puzzles for kids | logic puzzles printable
-nerdle,medium,high,medium,0.0556,1.13,2353,1317,input,10,1,nerdle | nerdlegame | nerdle today | nerdle answer today | nerdle answer
-nonogram,medium,medium,medium,0.0122,0.41,587,349,input,10,2,nonograms | nonogram online | nonogram solver | nonograms katana | nonogram game
-queens game,medium,medium,medium,0.0371,0.82,762,604,input,10,4,queens game | queens game linkedin | queens game online | queens game unlimited | queens game free
-24 game,low (conflict),high,low,0.1846,0.64,72,45,input,10,2,24 game | 24 game solver | 24 game online | 24 game cards | 24 game math
-ball sort puzzle,low,low,low,0.0002,,90,45,input,10,8,ball sort puzzle | ball sort puzzle online free | ball sort puzzle free download | ball sort puzzle solver | ball sort puzzle free download for android
-block puzzle,low,medium,low,0.0327,0.92,487,95,input,10,6,block puzzle | block puzzle game | block puzzle classic | block puzzle re2 | block puzzle classic free download
-bridges puzzle,low,low,low,0.0001,0.52,5,5,input,10,3,bridges puzzle | bridges puzzle game | bridges puzzle book | bridges puzzle how to play | bridges puzzle online
-flow free,low (conflict),high,low,0.2393,0.68,165,94,input,10,4,flow free | flow free solutions | flow free game | flow free online | flow free app
-hashi,low,medium,low,0.0319,1.01,132,69,input,10,0,hashimoto's | hashimoto's disease | hashimoto's thyroiditis | hashi market | hashira
-hitori,low,low,low,0.0044,1.13,146,51,input,10,0,hitorijime my hero | hitori gotoh | hitori | hitori no shita the outcast | hitorii
-kakuro,low + rising,low,medium,0.0017,2.71,1285,452,input,10,1,kakuro | kakuro puzzles | kakuro cheat sheet | kakuro conquest | kakuro definition
-linkedin queens,low,medium,low,0.0145,0.19,125,87,input,10,3,linkedin queens | linkedin queens today | linkedin queens game | linkedin queens archive | linkedin queens game today
-math puzzle,low + rising,medium,low,0.0141,1.69,210,13,input,10,1,math puzzles | math puzzles for adults | math puzzles for kids | math puzzle games | math puzzles for middle school
-mathler,low + rising,low,low,0.0009,2.72,212,133,input,10,1,mathler | mathler answer today | mathler hint | mathler answers | mathler normal answer today
-mini sudoku,low + rising,low,low,0.0008,8.14,109,77,input,10,1,mini sudoku | mini sudoku linkedin | mini sudoku linkedin answer today | mini sudoku linkedin today | mini sudoku 420
-number sums,low + rising,low,low,0.0024,1.69,15,11,input,10,9,number sums | number sums game | number sums game online free | number sums puzzle | number sums game online
-numberlink,low,low,low,0.0001,,2,2,input,9,4,numberlink | numberlink puzzles | numberlink solver | numberlink puzzle generator | numberlink puzzle solver
-nurikabe,low,low,low,0.0001,,98,53,input,10,1,nurikabe | nurikabe puzzle | nurikabe pokemon cards | nurikabe yokai | nurikabe nioh 3
-queens puzzle,low,low,low,0.0002,,48,16,input,10,4,queens puzzle | queens puzzle game | queens puzzle today | queens puzzle game online | queens puzzle solver
-screw puzzle,low + rising,low,low,0.0003,2.28,28,10,input,10,5,screw puzzle game | screw puzzle | screw puzzle nuts and bolts | screw puzzle game online | screw puzzle game no ads
-slitherlink,low + rising,low,low,0.0002,1.87,53,48,input,10,3,slitherlink | slitherlink puzzle | slitherlink tips | slitherlink patterns | slitherlink solver
-sumplete,low,low,low,0.0003,,133,124,input,10,2,sumplete | sumplete game | sumplete puzzle | sumplete 5x5 | sumplete 7x7
-tango game,low + rising,low,low,0.0019,2.71,189,168,input,10,5,tango game | tango gameworks | tango gameworks games | tango game linkedin | tango gameworks shut down
-tangram,low,medium,low,0.046,0.77,370,141,input,10,0,tangrams | tangram mall | tangram regal | tangram puzzles | tangram mall flushing
-tower of hanoi,low + rising,low,low,0.0011,3.08,130,104,input,10,3,tower of hanoi | tower of hanoi puzzle | tower of hanoi game | tower of hanoi algorithm | tower of hanoi online
-unblock me,low + rising,medium,low,0.026,1.37,13,13,input,10,1,unblock me | unblock messages | unblock messages iphone | unblock me game | unblock me in spanish
-water sort puzzle,low,low,low,0.0003,,43,29,input,10,6,water sort puzzle | water sort puzzle solver | water sort puzzle play online free | water sort puzzle bottle game | water sort puzzle online
-zip game,low (conflict),high,low,0.0694,1.18,84,50,input,10,4,zip game | zip game linkedin | zip game online | zip game unlimited | zip gamestop
-zip puzzle,low + rising,low,low,0.0005,3.8,21,7,input,10,4,zip puzzle | zip puzzle game | zip puzzle today | zip puzzle linkedin | zip puzzles online
-akari puzzle,none,none,none,0.0,,0,0,input,10,2,akari puzzle | akari puzzle solver | akari puzzle rules | akari puzzle game | akari puzzle tips
-binairo,none,none,low,0.0,,9,8,input,10,4,binairo | binairo puzzle | binairo game | binairo solver | binairo puzzle solver
-mathdoku,none,none,low,0.0,,169,48,input,10,4,mathdoku | mathdoku puzzle | mathdoku how to play | mathdoku solver | mathdoku printable
-rush hour puzzle,none,none,none,0.0,,0,0,input,10,5,rush hour puzzle | rush hour puzzle game | rush hour puzzle generator | rush hour puzzle online | rush hour puzzle solver
-star battle puzzle,none,none,low,0.0,,54,53,input,10,2,star battle puzzle | star battle puzzle baron | star battle puzzle online | star battle puzzle book | star battle puzzle tips
-takuzu,none,none,low,0.0,,5,5,input,8,2,takuzu | takuzu puzzle | takuzu binairo | takuzu game | takuzu rules
-tango puzzle,none,none,low,0.0,,8,7,input,10,6,tango puzzles | tango puzzle game | tango puzzle today | tango puzzle online | tango puzzle game online free
-tents and trees puzzle,none,low,none,0.0001,,0,0,input,6,1,tents and trees puzzle | tents and trees puzzle solver | tents and trees puzzle pass | tents and trees puzzle online | tents and trees puzzle book
+daily sudoku,medium,medium,medium,0.0278,0.79,2324,1021,input,10,2,daily sudoku | daily sudoku puzzle | daily sudoku hard | daily sudoku printable | daily sudoku washington post
+sudoku daily,medium,medium,medium,0.0278,0.9,649,130,input,10,4,sudoku daily | sudoku daily challenge today | sudoku daily puzzle | sudoku daily challenge | sudoku daily printable
+daily killer sudoku,low,low,low,0.0001,,256,197,input,10,3,daily killer sudoku | daily killer sudoku online | daily killer sudoku printable | daily killer sudoku online free | daily killer sudoku app
+daily math game,low,low,low,0.0001,,22,0,input,5,2,daily math game | daily math game like wordle | daily math games online | daily math game new york times | daily math games app
+daily minesweeper,low + rising,low,low,0.0002,2.28,18,18,input,5,2,daily minesweeper | daily minesweeper puzzle | daily minesweeper variants | daily minesweeper challenge | daily minesweeper game
+no guess minesweeper,low,low,low,0.0001,0.13,21,21,input,9,2,no guess minesweeper | no guess minesweeper app | no guess minesweeper online | no guess minesweeper android | no guess minesweeper ios
+queens game online,low,low,low,0.0001,,68,58,input,10,3,queens game online | queens game online free | queens game online linkedin | queens game online vercel | queens game online hard
+2048 daily,none,none,none,0.0,,0,0,input,2,0,2048 daily challenge | 2048 daily | 2048 rules | 2048 tips | 2048 tricks
+daily 2048,none,none,none,0.0,,0,0,input,1,0,daily 2048 | day 2048 | 2048 daily challenge | highest score in 2048 8x8 | is 3x3 2048 possible
+daily brain teaser,none,none,none,0.0,,0,0,input,6,1,daily brain teaser | daily brain teasers for adults | daily brain teaser games | daily brain teasers for kids | daily brain teaser questions
+daily logic puzzle,none,none,none,0.0,,0,0,input,10,5,daily logic puzzle | daily logic puzzle online | daily logic puzzle game | daily logic puzzle online free | daily logic puzzle app
+minesweeper daily,none + rising,low,none,0.0002,2.28,0,0,input,6,2,minesweeper daily | minesweeper daily puzzle | minesweeper daily game | minesweeper daily challenges | daily minesweeper variants
+minesweeper daily challenge,none,low,none,0.0001,,0,0,input,3,0,minesweeper daily challenges | msn minesweeper daily challenge | microsoft minesweeper daily challenges | has anyone beat minesweeper
+minesweeper no guess,none,low,none,0.0001,0.13,0,0,input,9,2,minesweeper no guess | minesweeper no guessing mode | minesweeper no guess app | minesweeper no guess online | minesweeper no guessing algorithm
+minesweeper without guessing,none,none,none,0.0,,0,0,input,3,1,minesweeper without guessing | minesweeper without guessing reddit | minesweeper without guessing app | minesweeper no guessing mode | minesweeper no guessing algorithm
+queens game unlimited,none,none,low,0.0,,19,19,input,3,0,queens game unlimited | queens game unlimited linkedin | queens game unlimited with hints | queens unlimited game | queens game endless
+tango game online,none,none,low,0.0,,10,10,input,5,3,tango game online free | tango game online play | tango game online linkedin | tango game online hard | tango puzzle game online
+zip game unlimited,none,none,none,0.0,,0,0,input,5,3,zip game unlimited | zip game unlimited free | zip game unlimited linkedin | zip game unlimited online | zip game unlimited level 51
