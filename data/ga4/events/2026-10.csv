@@ -42,3 +42,7 @@ date,eventName,eventCount
 2026-10-05,game_play_60s,3
 2026-10-05,game_fullscreen,1
 2026-10-05,game_play_300s,1
+2026-10-06,first_visit,10
+2026-10-06,page_view,10
+2026-10-06,session_start,10
+2026-10-06,user_engagement,4
