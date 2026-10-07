@@ -37,7 +37,13 @@ anonymous page on the same platform is not.
    sample page only says that page is mostly dofollow. A `dofollow_share`
    under 50%, or `check` / `skip`, means the source is not worth time for
    SEO (it can still be worth it for referral traffic, say so).
-5. **Say the confidence level out loud.** If a source could not be
+5. **For outreach (asking a page owner to add a link), check the page is
+   still maintained.** Look for a recent date, a current school year or
+   staff directory listing for the owner. Old Weebly and classic Google
+   Sites pages are often abandoned: on 2026-10-07 the first teacher
+   email (Mrs. Willis, Morehead Elementary) bounced with "account is
+   inactive" because she had left the school.
+6. **Say the confidence level out loud.** If a source could not be
    verified (403 / 429, blocked checker, no matching sample page), tell
    the user it is unverified instead of listing it as dofollow.
 
