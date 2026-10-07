@@ -71,6 +71,7 @@ https://simonwillison.substack.com/,403,,,,,,,,,,check,"HTTP 403: the site block
 https://www.edtechreview.in/contribute/write-for-us-edtechreview-edtech-guest-post-blog-post/,403,,,,,,,,,,check,"HTTP 403: the site blocks automated checks, look by hand"
 https://www.funwithpuzzles.com/p/write-for-fun-with-puzzles-website.html,403,,,,,,,,,,check,"HTTP 403: the site blocks automated checks, look by hand"
 https://www.indiedb.com/games/bepi,403,,,,,,,,,,check,"HTTP 403: the site blocks automated checks, look by hand"
+https://www.saashub.com/cool-math-games-alternatives,200,Cool Math Games Alternatives & Competitors - SaaSHubShutting downOfficially verified details,yes,no,23,4,17%,armorgames.com crazygames.com,no,,check,only 17% of outbound links are dofollow
 https://www.technologymath.com/education-write-for-us/,200,"Write for us ""Education"" | Submit Education Guest Post",yes,no,0,0,,,no,,check,no outbound links on this page; look for a resources/links page
 https://www.theunlikelyhomeschool.com/2016/07/contributors.html,429 via https://www.google.com/sorry/index?continue=https://www.theunlikelyhomeschool.co,,,,,,,,,,check,"HTTP 429: the site blocks automated checks, look by hand"
 https://www.trustpilot.com/review/poki.com,403,,,,,,,,,,check,"HTTP 403: the site blocks automated checks, look by hand"
@@ -83,3 +84,5 @@ https://www.gamingdebugged.com/write-for-us/,200,Write for GamingDebugged — Ga
 https://www.gusd.us/foothill/academics/2nd-grade-links,error: SSLError,,,,,,,,,,skip,page did not load
 https://www.nottingham.k12.nh.us/academics/title-i/math-websites-for-fun-practice,error: SSLError,,,,,,,,,,skip,page did not load
 https://www.paulding.k12.ga.us/Page/1092,404,,,,,,,,,,skip,HTTP 404
+https://www.saashub.com/coolmath-games,404,,,,,,,,,,skip,HTTP 404
+https://www.saashub.com/math-playground,404,,,,,,,,,,skip,HTTP 404
