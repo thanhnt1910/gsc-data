@@ -1,17 +1,23 @@
 keyword,verdict,google_level,bing_level,trends_vs_anchor,trends_rising_ratio,bing_weekly_broad,bing_weekly_exact,source,autocomplete_related,autocomplete_game_intent,autocomplete_top
-math worksheets,high,high,high,0.128,1.22,5274,737,input,10,0,math worksheets | math worksheets grade 3 | math worksheets grade 1 | math worksheets grade 2 | math worksheets for kindergarten
-multiplication chart,medium + rising,high,medium,0.1317,2.45,4235,3237,input,10,1,multiplication chart | multiplication chart printable | multiplication chart 1-100 | multiplication chart 1-20 | multiplication chart 1-12
-multiplication table,medium + rising,high,medium,0.0615,1.75,2012,1330,input,10,0,multiplication table | multiplication table printable | multiplication table 1-12 | multiplication table worksheets | multiplication table 1-12 printable pdf
-multiplication worksheets,medium + rising,medium,medium,0.0411,1.44,1022,483,input,10,2,multiplication worksheets | multiplication worksheets grade 3 | multiplication worksheets grade 4 | multiplication worksheets grade 5 | multiplication worksheets pdf
-printable sudoku,medium,medium,medium,0.0222,0.88,1557,597,input,10,2,printable sudoku | printable sudoku puzzles free | printable sudoku puzzles | printable sudoku free | printable sudoku puzzles 4 per page
-sudoku printable,medium,medium,medium,0.0236,0.62,2627,1827,input,10,1,sudoku printable | sudoku printable free | sudoku printable sheets | sudoku printable easy | sudoku printable pdf
-blank multiplication chart,low + rising,low,low,0.0005,5.94,74,59,input,10,2,blank multiplication chart | blank multiplication chart printable | blank multiplication chart 12x12 pdf | blank multiplication chart printable free | blank multiplication chart pdf
-brain teasers for kids,low,low,low,0.0002,,75,72,input,10,2,brain teasers for kids | brain teasers for kids with answers | brain teasers for kids printable | brain teasers for kids pdf | brain teasers for kids printable free
-free printable math worksheets,low + rising,low,low,0.0024,2.97,145,91,input,10,0,free printable math worksheets | free printable math worksheets for 2nd grade | free printable math worksheets for 1st grade | free printable math worksheets for 4th grade | free printable math worksheets 3rd grade
-logic puzzles for kids printable,low,low,low,0.0001,,19,19,input,6,2,logic puzzles for kids printable | logic puzzles for kids printable pdf | logic puzzles for kids printable free | logic puzzles for kids printable pdf free | logic problems for kids printable
-math facts practice,low + rising,low,low,0.0009,6.94,23,23,input,10,4,math facts practice | math facts practice online | math facts practice worksheets | math facts practice free | math facts practice game
-multiplication quiz,low,low,low,0.0007,,61,46,input,10,2,multiplication quiz | multiplication quiz for grade 4 | multiplication quiz printable | multiplication quiz for grade 3 | multiplication quiz for grade 5
-printable multiplication chart,low + rising,low,low,0.0045,2.89,129,84,input,10,1,printable multiplication chart | printable multiplication chart pdf | printable multiplication chart 1-12 | printable multiplication chart free | printable multiplication chart blank
-riddles for kids,low,medium,low,0.0311,0.99,459,353,input,10,0,riddles for kids | riddles for kids with answers | riddles for kids what am i | riddles for kids funny | riddles for kids hard
-times table chart,low + rising,low,low,0.0031,4.28,203,143,input,10,1,times table chart | times table chart printable | times table chart 1-100 | times table chart 1-12 | times table chart printable pdf
-times tables test,low,low,low,0.0001,,4,4,input,10,1,times tables test | times tables test printable | times tables test pdf | times tables test year 4 | times tables test generator
+kenken,medium,medium,medium,0.0275,0.99,3167,1586,input,10,4,kenken | kenken puzzle | kenken nyt | kenken meaning | kenken online
+killer sudoku,medium,medium,medium,0.0214,1.08,2501,1485,input,10,2,killer sudoku | killer sudoku calculator | killer sudoku cheat sheet | killer sudoku combinations | killer sudoku tips
+logic puzzles,medium,medium,medium,0.0293,0.96,3804,2949,input,10,2,logic puzzles | logic puzzles for adults | logic puzzles online | logic puzzles for kids | logic puzzles printable
+nonogram,medium,medium,medium,0.0125,0.69,584,348,input,10,3,nonograms | nonogram puzzle | nonogram online | nonogram solver | nonograms katana
+queens game,medium,medium,medium,0.0357,0.86,767,610,input,10,4,queens game | queens game linkedin | queens game unlimited | queens game free | queens game today
+15 puzzle,low,medium,low,0.0143,0.19,20,19,input,10,3,15 puzzle | 15 puzzle game ff1 | 15 puzzle game | 15 puzzle solver | 15 puzzle online
+binary puzzle,low,low,low,0.0009,0.85,30,30,input,10,2,binary puzzle | binary puzzle solver | binary puzzle re4 | binary puzzle online | binary puzzle rules
+kakuro,low + rising,low,medium,0.0013,5.55,1286,454,input,10,3,kakuro | kakuro puzzle | kakuro online | kakuro cheat sheet | kakuro conquest
+lights out game,low + rising,low,low,0.0024,2.66,12,12,input,10,1,lights out game | lights out game solver | lights out game 90s | lights out game online | lights out game real life
+linkedin queens,low,medium,low,0.0164,0.42,126,87,input,10,3,linkedin queens | linkedin queens game | linkedin queens answer today | linkedin queens today | linkedin queens archive
+mastermind game,low + rising,low,low,0.0009,5.64,56,53,input,10,4,mastermind game | mastermind game online | mastermind game show | mastermind game rules | mastermind game instructions
+math crossword,low + rising,low,low,0.0038,2.41,86,17,input,10,5,math crossword | math crossword puzzles | math crossword puzzles printable | math crossword number puzzle with answers | math crossword puzzles pdf
+number link,low (conflict),high,low,0.1704,0.88,2,0,input,10,2,number link | number link puzzle | number linked to social media | number link game | number link sunbeam
+queens puzzle,low,low,low,0.0004,,49,17,input,10,4,queens puzzle | queens puzzle game | queens puzzle today | queens puzzle game online | queens puzzle solver
+sliding puzzle,low + rising,low,low,0.0023,2.05,86,37,input,10,3,sliding puzzle | sliding puzzle solver | sliding puzzle game | sliding puzzle online | sliding puzzle solver 3x3
+sokoban,low + rising,low,low,0.0014,1.37,70,58,input,10,4,sokoban | sokoban game | sokoban puzzle | sokoban barony | sokoban meaning
+tango game,low + rising,low,low,0.003,1.4,192,169,input,10,5,tango game | tango gameworks | tango gameworks games | tango game linkedin | tango gameworks shut down
+tango puzzle,low,low,low,0.0002,0.4,8,7,input,10,6,tango puzzles | tango puzzle game | tango puzzle today | tango puzzle online | tango puzzle game online free
+tower of hanoi,low + rising,low,low,0.0015,2.06,132,105,input,10,3,tower of hanoi | tower of hanoi puzzle | tower of hanoi game | tower of hanoi algorithm | tower of hanoi online
+zip game,low (conflict),high,low,0.0668,1.27,85,52,input,10,4,zip game | zip game linkedin | zip game online | zip game unlimited | zip gamestop
+akari puzzle,none,none,none,0.0,,0,0,input,10,2,akari puzzle | akari puzzle solver | akari puzzle rules | akari puzzle game | akari puzzle tips
+star battle puzzle,none,none,low,0.0,,54,53,input,10,2,star battle puzzle | star battle puzzle baron | star battle puzzle online | star battle puzzle book | star battle puzzle tips
