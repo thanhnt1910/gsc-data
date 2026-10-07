@@ -19,6 +19,15 @@ the page and records:
                    link farm).
 
 and ends each row with a verdict: good / check / skip, plus the reason.
+
+SAMPLE mode: with SAMPLE_POSTS=N, each URL is treated as a site, not a
+page. The script reads the site's sitemap (robots.txt, then the usual
+WordPress / Yoast / Shopify locations), picks the N most recently
+modified article URLs and checks those instead. Use it to vet guest-post
+and blog targets: a site's "write for us" page or homepage can be fully
+dofollow while the articles where a guest link would live are not (see
+BACKLINK_CHECKLIST.md). Each sampled row's reason names the site it was
+sampled from.
 Results go to data/prospects/rel-YYYY-MM-DD.csv and the log.
 """
 
@@ -186,6 +195,70 @@ def check(session: requests.Session, url: str) -> dict:
     return row
 
 
+SITEMAP_PATHS = ('/sitemap_index.xml', '/sitemap.xml', '/wp-sitemap.xml', '/post-sitemap.xml',
+                 '/sitemap_blogs_1.xml')
+# Sitemap or URL parts that are not articles: listing, taxonomy and legal pages.
+NOT_ARTICLE = re.compile(r'/(tag|tags|category|categories|author|page|product|products|collections|'
+                         r'cart|account|search|wp-content|feed)(/|$)|'
+                         r'(about|contact|privacy|terms|write-for-us|advertise|disclaimer|cookie|sitemap)',
+                         re.I)
+LOC = re.compile(r'<loc>\s*(.*?)\s*</loc>(?:\s*<lastmod>\s*(.*?)\s*</lastmod>)?', re.S)
+
+
+def sitemap_urls(session: requests.Session, root: str) -> list[str]:
+    """Candidate sitemap URLs for a site: robots.txt entries first, then the usual paths."""
+    parts = urllib.parse.urlparse(root)
+    base = f'{parts.scheme}://{parts.netloc}'
+    found = []
+    try:
+        r = session.get(base + '/robots.txt', timeout=15)
+        if r.ok:
+            found += [line.split(':', 1)[1].strip() for line in r.text.splitlines()
+                      if line.lower().startswith('sitemap:')]
+    except requests.RequestException:
+        pass
+    return found + [base + p for p in SITEMAP_PATHS]
+
+
+def sample_articles(session: requests.Session, root: str, n: int) -> list[str]:
+    """Up to n recent article URLs from a site's sitemaps (child sitemaps named *post* first)."""
+    host = host_of(root)
+    queue, seen, pages = sitemap_urls(session, root), set(), []
+    while queue and len(seen) < 12:
+        sm = queue.pop(0)
+        if sm in seen:
+            continue
+        seen.add(sm)
+        try:
+            r = session.get(sm, timeout=20)
+        except requests.RequestException:
+            continue
+        if r.status_code >= 400 or '<loc>' not in r.text:
+            continue
+        locs = LOC.findall(r.text[:3_000_000])
+        if '<sitemapindex' in r.text:
+            children = [u for u, _ in locs if host_of(u).endswith(host)]
+            # Article sitemaps first, then anything else that is not a taxonomy/page sitemap.
+            children.sort(key=lambda u: (0 if re.search(r'post|blog|article|news', u, re.I) else
+                                         2 if re.search(r'tag|categor|author|page|product|collection', u, re.I) else 1))
+            queue = children + queue
+            continue
+        for u, lastmod in locs:
+            path = urllib.parse.urlparse(u).path.strip('/')
+            if host_of(u).endswith(host) and path and not NOT_ARTICLE.search('/' + path):
+                pages.append((lastmod or '', u))
+        if len(pages) >= 50:
+            break
+    pages.sort(reverse=True)
+    out = []
+    for _, u in pages:
+        if u not in out:
+            out.append(u)
+        if len(out) >= n:
+            break
+    return out
+
+
 def main() -> None:
     raw = os.environ.get('URLS', '')
     urls = []
@@ -201,7 +274,21 @@ def main() -> None:
 
     session = requests.Session()
     session.headers.update({'User-Agent': UA, 'Accept-Language': 'en'})
-    rows = [check(session, u) for u in urls]
+    sample = int(os.environ.get('SAMPLE_POSTS') or 0)
+    if sample:
+        rows = []
+        for root in urls:
+            articles = sample_articles(session, root, min(sample, 5))
+            if not articles:
+                rows.append({**check(session, root), 'verdict': 'check',
+                             'reason': f'sample: no article sitemap found for {host_of(root)}, look by hand'})
+                continue
+            for a in articles:
+                row = check(session, a)
+                row['reason'] = f'sample of {host_of(root)}: ' + row['reason']
+                rows.append(row)
+    else:
+        rows = [check(session, u) for u in urls]
     order = {'good': 0, 'check': 1, 'skip': 2}
     rows.sort(key=lambda r: (order[r['verdict']], r['url']))
 

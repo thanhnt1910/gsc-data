@@ -6,6 +6,10 @@ on:
       urls:
         description: 'Page URLs to check, comma-separated (max 50)'
         required: true
+      sample_posts:
+        description: 'Sample mode: treat each URL as a site and check its N newest articles from the sitemap (0 = off, max 5)'
+        required: false
+        default: '0'
 
 permissions:
   contents: write
@@ -36,6 +40,7 @@ jobs:
       - name: Check pages
         env:
           URLS: ${{ inputs.urls }}
+          SAMPLE_POSTS: ${{ inputs.sample_posts }}
         run: python scripts/check_rel.py
 
       - name: Commit results
