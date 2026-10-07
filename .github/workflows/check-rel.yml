@@ -20,6 +20,10 @@ jobs:
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v5
+        with:
+          # Latest branch head, not the commit the run was queued on, so a queued run
+          # or a re-run builds on results pushed by the run before it.
+          ref: ${{ github.ref_name }}
 
       - uses: actions/setup-python@v6
         with:

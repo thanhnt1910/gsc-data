@@ -207,10 +207,16 @@ def main() -> None:
 
     OUT.mkdir(parents=True, exist_ok=True)
     path = OUT / f'rel-{dt.date.today().isoformat()}.csv'
+    # Several runs on one day share the file: keep earlier rows, newest result per URL wins.
+    merged = {}
+    if path.exists():
+        with path.open(newline='', encoding='utf-8') as f:
+            merged = {r['url']: r for r in csv.DictReader(f)}
+    merged.update({r['url']: r for r in rows})
     with path.open('w', newline='', encoding='utf-8') as f:
-        writer = csv.DictWriter(f, fieldnames=list(rows[0]), lineterminator='\n')
+        writer = csv.DictWriter(f, fieldnames=list(rows[0]), lineterminator='\n', extrasaction='ignore')
         writer.writeheader()
-        writer.writerows(rows)
+        writer.writerows(sorted(merged.values(), key=lambda r: (order.get(r['verdict'], 9), r['url'])))
     for r in rows:
         print(f"{r['verdict']:5}  dofollow {r['external_dofollow']!s:>4}/{r['external_links']!s:<4} "
               f"us={r['links_to_us']:10} {r['url']}\n       {r['reason']}"
