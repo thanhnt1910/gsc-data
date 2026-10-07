@@ -56,4 +56,7 @@ https://www.technologymath.com/education-write-for-us/,200,"Write for us ""Educa
 https://www.theunlikelyhomeschool.com/2016/07/contributors.html,429 via https://www.google.com/sorry/index?continue=https://www.theunlikelyhomeschool.co,,,,,,,,,,check,"HTTP 429: the site blocks automated checks, look by hand"
 https://www.trustpilot.com/review/poki.com,403,,,,,,,,,,check,"HTTP 403: the site blocks automated checks, look by hand"
 https://familleeducation.org/write-for-us/,404 via https://www.familleeducation.org/write-for-us/,,,,,,,,,,skip,HTTP 404
+https://mathlogic.bearblog.dev/,200,MathLogic Notes,no (noindex),yes,2,0,0%,,nofollow:page,,skip,not indexable: no (noindex)
+https://mathlogic.bearblog.dev/blog/,200,Blog – MathLogic Notes,no (noindex),yes,1,0,0%,,no,,skip,not indexable: no (noindex)
+https://mathlogic.bearblog.dev/chess-checkers-or-mancala-picking-a-first-strategy-game/,200,"Chess, Checkers or Mancala? Picking a First Strategy Game – MathLogic Notes",no (noindex),yes,3,0,0%,,nofollow:page nofollow:page,,skip,not indexable: no (noindex)
 https://www.gamingdebugged.com/write-for-us/,200,Write for GamingDebugged — Gaming Guest Post Guidelines,yes,no,10,10,100%,,no,crypto casino,skip,spam signals
