@@ -20,6 +20,17 @@ link will live on.** A platform's homepage, its staff blog, or an
 established user's page can be fully dofollow while a brand-new, free or
 anonymous page on the same platform is not.
 
+## Owner preference (2026-10-07)
+
+**No email outreach.** The site owner has decided that cold email (asking
+teachers, librarians, bloggers or editors to add a link or accept a guest
+post) is not worth the effort. Do not propose sources that need an email
+or a contact-form pitch to a person. Only propose sources where the owner
+can publish or submit the link themselves: own pages on free platforms,
+profiles, and directories or listings with a self-serve submission form.
+Sources already contacted (Midwest, HomeEducator, Sphero, ATA Library)
+are left to run their course with no follow-ups beyond what was noted.
+
 ## Before recommending a source
 
 1. **Check the exact page type our link will appear on.** Run
