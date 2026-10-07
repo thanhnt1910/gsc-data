@@ -3,6 +3,11 @@
 Daily Google Search Console data for mathlogicgames.com, pulled by
 GitHub Actions so it can be analysed without manual CSV exports.
 
+Before recommending or after posting any backlink, follow
+[BACKLINK_CHECKLIST.md](BACKLINK_CHECKLIST.md): check the exact page type
+the link will live on, look for new-account gating, and confirm the
+public URL with `check-rel.yml`.
+
 ## How it works
 
 `.github/workflows/fetch.yml` runs `scripts/fetch_gsc.py` every day at
