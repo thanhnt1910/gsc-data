@@ -14,6 +14,10 @@ the page and records:
                    sign it lists sites like ours.
   links_to_us      whether it already links to mathlogicgames.com, and
                    with which rel (handy for checking live backlinks).
+  nofollow_to      the external hosts whose links are nofollow / ugc /
+                   sponsored, with the rel. On a listing page, check that
+                   the listed site is not among them: the dofollow share
+                   counts menu and footer links too.
   spam signals     gambling/pharma/essay-mill phrases (skip), or more than
                    300 outbound links (check by hand: a curated list or a
                    link farm).
@@ -113,7 +117,7 @@ def robots_allows(session: requests.Session, url: str) -> bool | None:
 def check(session: requests.Session, url: str) -> dict:
     row = {'url': url, 'status': '', 'title': '', 'indexable': '', 'page_nofollow': '', 'external_links': '',
            'external_dofollow': '', 'dofollow_share': '', 'game_sites_linked': '', 'links_to_us': '',
-           'spam_signals': '', 'verdict': '', 'reason': ''}
+           'nofollow_to': '', 'spam_signals': '', 'verdict': '', 'reason': ''}
     try:
         r = session.get(url, timeout=30, allow_redirects=True)
     except requests.RequestException as e:
@@ -147,7 +151,7 @@ def check(session: requests.Session, url: str) -> dict:
 
     page_host = host_of(r.url)
     external = dofollow = 0
-    games, ours = set(), []
+    games, ours, unfollowed = set(), [], {}
     for href, rel in p.links:
         full = urllib.parse.urljoin(r.url, href)
         if not full.startswith(('http://', 'https://')):
@@ -158,6 +162,8 @@ def check(session: requests.Session, url: str) -> dict:
         external += 1
         followed = not (rel & NOFOLLOW_RELS) and not page_nofollow
         dofollow += followed
+        if not followed:
+            unfollowed.setdefault(h, set()).update(rel & NOFOLLOW_RELS or {'page'})
         if h == OUR_HOST or h.endswith('.' + OUR_HOST):
             ours.append('dofollow' if followed else 'nofollow:' + ','.join(sorted(rel & NOFOLLOW_RELS) or ['page']))
         for g in GAME_SITES:
@@ -168,6 +174,7 @@ def check(session: requests.Session, url: str) -> dict:
     row['dofollow_share'] = f'{dofollow / external:.0%}' if external else ''
     row['game_sites_linked'] = ' '.join(sorted(games))
     row['links_to_us'] = ' '.join(ours) if ours else 'no'
+    row['nofollow_to'] = ' '.join(f"{h}({','.join(sorted(r))})" for h, r in sorted(unfollowed.items())[:15])
 
     text = re.sub(r'(?s)<[^>]+>', ' ', page)
     spam_hits = sorted({m.group(0).lower() for m in SPAM.finditer(text)})
