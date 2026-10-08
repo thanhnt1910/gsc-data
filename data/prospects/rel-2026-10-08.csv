@@ -1,9 +1,29 @@
 url,status,title,indexable,page_nofollow,external_links,external_dofollow,dofollow_share,game_sites_linked,links_to_us,spam_signals,verdict,reason
 https://board-game-rules.netlify.app/,200,"Board Game Rules, Briefly",yes,no,4,4,100%,,dofollow dofollow dofollow dofollow,,good,"indexable, mostly dofollow outbound links"
+https://curlie.org/en/Games/Puzzles,200,Curlie - Games: Puzzles,yes,no,12,12,100%,,no,,good,"indexable, mostly dofollow outbound links"
+https://dev.to/7xgames/i-built-44-browser-games-with-no-login-heres-what-i-learned-2a6f,200,I built 44 browser games with no login — here’s what I learned - DEV CommunityNavigation menuSearchSearchCloseMore...Copy link,yes,no,9,9,100%,,no,,good,"indexable, mostly dofollow outbound links"
+https://dev.to/arrowsgame/i-built-a-small-browser-puzzle-game-about-arrows-3ico,200,I built a small browser puzzle game about arrows - DEV CommunityNavigation menuSearchSearchCloseMore...Copy linkEnter fullscreen mode,yes,no,10,10,100%,,no,,good,"indexable, mostly dofollow outbound links"
+https://elearningindustry.com/fun-engaging-plans-you-can-use-prep-students-for-next-level-math,200,Teaching Math: 5 Fun Engaging Plans You Can Use - eLearning IndustryeLearning IndustryeLearning IndustryeLearning Industry,yes,no,31,29,94%,,no,,good,"indexable, mostly dofollow outbound links"
+https://fazier.com/launches/classic-game-zone,200,Classic game zone | Fazier,yes,no,90,90,100%,,no,,good,"indexable, mostly dofollow outbound links"
+https://goopennc.oercommons.org/browse?f.provider=mathnook,200,Recent Activity | #GoOpenNC,yes,no,4,4,100%,,no,,good,"indexable, mostly dofollow outbound links"
 https://logic-puzzle-glossary.pages.dev/,200,Logic Puzzle Glossary,yes,no,5,5,100%,,dofollow dofollow dofollow dofollow dofollow,,good,"indexable, mostly dofollow outbound links"
+https://oercommons.org/authoring/17303-logic-puzzle/view,200 via https://oercommons.org/authoring/17303-legacy-resource-logic-puzzle,LEGACY RESOURCE - Logic Puzzle | OER Commons,yes,no,7,7,100%,,no,,good,"indexable, mostly dofollow outbound links"
+https://www.merlot.org/merlot/viewMaterial.htm?id=1068891,200,Math Playground Games,yes,no,15,15,100%,,no,,good,"indexable, mostly dofollow outbound links"
+https://www.merlot.org/merlot/viewMaterial.htm?id=773413978,200,Hooda Math Games,yes,no,15,15,100%,,no,,good,"indexable, mostly dofollow outbound links"
+https://www.pearltrees.com/u/30133373-i-love-maths-games-puzzles,200,I Love Maths Games | PearltreesI Love Maths Games | Pearltrees,yes,no,1,1,100%,,no,,good,"indexable, mostly dofollow outbound links"
+https://www.teachersfirst.com/single.cfm?id=16735,200 via https://teachersfirst.org/single.cfm?id=16735,TeachersFirst Review - The Griddle - Handcrafted Logical Fun,yes,no,13,13,100%,,no,,good,"indexable, mostly dofollow outbound links"
+https://boardgamegeek.com/boardgame/2448/kalah,403,,,,,,,,,,check,"HTTP 403: the site blocks automated checks, look by hand"
+https://github.com/leereilly/games,200,"GitHub - leereilly/games: Archived — A list of games, add-ons, maps, etc. hosted on GitHub. Any genre. Any platform. Any engine. · GitHub",yes,no,126,4,3%,kongregate.com lichess.org,no,,check,only 3% of outbound links are dofollow
+https://hackernoon.com/the-evolution-of-browser-games-from-flash-to-modern-times,200,,yes,no,8,0,0%,kongregate.com,no,,check,only 0% of outbound links are dofollow
 https://mathlogicgames.com/games/candy-farm/,200,Candy Farm â MathLogic,yes,no,0,0,,,no,,check,no outbound links on this page; look for a resources/links page
+https://sharemylesson.com/teaching-resource/arcademics-k-8-online-learning-games-321225,403,,,,,,,,,,check,"HTTP 403: the site blocks automated checks, look by hand"
+https://sharemylesson.com/teaching-resource/interactive-online-logic-games-sudoku-etc-159044,403,,,,,,,,,,check,"HTTP 403: the site blocks automated checks, look by hand"
+https://www.educationalappstore.com/app/logic-wiz-sudoku-variations,200,"Sudoku Variants by Logic Wiz Review - Features, Pricing, Pros & Cons | Educational App Store",yes,no,9,0,0%,,no,,check,only 0% of outbound links are dofollow
 https://www.mathlogicgames.com/,200 via https://mathlogicgames.com/,MathLogic â Free Math & Logic Games,yes,no,0,0,,,no,,check,no outbound links on this page; look for a resources/links page
 https://www.mathlogicgames.com/blog/how-to-win-2048/?ref=test,200 via https://mathlogicgames.com/blog/how-to-win-2048/?ref=test,"How to Win 2048: Corner Strategy, Tips & Common Mistakes â MathLogic Blog",yes,no,0,0,,,no,,check,no outbound links on this page; look for a resources/links page
 https://www.mathlogicgames.com/games/candy-farm/,200 via https://mathlogicgames.com/games/candy-farm/,Candy Farm â MathLogic,yes,no,0,0,,,no,,check,no outbound links on this page; look for a resources/links page
+https://www.sideprojectors.com/project/26095/giddio-free-games-to-play-with-your-friends-online,403,,,,,,,,,,check,"HTTP 403: the site blocks automated checks, look by hand"
+https://www.symbaloo.com/mix/cool-math-games-unblocked,200,Cool Math Games Unblocked - Symbaloo Library,yes,no,0,0,,,no,,check,no outbound links on this page; look for a resources/links page
+https://www.symbaloo.com/tiles/math-playground/U21hcmtEZWZpbml0aW9uR1FMOjIzMTQ2,200,Math Playground - Symbaloo Tile Details,yes,no,0,0,,,no,,check,no outbound links on this page; look for a resources/links page
 https://board-game-rules-briefly.netlify.app/,404,,,,,,,,,,skip,HTTP 404
 https://stalwart-gumption-36d780.netlify.app/,404,,,,,,,,,,skip,HTTP 404
