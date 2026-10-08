@@ -1,4 +1,5 @@
 url,status,title,indexable,page_nofollow,external_links,external_dofollow,dofollow_share,game_sites_linked,links_to_us,spam_signals,verdict,reason
+https://logic-puzzle-glossary.pages.dev/,200,Logic Puzzle Glossary,yes,no,5,5,100%,,dofollow dofollow dofollow dofollow dofollow,,good,"indexable, mostly dofollow outbound links"
 https://mathlogicgames.com/games/candy-farm/,200,Candy Farm â MathLogic,yes,no,0,0,,,no,,check,no outbound links on this page; look for a resources/links page
 https://www.mathlogicgames.com/,200 via https://mathlogicgames.com/,MathLogic â Free Math & Logic Games,yes,no,0,0,,,no,,check,no outbound links on this page; look for a resources/links page
 https://www.mathlogicgames.com/blog/how-to-win-2048/?ref=test,200 via https://mathlogicgames.com/blog/how-to-win-2048/?ref=test,"How to Win 2048: Corner Strategy, Tips & Common Mistakes â MathLogic Blog",yes,no,0,0,,,no,,check,no outbound links on this page; look for a resources/links page
