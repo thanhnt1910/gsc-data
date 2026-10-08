@@ -22,5 +22,10 @@ date,sessionDefaultChannelGroup,sessionSource,sessions,engagedSessions,activeUse
 2026-10-05,Referral,viesearch.com,3,0,1
 2026-10-05,Referral,app.asana.com,1,1,1
 2026-10-05,Referral,pointlesssites.com,1,0,1
-2026-10-06,Direct,(direct),10,0,10
-2026-10-06,Unassigned,(not set),2,0,2
+2026-10-06,Direct,(direct),11,2,11
+2026-10-06,Referral,app.asana.com,1,0,1
+2026-10-07,Unassigned,(not set),8,0,6
+2026-10-07,Cross-network,(data not available),4,0,4
+2026-10-07,Direct,(direct),3,0,3
+2026-10-07,Organic Search,google,3,0,2
+2026-10-07,AI Assistant,chatgpt.com,1,0,1
