@@ -13,7 +13,8 @@ frame. Writes data/audits/embeds-YYYY-MM-DD.csv with, per game:
                      page much smaller than the typical one)
 
 CONTROL (optional) is one URL known to be dead, e.g. a made-up game id;
-it is checked first and printed in full so the "dead" look is known.
+it is written as the "__control__" row, and its page is saved to
+data/audits/embeds-control.html, so the "dead" look can be compared.
 """
 
 import concurrent.futures as cf
@@ -33,7 +34,7 @@ NOT_FOUND = re.compile(r'not\s+found|404|no longer available|has been removed|un
 
 
 def fetch(url: str) -> dict:
-    row = {'status': '', 'final_url': '', 'bytes': '', 'title': '', 'not_found_text': ''}
+    row = {'status': '', 'final_url': '', 'bytes': '', 'title': '', 'not_found_text': '', 'id_mentions': '', 'game_name': ''}
     try:
         r = requests.get(url, timeout=30, headers={'User-Agent': UA}, allow_redirects=True)
     except requests.RequestException as e:
@@ -44,6 +45,13 @@ def fetch(url: str) -> dict:
     row.update(status=r.status_code, final_url=r.url, bytes=len(r.content),
                title=re.sub(r'\s+', ' ', m.group(1)).strip()[:120] if m else '',
                not_found_text='yes' if NOT_FOUND.search(re.sub(r'(?s)<script.*?</script>', ' ', body)[:20000]) else '')
+    # The game id appears in the page data when the source knows the game.
+    gid = url.split('?')[0].rstrip('/').split('/')[-1]
+    if gid == 'embed':
+        gid = url.split('/')[-2]
+    row['id_mentions'] = body.count(gid)
+    m = re.search(r'"(?:name|title|gameName)"\s*:\s*"([^"]{2,80})"', body)
+    row['game_name'] = m.group(1) if m else ''
     return row
 
 
@@ -51,10 +59,14 @@ def main() -> None:
     games = list(csv.DictReader((DATA / 'embeds.csv').open(encoding='utf-8')))
     control = os.environ.get('CONTROL', '').strip()
     if control:
-        c = fetch(control)
-        print(f'CONTROL {control}\n  {c}')
+        games.insert(0, {'slug': '__control__', 'url': control})
         try:
-            print('  body start:', requests.get(control, timeout=30, headers={'User-Agent': UA}).text[:600].replace('\n', ' '))
+            OUT.mkdir(parents=True, exist_ok=True)
+            (OUT / 'embeds-control.html').write_text(
+                requests.get(control, timeout=30, headers={'User-Agent': UA}).text, encoding='utf-8')
+            # One live game's page alongside it, for comparison.
+            (OUT / 'embeds-sample.html').write_text(
+                requests.get(games[1]['url'], timeout=30, headers={'User-Agent': UA}).text, encoding='utf-8')
         except requests.RequestException:
             pass
 
@@ -77,7 +89,7 @@ def main() -> None:
 
     OUT.mkdir(parents=True, exist_ok=True)
     path = OUT / f'embeds-{dt.date.today().isoformat()}.csv'
-    cols = ['flag', 'slug', 'url', 'status', 'final_url', 'bytes', 'title', 'not_found_text']
+    cols = ['flag', 'slug', 'url', 'status', 'final_url', 'bytes', 'title', 'game_name', 'id_mentions', 'not_found_text']
     results.sort(key=lambda r: (r['flag'] == 'ok', r['flag'], r['slug']))
     with path.open('w', newline='', encoding='utf-8') as f:
         w = csv.DictWriter(f, fieldnames=cols, extrasaction='ignore', lineterminator='\n')
