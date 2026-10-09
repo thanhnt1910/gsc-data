@@ -1,0 +1,61 @@
+keyword,verdict,google_level,bing_level,trends_vs_anchor,trends_rising_ratio,bing_weekly_broad,bing_weekly_exact,source,autocomplete_related,autocomplete_game_intent,autocomplete_top
+2048,high + rising,high,high,0.3441,1.46,25307,8609,input,10,2,2048 | 2048 cupcakes | 2048 game | 2048 nowhere to run | 2048 cupcake game
+cartoon,high,high,high,5.5486,1.12,50033,1448,input,10,0,cartoon network | cartoons | cartoon characters | cartoon network shows | cartoon cuts
+fun facts,high + rising,high,high,0.7509,2.1,53492,1623,input,10,0,fun facts | fun facts about me | fun facts for kids | fun facts about yourself | fun facts about animals
+greek mythology,high,high,high,0.5775,0.75,5566,755,input,10,0,greek mythology | greek mythology movies | greek mythology books | greek mythology names | greek mythology gods
+iq test,high,high,high,0.256,1.02,6271,3513,input,10,5,iq test | iq test free | iq test free online | iq test scores | iq test questions
+minesweeper,high + rising,high,high,1.0,1.72,44562,29618,input,10,3,minesweeper | minesweeper google | minesweeper online | minesweeper solver | minesweeper plus
+quiz,high + rising,high,high,3.2345,1.35,3476319,2123,input,10,0,quizlet | quiznos | quizzes | quizlet live | quiz
+riddles,high,high,high,0.2992,1.09,5262,1834,input,10,0,riddles | riddles for kids | riddles for adults | riddles with answers | riddles for kids with answers
+trivia questions,high,high,high,0.2828,0.91,6948,1897,input,10,0,trivia questions | trivia questions and answers | trivia questions for kids | trivia questions for adults | trivia questions and answers for adults
+would you rather,high + rising,high,high,0.4072,1.37,5985,1137,input,10,0,would you rather movie | would you rather questions | would you rather | would you rather questions for kids | would you rather questions for adults
+animal facts,medium + rising,high,medium,0.0505,1.78,2630,2304,input,10,0,animal facts | animal facts for kids | animal facts weird | animal facts for adults | animal facts that no one knows
+bedtime stories,medium,high,medium,0.0902,0.96,608,222,input,10,1,bedtime stories | bedtime stories movie | bedtime stories for kids | bedtime stories cast | bedtime stories for adults
+bible stories,medium,high,medium,0.0954,1.06,1257,152,input,10,0,bible stories | bible stories for kids | bible stories for adults | bible stories for children | bible stories in order from genesis to revelation
+brain teasers,medium,medium,high,0.0188,0.98,9712,9180,input,10,1,brain teasers | brain teasers for adults | brain teasers for kids | brain teasers with answers | brain teasers for adults with answers
+fables,medium,high,medium,0.0884,0.94,756,84,input,10,0,fables | fables comic | fables meaning | fables and frontiers warframe | fables and feathers winery
+fairy tales,medium,high,medium,0.0944,1.14,892,321,input,10,0,fairy tales | fairy tales shampoo | fairy tales rosemary repel | fairy tales hair care | fairy tales list
+find the difference,medium + rising,high,medium,0.1522,1.55,713,167,input,10,3,find the difference | find the difference games | find the difference between two pictures | find the difference pictures | find the difference games free
+kids songs,medium,high,medium,0.2576,1.09,1217,344,input,10,0,kids songs | kids songs youtube | kids songs list | kids songs to sing | kids songs for school
+logic puzzles,medium,medium,medium,0.0279,0.94,3804,2949,input,10,2,logic puzzles | logic puzzles online | logic puzzles for adults | logic puzzles for kids | logic puzzles printable
+manifestation,medium,high,medium,0.15,0.98,577,222,input,10,0,manifestation | manifestation meaning | manifestation definition | manifestation the inner structure | manifestation synonym
+nursery rhymes,medium,high,medium,0.0688,0.99,1666,689,input,10,0,nursery rhymes | nursery rhymes lyrics | nursery rhymes songs | nursery rhymes for babies | nursery rhymes list
+optical illusions,medium + rising,medium,medium,0.0216,1.47,631,435,input,10,1,optical illusions | optical illusions drawings | optical illusions museum | optical illusions pictures | optical illusions for kids
+scary stories,medium + rising,high,medium,0.1115,1.51,775,262,input,10,0,scary stories to tell in the dark | scary stories to tell in the dark movie | scary stories | scary stories to tell in the dark book | scary stories to tell
+spot the difference,medium,medium,medium,0.0313,0.94,1215,375,input,10,3,spot the difference | spot the difference games | spot the difference meme | spot the difference pictures | spot the difference printable
+story time,medium,high,medium,0.5611,1.1,581,98,input,10,1,story time alexandria va | story time frederick md | story time | story time near me | story time library
+true crime,medium,high,medium,0.3894,0.99,2645,409,input,10,0,true crime documentaries | true crime | true crime podcast | true crime documentaries on netflix | true crime shows
+what if,medium,high,medium,49.2963,1.09,1393,222,input,10,0,what if | what if god was one of us | what if i miss you for the rest of my life lyrics | what if movie | what if marvel
+2d animation,low,medium,low,0.0302,0.89,378,97,input,10,2,2d animation | 2d animation software | 2d animation maker online | 2d animation jobs | 2d animation software free
+animated stories,low + rising,low,low,0.0025,2.03,13,6,input,10,0,animated stories from the bible | animated stories from the new testament | animated stories | animated stories from the bible episodes | animated stories from the bible 1987
+bedtime stories for kids,low,low,low,0.0082,1.11,107,101,input,10,2,bedtime stories for kids | bedtime stories for kids free | bedtime stories for kids youtube | bedtime stories for kids to read | bedtime stories for kids short
+can you solve this,low + rising,medium,low,0.0293,2.55,21,21,input,10,1,can you solve this | can you solve this problem | can you solve this riddle | can you solve this math problem | can you solve this for me
+chess puzzles,low + rising,low,medium,0.006,2.11,526,365,input,10,3,chess puzzles | chess puzzles free | chess puzzles for beginners | chess puzzles online | chess puzzles for kids
+dark psychology,low,medium,low,0.0105,0.71,72,50,input,10,0,dark psychology | dark psychology facts | dark psychology of eye contact | dark psychology quotes | dark psychology meaning
+english vocabulary,low,medium,low,0.0334,0.98,88,16,input,10,0,english vocabulary | english vocabulary test | english vocabulary in use | english vocabulary pdf | english vocabulary words
+general knowledge quiz,low + rising,low,medium,0.0013,4.12,562,221,input,10,3,general knowledge quiz | general knowledge quiz with answers | general knowledge quizzes for adults | general knowledge quizzes | general knowledge quiz game
+guess the emoji,low + rising,low,low,0.0009,11.86,65,44,input,10,2,guess the emoji | guess the emoji game | guess the emoji answers | guess the emoji movie | guess the emoji ideas
+history explained,low + rising,medium,low,0.0331,1.62,27,1,input,8,0,history explained | history explained youtube | history explained youtube channel | history explained podcast | history explained like i'm 5
+history facts,low (conflict) + rising,high,low,0.1383,1.46,465,54,input,10,0,history facts | history facts email spam | history facts email | history facts of the day | history facts for kids
+horror stories,low (conflict) + rising,high,low,0.0958,1.43,370,82,input,10,1,horror stories | horror stories to tell in the dark | horror stories to read online | horror stories to read | horror stories reddit
+how it works,low (conflict),high,low,0.547,1.15,412,59,input,10,0,how it works aa | how it works | how it works na | how it works pdf | how it works aa pdf
+kids stories,low (conflict),high,low,0.1083,1.17,54,36,input,10,4,kids stories | kids stories to read | kids stories bedtime | kids stories youtube | kids stories to read online free
+lateral thinking puzzles,low,low,low,0.0001,,17,17,input,10,0,lateral thinking puzzles | lateral thinking puzzles with answers | lateral thinking puzzles for kids | lateral thinking puzzles for adults | lateral thinking puzzles book
+learn english,low (conflict),high,low,0.1563,1.05,312,65,input,10,3,learn english | learn english online free | learn english online | learn english vocabulary | learn english near me
+life lessons,low (conflict),high,low,0.0617,1.1,95,45,input,10,0,life lessons with uramichi oniisan | life lessons | life lessons quotes | life lessons with uramichi oniisan anime | life lessons with uramichi oniisan where to watch
+math riddles,low + rising,low,low,0.0011,5.2,60,49,input,10,0,math riddles | math riddles for kids | math riddles for adults | math riddles with answers | math riddles for middle school
+math tricks,low + rising,low,low,0.0023,2.05,19,11,input,10,1,math tricks | math tricks for kids | math tricks for multiplication | math tricks magic | math tricks book
+mental math,low + rising,medium,low,0.0265,1.43,105,39,input,10,2,mental math | mental math games | mental math practice | mental math trainer | mental math tricks
+moral stories,low + rising,low,low,0.0036,2.56,15,5,input,10,0,moral stories for kids | moral stories | moral stories for kids in english | moral stories in english | moral stories for kids in telugu
+motivational stories,low,low,low,0.0005,0.86,6,6,input,10,0,motivational stories | motivational stories for adults | motivational stories for work | motivational stories for kids | motivational stories for prisoners
+multiplication tricks,low,low,low,0.0002,,9,5,input,10,0,multiplication tricks | multiplication tricks for kids | multiplication tricks for 7 | multiplication tricks for 8 | multiplication tricks for 2 digits
+mystery riddles,low,low,low,0.0003,,22,7,input,10,1,mystery riddles | mystery riddles for kids | mystery riddles for adults | mystery riddles with answers | mystery riddles for adults with answers
+mythology stories,low + rising,low,low,0.005,2.05,51,11,input,10,0,mythology stories | mythology stories for kids | mythology stories greek | mythology stories from around the world | mythology stories book
+psychology facts,low + rising,low,low,0.0054,1.37,42,30,input,10,0,psychology facts | psychology facts about human behavior | psychology facts about love | psychology facts about dreaming of someone | psychology facts about sleep
+riddles with answers,low,medium,low,0.0307,0.87,289,131,input,10,0,riddles with answers | riddles with answers for adults | riddles with answers for kids | riddles with answers hard | riddles with answers funny
+science facts,low,medium,low,0.0408,1.21,131,50,input,10,0,science facts | science facts for kids | science facts for adults | science facts about the human body | science facts about space
+space facts,low + rising,medium,low,0.0345,1.33,127,87,input,10,0,space facts | space facts for kids | space facts scary | space facts for adults | space facts no one knows
+stoic quotes,low + rising,low,low,0.0008,12.34,81,80,input,10,0,stoic quotes | stoic quotes about life | stoic quotes on love | stoic quotes on self-improvement | stoic quotes about death
+sudoku tips,low + rising,low,low,0.0007,7.89,46,37,input,10,0,sudoku tips | sudoku tips and tricks | sudoku tips when stuck | sudoku tips hard | sudoku tips and tricks for beginners
+unsolved mysteries,low (conflict),high,low,0.0637,0.92,416,326,input,10,1,unsolved mysteries | unsolved mysteries host | unsolved mysteries netflix | unsolved mysteries episodes | unsolved mysteries theme song
+detective riddles,none,none,low,0.0,,14,14,input,10,0,detective riddles | detective riddles with answers | detective riddles for adults | detective riddles for kids | detective riddles with answers pdf
