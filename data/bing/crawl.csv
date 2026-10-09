@@ -1,0 +1,2 @@
+date,crawledPages,crawlErrors,inIndex,inLinks,code2xx,code301,code302,code4xx,code5xx,blockedByRobotsTxt
+2026-10-02,52,0,90,1,114,0,0,0,0,0

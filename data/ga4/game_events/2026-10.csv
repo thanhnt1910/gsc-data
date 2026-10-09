@@ -36,8 +36,10 @@ date,eventName,pagePath,eventCount
 2026-10-07,game_play_300s,/games/furry-wedding-proposal/,1
 2026-10-07,game_play_300s,/games/mahjong-connect-tiles/,1
 2026-10-07,game_play_300s,/games/mystery-mansion/,1
+2026-10-07,game_play_300s,/games/route-66-russian-traffic/,1
 2026-10-07,game_play_60s,/games/furry-wedding-proposal/,1
 2026-10-07,game_play_60s,/games/geography-quiz-countries-flags-capitals/,1
+2026-10-07,game_play_60s,/games/guess-the-country/,1
 2026-10-07,game_play_60s,/games/haaaland-arrow-shooter/,1
 2026-10-07,game_play_60s,/games/mahjong-connect-tiles/,1
 2026-10-07,game_play_60s,/games/mystery-mansion/,1
@@ -48,7 +50,13 @@ date,eventName,pagePath,eventCount
 2026-10-07,game_start,/games/geography-quiz-countries-flags-capitals/,1
 2026-10-07,game_start,/games/guess-the-country/,1
 2026-10-07,game_start,/games/haaaland-arrow-shooter/,1
+2026-10-07,game_start,/games/mahjong-connect-tiles/,1
 2026-10-07,game_start,/games/merge-the-presidents/,1
 2026-10-07,game_start,/games/route-66-russian-traffic/,1
 2026-10-07,game_start,/games/tavreli-russian-chess/,1
 2026-10-07,game_start,/games/trump-wall-building/,1
+2026-10-08,game_play_60s,/games/math-is-easy/,2
+2026-10-08,game_start,/games/math-is-easy/,2
+2026-10-08,game_start,/games/arrows-picture-puzzle/,1
+2026-10-08,game_start,/games/match-match/,1
+2026-10-08,game_start,/games/number-maze-puzzle/,1
