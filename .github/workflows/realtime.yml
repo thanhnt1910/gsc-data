@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   realtime:
@@ -21,10 +21,26 @@ jobs:
         env:
           GSC_SERVICE_ACCOUNT_JSON: ${{ secrets.GSC_SERVICE_ACCOUNT_JSON }}
           GA4_PROPERTY: ${{ vars.GA4_PROPERTY }}
-        run: python scripts/ga4_realtime.py
+        run: |
+          mkdir -p data/fresh
+          python scripts/ga4_realtime.py | tee "data/fresh/ga4-$(date -u +%F).md"
 
       - name: Print fresh Search Console data
         env:
           GSC_SERVICE_ACCOUNT_JSON: ${{ secrets.GSC_SERVICE_ACCOUNT_JSON }}
           GSC_SITE: ${{ vars.GSC_SITE }}
-        run: python scripts/gsc_fresh.py
+        run: python scripts/gsc_fresh.py | tee "data/fresh/gsc-$(date -u +%F).md"
+
+      # Keep a copy: the run log itself can't be read back from outside GitHub.
+      - name: Commit results
+        run: |
+          git add data/fresh
+          if git diff --cached --quiet; then
+            echo "No new data."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898299+github-actions[bot]@users.noreply.github.com'
+          git commit -m "Fresh GSC / GA4 snapshot, run $(date -u +%F)"
+          git pull --rebase --autostash
+          git push
