@@ -37,3 +37,12 @@ date,type,coverageState,count
 2026-10-05,game,URL is unknown to Google,14
 2026-10-05,home,Submitted and indexed,1
 2026-10-05,other,Submitted and indexed,12
+2026-10-12,blog,Submitted and indexed,22
+2026-10-12,category,Submitted and indexed,17
+2026-10-12,game,Crawled - currently not indexed,3
+2026-10-12,game,Discovered - currently not indexed,7
+2026-10-12,game,Submitted and indexed,622
+2026-10-12,game,URL is unknown to Google,2
+2026-10-12,home,Submitted and indexed,1
+2026-10-12,other,Discovered - currently not indexed,1
+2026-10-12,other,Submitted and indexed,14
