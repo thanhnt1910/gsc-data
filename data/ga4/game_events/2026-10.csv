@@ -72,3 +72,11 @@ date,eventName,pagePath,eventCount
 2026-10-10,game_start,/games/memory-tiles/,1
 2026-10-10,game_start,/games/sumo-cars-3d/,1
 2026-10-11,game_start,/games/tangram-grid/,1
+2026-10-12,game_play_300s,/games/arrows-escaper/,1
+2026-10-12,game_play_60s,/games/arrows-escaper/,1
+2026-10-12,game_play_60s,/games/detective-logic-puzzles/,1
+2026-10-12,game_start,/games/2048-block-fusion/,1
+2026-10-12,game_start,/games/2048-snake-io/,1
+2026-10-12,game_start,/games/arrows-escaper/,1
+2026-10-12,game_start,/games/detective-logic-puzzles/,1
+2026-10-12,game_start,/games/mystery-mansion/,1
