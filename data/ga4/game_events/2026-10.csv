@@ -84,3 +84,10 @@ date,eventName,pagePath,eventCount
 2026-10-13,game_start,/games/math-rockets-addition/,1
 2026-10-15,game_play_60s,/games/cryptogram/,1
 2026-10-15,game_start,/games/cryptogram/,1
+2026-10-16,game_play_300s,/games/cryptogram/,1
+2026-10-16,game_play_300s,/games/math-crossword-puzzle/,1
+2026-10-16,game_play_60s,/games/cryptogram/,1
+2026-10-16,game_play_60s,/games/math-crossword-puzzle/,1
+2026-10-16,game_start,/games/cryptogram/,1
+2026-10-16,game_start,/games/math-crossword-puzzle/,1
+2026-10-16,game_start,/games/triangles-dots-2048/,1
