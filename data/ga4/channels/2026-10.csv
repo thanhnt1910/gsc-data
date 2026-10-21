@@ -61,5 +61,8 @@ date,sessionDefaultChannelGroup,sessionSource,sessions,engagedSessions,activeUse
 2026-10-18,Direct,(direct),5,0,5
 2026-10-18,Organic Search,bing,2,2,2
 2026-10-18,Organic Search,malaysia.search.yahoo.com,1,0,1
-2026-10-19,AI Assistant,chatgpt.com,2,1,2
-2026-10-19,Direct,(direct),1,0,1
+2026-10-19,Direct,(direct),5,0,5
+2026-10-19,AI Assistant,chatgpt.com,3,1,2
+2026-10-20,AI Assistant,chatgpt.com,1,0,0
+2026-10-20,Direct,(direct),1,1,1
+2026-10-20,Referral,astro.build,1,0,1
