@@ -154,3 +154,9 @@ date,eventName,eventCount
 2026-10-21,first_visit,2
 2026-10-21,session_start,2
 2026-10-21,game_start,1
+2026-10-22,first_visit,6
+2026-10-22,page_view,6
+2026-10-22,session_start,6
+2026-10-22,game_start,2
+2026-10-22,user_engagement,2
+2026-10-22,game_play_60s,1
