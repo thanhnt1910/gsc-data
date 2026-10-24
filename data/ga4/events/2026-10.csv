@@ -160,3 +160,10 @@ date,eventName,eventCount
 2026-10-22,game_start,2
 2026-10-22,user_engagement,2
 2026-10-22,game_play_60s,1
+2026-10-23,page_view,14
+2026-10-23,user_engagement,11
+2026-10-23,first_visit,4
+2026-10-23,session_start,4
+2026-10-23,game_start,3
+2026-10-23,game_play_60s,1
+2026-10-23,scroll,1
