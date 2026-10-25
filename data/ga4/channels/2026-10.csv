@@ -76,3 +76,6 @@ date,sessionDefaultChannelGroup,sessionSource,sessions,engagedSessions,activeUse
 2026-10-23,Direct,(direct),1,1,1
 2026-10-23,Referral,app.asana.com,1,0,1
 2026-10-23,Referral,astro.build,1,1,1
+2026-10-24,Direct,(direct),2,0,2
+2026-10-24,AI Assistant,chatgpt.com,1,1,1
+2026-10-24,Organic Search,bing,1,1,1
