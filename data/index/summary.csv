@@ -60,9 +60,8 @@ date,type,coverageState,count
 2026-10-26,blog,Submitted and indexed,22
 2026-10-26,category,Submitted and indexed,17
 2026-10-26,game,Crawled - currently not indexed,3
-2026-10-26,game,Discovered - currently not indexed,8
+2026-10-26,game,Discovered - currently not indexed,10
 2026-10-26,game,Submitted and indexed,622
-2026-10-26,game,URL is unknown to Google,2
 2026-10-26,home,Submitted and indexed,1
 2026-10-26,other,Discovered - currently not indexed,1
 2026-10-26,other,Submitted and indexed,14
