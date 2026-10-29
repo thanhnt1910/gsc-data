@@ -128,8 +128,8 @@ date,landingPage,sessions,engagedSessions,activeUsers
 2026-10-26,/games/candy-flow-factory,1,0,1
 2026-10-26,/games/city-states-idle,1,1,1
 2026-10-26,/games/daily-mahjong-challenge,1,0,1
-2026-10-27,,2,0,1
-2026-10-27,/,1,0,1
+2026-10-27,(not set),1,0,1
+2026-10-27,/,1,1,1
 2026-10-27,/blog/mahjong-vs-mahjong-solitaire-difference,1,0,1
 2026-10-27,/brain-teasers,1,0,1
 2026-10-27,/games/cryptogram,1,0,0
@@ -137,3 +137,11 @@ date,landingPage,sessions,engagedSessions,activeUsers
 2026-10-27,/games/detective-logic-puzzles,1,1,1
 2026-10-27,/games/international-draughts,1,0,1
 2026-10-27,/games/labubu-world-game,1,0,1
+2026-10-28,/,4,3,4
+2026-10-28,/addition-subtraction-games,1,1,1
+2026-10-28,/contact,1,0,1
+2026-10-28,/games/labubu-arrow-shooter,1,0,1
+2026-10-28,/games/math-is-easy,1,0,1
+2026-10-28,/games/mega-block-puzzle,1,0,1
+2026-10-28,/games/noob-math-challenge,1,1,1
+2026-10-28,/multiplication-games,1,0,1
