@@ -1,0 +1,16 @@
+date,eventName,pagePath,eventCount
+2026-11-01,game_start,/games/bolts-and-nuts-sorting-master/,2
+2026-11-01,game_start,/games/make-ten-tile-merge/,2
+2026-11-01,game_start,/games/math-zombie-rodeo-multiplication/,2
+2026-11-01,game_play_300s,/games/math-is-easy/,1
+2026-11-01,game_play_60s,/games/block-sniper/,1
+2026-11-01,game_play_60s,/games/bolts-and-nuts-sorting-master/,1
+2026-11-01,game_play_60s,/games/jelly-merge-math-3d/,1
+2026-11-01,game_play_60s,/games/make-ten-tile-merge/,1
+2026-11-01,game_play_60s,/games/math-is-easy/,1
+2026-11-01,game_start,/games/2048-snake-io/,1
+2026-11-01,game_start,/games/2048/,1
+2026-11-01,game_start,/games/block-sniper/,1
+2026-11-01,game_start,/games/jelly-merge-math-3d/,1
+2026-11-01,game_start,/games/math-is-easy/,1
+2026-11-01,game_start,/games/math-racing-2-multiplication/,1
