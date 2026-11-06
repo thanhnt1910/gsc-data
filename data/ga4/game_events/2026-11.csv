@@ -23,3 +23,8 @@ date,eventName,pagePath,eventCount
 2026-11-03,game_play_60s,/games/city-ride/,1
 2026-11-03,game_start,/games/city-ride/,1
 2026-11-03,game_start,/games/cryptogram/,1
+2026-11-05,game_play_60s,/games/alchemy-merge-elements/,2
+2026-11-05,game_start,/games/alchemy-merge-elements/,2
+2026-11-05,game_play_300s,/games/alchemy-merge-elements/,1
+2026-11-05,game_play_60s,/games/tangram-grid/,1
+2026-11-05,game_start,/games/tangram-grid/,1
