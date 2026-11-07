@@ -39,3 +39,9 @@ date,eventName,eventCount
 2026-11-05,form_start,1
 2026-11-05,game_play_300s,1
 2026-11-05,user_engagement,1
+2026-11-06,page_view,10
+2026-11-06,first_visit,7
+2026-11-06,session_start,7
+2026-11-06,user_engagement,3
+2026-11-06,game_start,1
+2026-11-06,scroll,1
