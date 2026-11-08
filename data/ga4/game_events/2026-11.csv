@@ -29,3 +29,5 @@ date,eventName,pagePath,eventCount
 2026-11-05,game_play_60s,/games/tangram-grid/,1
 2026-11-05,game_start,/games/tangram-grid/,1
 2026-11-06,game_start,/games/crossword-words-from-letters/,1
+2026-11-07,game_play_60s,/games/tile-stack-mahjong/,1
+2026-11-07,game_start,/games/tile-stack-mahjong/,1
