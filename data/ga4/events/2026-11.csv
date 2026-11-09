@@ -52,3 +52,11 @@ date,eventName,eventCount
 2026-11-07,scroll,2
 2026-11-07,game_play_60s,1
 2026-11-07,game_start,1
+2026-11-08,page_view,30
+2026-11-08,user_engagement,24
+2026-11-08,game_start,10
+2026-11-08,game_play_60s,9
+2026-11-08,session_start,9
+2026-11-08,game_play_300s,6
+2026-11-08,first_visit,4
+2026-11-08,scroll,4
