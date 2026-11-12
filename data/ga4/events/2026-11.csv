@@ -72,3 +72,8 @@ date,eventName,eventCount
 2026-11-10,first_visit,5
 2026-11-10,page_view,5
 2026-11-10,session_start,5
+2026-11-11,first_visit,20
+2026-11-11,page_view,20
+2026-11-11,session_start,20
+2026-11-11,scroll,2
+2026-11-11,user_engagement,1
