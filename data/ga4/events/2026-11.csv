@@ -96,3 +96,11 @@ date,eventName,eventCount
 2026-11-14,first_visit,74
 2026-11-14,scroll,6
 2026-11-14,user_engagement,3
+2026-11-15,page_view,89
+2026-11-15,session_start,84
+2026-11-15,first_visit,83
+2026-11-15,user_engagement,7
+2026-11-15,scroll,5
+2026-11-15,game_play_300s,3
+2026-11-15,game_play_60s,3
+2026-11-15,game_start,3
