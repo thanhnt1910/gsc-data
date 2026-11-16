@@ -1,37 +1,55 @@
 keyword,verdict,google_level,bing_level,trends_vs_anchor,trends_rising_ratio,bing_weekly_broad,bing_weekly_exact,source,autocomplete_related,autocomplete_game_intent,autocomplete_top
-crossword puzzle,high,high,high,0.2213,1.01,37269,2056,input,10,3,crossword puzzles | crossword puzzles free | crossword puzzles online | crossword puzzle maker | crossword puzzles online free
-klondike solitaire,high,high,high,0.0682,1.13,65476,27838,input,10,3,klondike solitaire | klondike solitaire online | klondike solitaire green felt | klondike solitaire turn 3 | klondike solitaire turn one
-spider solitaire,high,high,high,0.2882,1.13,147626,40354,input,10,5,spider solitaire | spider solitaire free | spider solitaire online | spider solitaire io | spider solitaire 2 suits
-tic tac toe,high,high,high,0.1438,1.03,5000,3346,input,10,5,tic tac toe | tic tac toe game | tic tac toe 2 player | tic tac toe online | tic tac toe 2 player online
-battleship game,medium + rising,medium,medium,0.0199,1.31,588,351,input,10,2,battleship game | battleship game online | battleship game online free | battleship game rules | battleship game pieces
-color by number,medium,high,medium,0.117,1.08,4934,2092,input,10,4,color by number | color by number for adults | color by number for kids | color by number printable | color by number online
-connect four,medium,medium,medium,0.0417,0.96,1748,269,input,10,4,connect four | connect four game | connect four online | connect four yard game | connect four strategy
-daily sudoku,medium + rising,medium,medium,0.0188,1.34,2470,1093,input,10,2,daily sudoku | daily sudoku puzzle | daily sudoku hard | daily sudoku printable | daily sudoku washington post
-freecell solitaire,medium,medium,high,0.0318,1.16,23177,10660,input,10,6,freecell solitaire | freecell solitaire play it online for free | freecell solitaire - green felt | freecell solitaire free | freecell solitaire rules
-spider solitaire free,medium,medium,high,0.0419,1.21,28573,15293,input,10,4,spider solitaire free | spider solitaire free online | spider solitaire free game | spider solitaire freecell | spider solitaire free no download
-word search puzzle,medium,medium,medium,0.0146,1.13,865,291,input,10,3,word search puzzles | word search puzzles printable | word search puzzles for adults | word search puzzles free | word search puzzles books
-2048 classic,low,low,low,0.0001,,2,1,input,8,6,2048 classic | 2048 classic game | 2048 classic online | 2048 classic puzzle | 2048 classic swipe game
-battleship online,low,low,low,0.0008,,446,362,input,10,6,battleship online | battleship online 2 player | battleship online game | battleship online with friends | battleship online free
-chess master,low + rising,medium,low,0.018,1.53,329,75,input,10,2,chess master | chess master levels | chess master meme | chess master rankings | chess master rating
-classic backgammon,low,low,low,0.0001,,170,64,input,10,4,classic backgammon online free without downloading | classic backgammon | classic backgammon set | classic backgammon online free | classic backgammon online
-dominoes online,low + rising,low,medium,0.003,1.55,2024,778,input,4,3,dominoes online | dominoes online game | domino's online ordering | dominoes online game free | domino's online specials
-gin rummy online,low + rising,low,medium,0.0016,3.05,2505,1224,input,10,5,gin rummy online free | gin rummy online | gin rummy online with friends | gin rummy online free against computer | gin rummy online for free
-killer sudoku online,low,low,low,0.0001,,418,204,input,10,4,killer sudoku online | killer sudoku online free | killer sudoku online hard | killer sudoku online daily | killer sudoku online archives
-make 10 game,low,medium,low,0.0228,1.18,3,3,input,9,4,make 10 game | make 10 games online free | make 10 game online | make 10 game printable | make 10 game app
-minesweeper classic,low,low,low,0.0001,,23,18,input,10,4,minesweeper classic | minesweeper classic retro | minesweeper classic download | minesweeper classic edition | minesweeper classic online
-number puzzle game,low,low,low,0.0002,,20,9,input,10,4,number puzzle game | number puzzle game online free | number puzzle game online | number puzzle games for adults | number puzzle game crossword clue
-number sums,low + rising,low,low,0.001,4.17,11,10,input,10,9,number sums | number sums game | number sums puzzle | number sums game online | number sums online
-picross,low + rising,low,low,0.0024,2.19,473,411,input,10,2,picross | picross 3d | picross online | picross ds | picross 3d round 2
-pixel art color by number,low + rising,low,low,0.0002,2.02,26,22,input,10,6,pixel art color by number | pixel art color by number free | pixel art color by number online | pixel art color by number printable | pixel art color by number online free
-pyramid solitaire online,low,low,low,0.0002,,24,0,input,4,2,pyramid solitaire online | pyramid solitaire online free | pyramid solitaire online free no download | tri peaks solitaire online | tri peaks solitaire online free games
-tangram,low,medium,low,0.0281,0.87,358,136,input,10,0,tangrams | tangram mall | tangram regal | tangram puzzles | tangram mall flushing
-checkers legend,none,none,none,0.0,,0,0,input,2,1,checkers legends game | checkers legend | checkers afl legends | how many checkers in a checker game | checkers menu ranked
-get 10 game,none (conflict),medium,none,0.0297,1.1,0,0,input,4,1,get 10 game | get 10 game online | get 10 game strategy | find 10 game | get 10 coolmath games
-hexa puzzle,none,none,low,0.0,,18,1,input,8,3,hexa puzzle | hexa puzzle game | hexa puzzle slap battles | hexa puzzle saga | hexa puzzle - block mania
-kobadoo arithmetic,none,none,none,0.0,,0,0,input,0,0,
-master checkers,none,none,low,0.0,,249,99,input,10,4,master checkers | master checkers online | master checkers poki | master checkers ai | master checkers bot
-math battle game,none + rising,low,none,0.0001,1.47,0,0,input,2,1,math battle game | math battle games online | math fight game | arithmetic battle game | math battle royale game
-math fight club,none,none,none,0.0,,0,0,input,0,0,fight club math | math se fait fight club | fight club formula | what is the main point of fight club | fight club explanation
-multiplication simulator,none,none,none,0.0,,0,0,input,1,0,multiplication simulator | multiply simulator | multiplication check simulator | multiplication table simulator | matrix multiplication calculator
-reversi online,none,none,low,0.0,,131,108,input,8,3,reversi online | reversi online with friends | reversi online game | reversi online 2 player | reversi online free
-super chains,none,low,none,0.0004,,0,0,input,5,0,super chainsaw | super chainsaw man motorcycle | super chainsaw chain | super chainsaw man | super chains
+chess online,high,high,high,0.122,1.23,15096,9257,watchlist,10,4,chess online | chess online free | chess online 2 player | chess online game | chess online against computer
+drift boss,high,high,high,0.7159,0.66,30806,21859,watchlist,10,3,drift boss | drift boss math playground | drift boss game | drift boss 2 | drift boss cool math games
+freecell,high,high,high,0.1942,1.07,109283,38726,watchlist,10,5,freecell | freecell solitaire | freecell 247 | freecell green felt | freecell io
+spider solitaire,high,high,high,0.2887,1.13,147626,40354,watchlist,10,6,spider solitaire | spider solitaire free | spider solitaire io | spider solitaire online | spider solitaire 2
+word search,high,high,high,0.4017,1.05,46312,15091,watchlist,10,3,word search | word search puzzles | word search printable | word search generator | word search maker
+brain teasers,medium,medium,high,0.0122,1.24,9689,9176,watchlist,10,1,brain teasers | brain teasers for adults | brain teasers for kids | brain teasers with answers | brain teasers for adults with answers
+color by number,medium,high,medium,0.1181,1.07,4934,2092,watchlist,10,4,color by number | color by number for adults | color by number for kids | color by number printable | color by number online
+daily sudoku,medium + rising,medium,medium,0.0186,1.37,2470,1093,watchlist,10,2,daily sudoku | daily sudoku puzzle | daily sudoku hard | daily sudoku printable | daily sudoku washington post
+hearts card game,medium,medium,high,0.0276,0.9,21442,13439,watchlist,10,6,hearts card game | hearts card game rules | hearts card game online | hearts card game free online | hearts card game classic free
+killer sudoku,medium,medium,medium,0.0172,1.27,2581,1535,watchlist,10,1,killer sudoku | killer sudoku calculator | killer sudoku cheat sheet | killer sudoku combinations | killer sudoku tips
+klondike solitaire free,medium,medium,high,0.0186,1.29,15266,7646,watchlist,10,5,klondike solitaire free online | klondike solitaire free no download | klondike solitaire free | klondike solitaire free download | klondike solitaire free game
+mancala,medium,high,medium,0.0504,1.05,929,544,watchlist,10,4,mancala | mancala rules | mancala game | mancala board | mancala instructions
+math games for kids,medium,medium,medium,0.0178,1.13,1076,427,watchlist,10,3,math games for kids | math games for kids free | math games for kids online free | math games for kids grade 2 | math games for kids in classroom
+math games online,medium,medium,medium,0.0438,1.1,1196,229,watchlist,10,3,math games online | math games online free | math games online for kids | math games online free for kids | math games online for adults
+minesweeper online,medium,medium,medium,0.0127,1.16,2518,1921,watchlist,10,3,minesweeper online | minesweeper online free | minesweeper online multiplayer | minesweeper online mobile | minesweeper online ranks
+multiplication games,medium + rising,medium,medium,0.0385,1.73,2059,1704,watchlist,10,5,multiplication games | multiplication games free | multiplication games for kids | multiplication games for 3rd grade | multiplication games for 4th grade
+solitaire games free online,medium,medium,medium,0.017,1.22,785,415,watchlist,9,0,solitaire games free online | solitaire games free online no download | solitaire games free online no download no ads | solitaire games free online no download no ads for android | solitaire games free online klondike
+spades card game,medium,medium,high,0.0204,1.05,5540,3347,watchlist,10,5,spades card game | spades card game rules | spades card game online | spades card game download | spades card game online free
+stickman hook,medium,medium,medium,0.0268,0.94,1659,1426,watchlist,10,4,stickman hook | stickman hook game | stickman hook 2 | stickman hook poki | stickman hook online game
+sudoku free,medium,high,medium,0.0517,1.01,3797,1819,watchlist,10,4,sudoku free | sudoku free printable | sudoku free online | sudoku free games | sudoku free online games
+sudoku online free,medium,medium,high,0.0212,1.18,5026,3934,watchlist,10,1,sudoku online free | sudoku online free daily | sudoku online free game | sudoku online free daily pdf | sudoku online free no ads
+times tables games,medium + rising,medium,medium,0.0149,2.32,1162,1035,watchlist,10,4,times tables games | times tables games free | times tables games for kids | times tables games online | times tables games for kids free
+2048 online,low + rising,low,low,0.0008,2.13,42,16,watchlist,9,8,2048 online | 2048 online game | 2048 online free | 2048 online game free | 2048 online game 6x6
+addition games,low + rising,low,low,0.0033,1.6,28,21,watchlist,10,2,addition games | addition games for grade 1 | addition games for kids | addition games for grade 2 | addition games for kindergarten
+arrow game online,low + rising,low,low,0.0004,8.55,116,26,watchlist,10,4,arrow game online | arrow game online free | arrow game online multiplayer | arrow game online play | arrow game online paisa wala
+arrow puzzle game,low,low,medium,0.0003,,610,394,watchlist,10,6,arrow puzzle game | arrow puzzle game online | arrow puzzle game online free | arrow puzzle game for pc | arrow puzzle game download free
+backgammon online free,low + rising,low,medium,0.0007,8.26,3048,1957,watchlist,7,2,backgammon online free | backgammon online free without downloading | backgammon online free play | backgammon online free facebook | backgammon online free live
+block bloom,low + rising,low,low,0.0003,6.15,18,0,watchlist,10,3,block bloom | block bloom app | block bloom game | block bloom color blast | block bloom apk
+candy farm,low + rising,medium,low,0.0115,1.39,23,0,watchlist,10,0,candy farm 3 color coconut | candy farm | candy farming pokerogue | candy farming royale high | candy farm cobbleverse
+chinese checkers,low,medium,low,0.0106,0.77,265,167,watchlist,10,3,chinese checkers | chinese checkers rules | chinese checkers game | chinese checkers how to play | chinese checkers board
+crossword puzzle online,low + rising,low,medium,0.0011,5.46,712,37,watchlist,10,4,crossword puzzle online | crossword puzzle online free | crossword puzzle online free game | crossword puzzle online for kids | crossword puzzle online easy
+division games,low,medium,low,0.0411,0.86,37,32,watchlist,10,2,division games | division games for kids | division games 4th grade | division games nfl | division games for 3rd grade
+fraction games,low,low,low,0.005,1.23,13,13,watchlist,10,3,fraction games | fraction games for kids | fraction games for 4th grade | fraction games online free | fraction games online
+free mahjong no download,low,low,low,0.0003,,83,72,watchlist,4,1,free mahjong no download | free mahjong no download full screen | free mahjong no download for android | free mahjong no download games | free mahjong online no download
+golf solitaire,low + rising,low,medium,0.0027,1.71,1838,626,watchlist,10,5,golf solitaire | golf solitaire card game | golf solitaire rules | golf solitaire game | golf solitaire online
+hangman online,low + rising,low,low,0.0003,7.25,164,143,watchlist,10,4,hangman online | hangman online with friends | hangman online game | hangman online 2 player | hangman online free
+kakuro,low + rising,low,medium,0.0014,5.63,1284,462,watchlist,10,2,kakuro | kakuro online | kakuro puzzles | kakuro cheat sheet | kakuro definition
+logic puzzles online,low,low,low,0.0002,,196,142,watchlist,10,6,logic puzzles online | logic puzzles online free | logic puzzles online free for adults | logic puzzles online for kids | logic puzzles online free with answers
+mahjong solitaire free online,low,low,low,0.0005,,355,141,watchlist,6,4,mahjong solitaire free online | mahjong solitaire free online game play full screen | mahjong solitaire free online no download | mahjong solitaire free online crazy games | mahjong solitaire free online game washington post
+math puzzles,low + rising,low,low,0.0042,1.4,95,67,watchlist,10,0,math puzzles | math puzzles for adults | math puzzles for kids | math puzzles for middle school | math puzzles brain teasers
+multiplication games for 3rd grade,low + rising,low,low,0.0002,2.41,26,26,watchlist,9,5,multiplication games for 3rd grade | multiplication games for 3rd grade free | multiplication games for 3rd grade printable | multiplication games for 3rd grade free online | multiplication games for 3rd grade free printable
+nonogram online,low,low,low,0.0001,,40,16,watchlist,10,3,nonogram online | nonogram online free | nonogram online game | nonogram online color | nonogram online easy
+play checkers online free,low,low,low,0.0001,,158,156,watchlist,4,1,play checkers online free | play checkers online free with friends | play checkers online free against computer | play checkers online free vs computer | play checkers for free
+play dominoes online,low + rising,low,low,0.0003,5.24,280,85,watchlist,10,5,play dominoes online free | play dominoes online | play dominoes online with friends free | play dominoes online vs computer free | play dominoes online free no download
+pyramid solitaire,low + rising,low,medium,0.0046,1.76,4716,2107,watchlist,10,6,pyramid solitaire | pyramid solitaire rules | pyramid solitaire game | pyramid solitaire online | pyramid solitaire classic
+spider solitaire free online,low (conflict) + rising,low,high,0.0048,1.8,7047,5022,watchlist,10,3,spider solitaire free online | spider solitaire free online game | spider solitaire free online full screen | spider solitaire free online no download | spider solitaire free online card game
+subtraction games,low,low,low,0.0004,,17,10,watchlist,10,2,subtraction games | subtraction games for grade 1 | subtraction games for grade 2 | subtraction games for grade 3 | subtraction games for kids
+triominos,low,low,low,0.0001,,21,16,watchlist,10,4,triominos | triominos rules | triominos game | triominos instructions | triominos scoring
+word search online free,low + rising,low,low,0.0013,2.12,365,251,watchlist,10,2,word search online free | word search online free game | word search online free no download | word search online free printable | word search online free unlimited
+yukon solitaire,low + rising,low,medium,0.0007,4.59,1333,429,watchlist,10,5,yukon solitaire | yukon solitaire rules | yukon solitaire 247 | yukon solitaire io | yukon solitaire game
+cryptogram online,none,none,low,0.0,,3,2,watchlist,7,4,cryptogram online | cryptogram online free | cryptogram online game | cryptogram online free game | cryptogram online puzzle
+daily mahjong challenge,none,none,low,0.0,,26,0,watchlist,3,1,daily mahjong challenge | daily mahjong challenge online free | mahjong daily challenge not loading | msn daily mahjong challenge | microsoft mahjong daily challenge
+gomoku online,none,none,low,0.0,,11,11,watchlist,10,4,gomoku online | gomoku online 2 player | gomoku online with friends | gomoku online bot | gomoku online free
+nine men's morris online,none,none,none,0.0,,0,0,watchlist,10,6,nine men's morris online vs computer expert | nine men's morris online | nine men's morris online game | nine men's morris online free | nine men's morris online game expert
