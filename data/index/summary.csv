@@ -100,3 +100,14 @@ date,type,coverageState,count
 2026-11-09,other,Crawled - currently not indexed,13
 2026-11-09,other,Submitted and indexed,1
 2026-11-09,other,URL is unknown to Google,1
+2026-11-16,blog,Crawled - currently not indexed,15
+2026-11-16,blog,Submitted and indexed,7
+2026-11-16,blog,URL is unknown to Google,2
+2026-11-16,category,Crawled - currently not indexed,17
+2026-11-16,game,Crawled - currently not indexed,194
+2026-11-16,game,Submitted and indexed,95
+2026-11-16,game,URL is unknown to Google,9
+2026-11-16,home,Submitted and indexed,1
+2026-11-16,other,Crawled - currently not indexed,13
+2026-11-16,other,Submitted and indexed,1
+2026-11-16,other,URL is unknown to Google,1
