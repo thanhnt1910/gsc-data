@@ -38,8 +38,10 @@ date,sessionDefaultChannelGroup,sessionSource,sessions,engagedSessions,activeUse
 2026-11-14,AI Assistant,chatgpt.com,3,1,2
 2026-11-14,Organic Search,bing,1,0,1
 2026-11-14,Unassigned,(not set),1,0,1
-2026-11-15,Direct,(direct),79,1,80
+2026-11-15,Direct,(direct),80,1,80
 2026-11-15,AI Assistant,chatgpt.com,2,1,2
-2026-11-15,Unassigned,(not set),2,0,1
 2026-11-15,Organic Search,bing,1,0,1
 2026-11-15,Organic Search,cn.bing.com,1,0,1
+2026-11-16,Direct,(direct),43,0,43
+2026-11-16,AI Assistant,chatgpt.com,7,1,4
+2026-11-16,Organic Search,bing,1,1,1
