@@ -107,3 +107,15 @@ date,eventName,pagePath,eventCount
 2026-11-17,game_start,/games/numbers-merge-master/,1
 2026-11-17,game_start,/games/speed-typer/,1
 2026-11-18,game_start,/games/mathematics-racing/,1
+2026-11-19,game_start,/games/math-is-easy/,2
+2026-11-19,game_play_300s,/games/geography-quiz-countries-flags-capitals/,1
+2026-11-19,game_play_300s,/games/halloween-tom-math-challenge/,1
+2026-11-19,game_play_300s,/games/math-is-easy/,1
+2026-11-19,game_play_300s,/games/theme-word-search/,1
+2026-11-19,game_play_60s,/games/geography-quiz-countries-flags-capitals/,1
+2026-11-19,game_play_60s,/games/halloween-tom-math-challenge/,1
+2026-11-19,game_play_60s,/games/math-is-easy/,1
+2026-11-19,game_play_60s,/games/theme-word-search/,1
+2026-11-19,game_start,/games/geography-quiz-countries-flags-capitals/,1
+2026-11-19,game_start,/games/halloween-tom-math-challenge/,1
+2026-11-19,game_start,/games/theme-word-search/,1
