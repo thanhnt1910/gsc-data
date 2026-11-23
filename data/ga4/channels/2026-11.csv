@@ -65,3 +65,7 @@ date,sessionDefaultChannelGroup,sessionSource,sessions,engagedSessions,activeUse
 2026-11-20,Unassigned,(not set),1,0,1
 2026-11-21,Direct,(direct),22,0,22
 2026-11-21,Organic Search,google,1,0,0
+2026-11-22,Direct,(direct),28,0,28
+2026-11-22,AI Assistant,chatgpt.com,2,0,2
+2026-11-22,Organic Search,duckduckgo,2,1,2
+2026-11-22,Organic Search,bing,1,0,1
