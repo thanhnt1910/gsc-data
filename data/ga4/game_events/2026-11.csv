@@ -127,3 +127,6 @@ date,eventName,pagePath,eventCount
 2026-11-20,game_start,/games/mate-in-chess/,1
 2026-11-20,game_start,/games/ultra-realistic-blockcraft/,1
 2026-11-22,game_start,/games/math-matchsticks/,1
+2026-11-23,game_play_60s,/games/geography-quiz-countries-flags-capitals/,1
+2026-11-23,game_start,/games/geography-quiz-countries-flags-capitals/,1
+2026-11-23,game_start,/games/math-is-easy/,1
