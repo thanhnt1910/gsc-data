@@ -130,3 +130,5 @@ date,eventName,pagePath,eventCount
 2026-11-23,game_play_60s,/games/geography-quiz-countries-flags-capitals/,1
 2026-11-23,game_start,/games/geography-quiz-countries-flags-capitals/,1
 2026-11-23,game_start,/games/math-is-easy/,1
+2026-11-24,game_start,/games/2048-snake-io/,1
+2026-11-24,game_start,/games/fox-adventure/,1
