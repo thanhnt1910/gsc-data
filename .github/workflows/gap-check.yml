@@ -9,6 +9,18 @@ on:
       max_rank:
         description: 'Only domains with harmonic rank below this (default 3000000)'
         required: false
+      gap_file:
+        description: 'Gap file in the newest backlinks release folder (default gap.csv; e.g. gap-custom.csv)'
+        required: false
+      min_competitors:
+        description: 'Minimum competitors linked (default 2)'
+        required: false
+      skip:
+        description: 'Comma-separated domain substrings to ignore (empty = built-in list)'
+        required: false
+      out_name:
+        description: 'Output file name in data/prospects (default gap-<date>.csv)'
+        required: false
 
 permissions:
   contents: write
@@ -20,7 +32,7 @@ concurrency:
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
@@ -30,6 +42,10 @@ jobs:
         env:
           LIMIT: ${{ inputs.limit }}
           MAX_RANK: ${{ inputs.max_rank }}
+          GAP_FILE: ${{ inputs.gap_file }}
+          MIN_COMPETITORS: ${{ inputs.min_competitors }}
+          SKIP: ${{ inputs.skip }}
+          OUT_NAME: ${{ inputs.out_name }}
         run: python scripts/gap_check.py
       - name: Commit results
         run: |
