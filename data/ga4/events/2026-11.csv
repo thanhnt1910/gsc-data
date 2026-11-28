@@ -173,3 +173,9 @@ date,eventName,eventCount
 2026-11-26,user_engagement,4
 2026-11-26,scroll,2
 2026-11-26,game_start,1
+2026-11-27,first_visit,16
+2026-11-27,page_view,16
+2026-11-27,session_start,16
+2026-11-27,scroll,5
+2026-11-27,user_engagement,3
+2026-11-27,game_start,1
