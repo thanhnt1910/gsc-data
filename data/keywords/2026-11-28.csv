@@ -1,0 +1,11 @@
+keyword,verdict,google_level,bing_level,trends_vs_anchor,trends_rising_ratio,bing_weekly_broad,bing_weekly_exact,source,autocomplete_related,autocomplete_game_intent,autocomplete_top
+block blast,high,high,high,0.163,1.14,11886,9525,input,10,4,block blast | block blast game | block blaster | block blast online | block blast high score
+block blast game,medium,medium,medium,0.013,1.27,918,515,input,10,4,block blast game | block blast game download | block blast game free | block blast gameplay | block blast game online
+block blast online,low + rising,low,low,0.0015,5.31,170,132,input,10,4,block blast online | block blast online free | block blast online game | block blast online free crazy games | block blast online earn money
+block puzzle,low,medium,low,0.023,1.14,400,89,input,10,6,block puzzle | block puzzle game | block puzzle classic | block puzzle re2 | block puzzle online
+block puzzle free,low,low,low,0.0001,,44,0,input,10,4,block puzzle free | block puzzle free online | block puzzle free download | block puzzle free game | block puzzle free game download
+block puzzle game,low,low,low,0.0004,,88,31,input,10,6,block puzzle game | block puzzle game free | block puzzle game online | block puzzle game download | block puzzle game online free
+block puzzle online,low,low,low,0.0001,,2,2,input,9,4,block puzzle online | block puzzle online game | block puzzle online play | block puzzle online free no download | block puzzle online studio
+wood block puzzle,low + rising,low,low,0.0004,2.02,82,38,input,10,5,wood block puzzle | wood block puzzle for free | wood block puzzle classic free download | wood block puzzle solution | wood block puzzle app
+block tree,none (conflict),medium,none,0.0254,1.04,0,0,input,10,0,block tree | block tree room deltarune | block tree skyrim | block tree room | block tree ring
+games like block blast,none,none,none,0.0,,0,0,input,10,1,games like block blast | games like block blast reddit | games like block blast free | games like block blast for pc | games like block blast adventure
